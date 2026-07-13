@@ -1,0 +1,6 @@
+# New Standard Trading Conditions Content
+
+This file will accumulate the new Standard Trading Conditions content sent by the user step by step.
+Once all sections are completed and the user says everything is finished, these will be formatted and added to the Tools page.
+
+---

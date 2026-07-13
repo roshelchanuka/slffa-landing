@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-slffaBlue: #0f3a61;
+  --color-slffaLightBlue: #1e6eb8;
+}
+
+@layer base {
+  html, body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overscroll-behavior-x: none;
+  }
+  
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  * {
+    font-family: "Merriweather", serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  *, *::before, *::after {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+}
+
+/* Custom Blinking Animation for Cool Rooms Hyperlink on Hover */
+@keyframes hoverBlinkBlue {
+  0%, 100% {
+    color: #2563eb !important;
+    opacity: 1 !important;
+  }
+  50% {
+    color: #60a5fa !important;
+    opacity: 0.4 !important;
+  }
+}
+
+.hover-blink-blue:hover,
+.hover-blink-blue:hover * {
+  animation: hoverBlinkBlue 0.8s infinite ease-in-out !important;
+}
+
+/* Falling Snow Animation inside the Home Cool Room banner */
+@keyframes snowfall {
+  0% {
+    transform: translateY(-40px) translateX(0) rotate(0deg) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(380px) translateX(30px) rotate(180deg) scale(0.9);
+    opacity: 0;
+  }
+}
+
+.snowflake {
+  position: absolute;
+  top: -40px;
+  color: #3b82f6 !important;
+  filter: drop-shadow(0 0 3px rgba(56, 189, 248, 0.25));
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  animation: snowfall 12s infinite linear;
+}
+
+.snow-1 { left: 8%; animation-delay: 0s; animation-duration: 14s; font-size: 44px; }
+.snow-2 { left: 22%; animation-delay: 3s; animation-duration: 19s; font-size: 38px; }
+.snow-3 { left: 36%; animation-delay: 7s; animation-duration: 16s; font-size: 48px; }
+.snow-4 { left: 50%; animation-delay: 1s; animation-duration: 21s; font-size: 42px; }
+.snow-5 { left: 64%; animation-delay: 9s; animation-duration: 17s; font-size: 46px; }
+.snow-6 { left: 78%; animation-delay: 4s; animation-duration: 18s; font-size: 36px; }
+.snow-7 { left: 90%; animation-delay: 11s; animation-duration: 15s; font-size: 45px; }
+.snow-8 { left: 15%; animation-delay: 5s; animation-duration: 22s; font-size: 40px; }
+.snow-9 { left: 45%; animation-delay: 10s; animation-duration: 17s; font-size: 43px; }
+.snow-10 { left: 72%; animation-delay: 8s; animation-duration: 20s; font-size: 39px; }
+.snow-11 { left: 58%; animation-delay: 13s; animation-duration: 16s; font-size: 47px; }
+.snow-12 { left: 84%; animation-delay: 12s; animation-duration: 18s; font-size: 41px; }
+
+
+
+/* Custom slow rotation for the large snowflake */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 12s infinite linear;
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.92;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 6s infinite ease-in-out;
+}
+

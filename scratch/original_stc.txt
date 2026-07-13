@@ -1,0 +1,693 @@
+// Original Standard Trading Conditions clauses list from Tools.jsx
+
+const clausesList = [
+  {
+    id: 1,
+    title: "Clause 1: Definitions",
+    category: "Definitions",
+    content: (
+      <div className="space-y-4">
+        <p className="font-semibold text-slate-800">In these Conditions:</p>
+        <ul className="list-disc pl-6 space-y-2 text-slate-700 text-sm">
+          <li><strong>Authority:</strong> A duly constituted legal or administrative person, acting within its legal powers and exercising jurisdiction within any nation, state, municipality, port or airport.</li>
+          <li><strong>Carriage:</strong> The whole or any part of the operations and services of whatsoever nature undertaken by the Company in relation to the Goods including but not limited to the loading, unloading, storage, warehousing and handling of the goods.</li>
+          <li><strong>Company:</strong> A member of Sri Lanka Logistics and Freight Forwarders' Association (SLFFA) who undertakes to provide the services.</li>
+          <li><strong>Consignee:</strong> The person to whom the goods are consigned.</li>
+          <li><strong>Container:</strong> Includes, unless otherwise indicated, any vehicle, container, flat pallet, trailer, transportable tank and similar items used for the consolidation of goods as well as mobile plant and timber packages.</li>
+          <li><strong>Customer:</strong> Any person, whether themselves an agent or a principal, at whose request or on whose behalf the Company undertakes any business or provides advice, information or services.</li>
+          <li><strong>Dangerous Goods:</strong> Includes goods that are or may become of a dangerous, noxious, hazardous, inflammable, radioactive or damaging nature, goods liable to taint or affect other goods and goods likely to harbor or encourage vermin or other pests.</li>
+          <li><strong>Data Log:</strong> A complete and chronological record, automatically generated of all the messages sent and received by a party and maintained in accordance with general standards of usage.</li>
+          <li><strong>Data Message:</strong> Information generated, sent, received or stored by electronic, magnetic, optical or other similar means.</li>
+          <li><strong>EDI:</strong> The interchange of messages based on electronic data as approved for the presentation and structuring of the communication of messages by international standards (UNEDIFACT) and transmitted by electronic, optical or wireless means through the services provided by an approved provider network.</li>
+          <li><strong>Electronic:</strong> Information generated, sent, received or stored by electronic, magnetic, optical or similar capacities regardless of the medium.</li>
+          <li><strong>Electronic Document:</strong> Includes documents, records, information, communications or transactions in electronic form.</li>
+          <li><strong>Goods:</strong> Includes the cargo and any container not supplied by or on behalf of the Company, in respect of which the Company provides a service.</li>
+          <li><strong>Hague Visby Rules:</strong> The provisions of the International Convention for the Unification of certain rules relating to Bills of Lading signed at Brussels on 25th August 1924 as amended by the Visby Protocol of 1968.</li>
+          <li><strong>Instructions:</strong> A statement of the customer's specific requirements.</li>
+          <li><strong>Owner:</strong> Includes the owner, shipper and consignee of the Goods and any other person who has or may have a legal or equitable relationship to the Goods at a relevant point of time and anyone acting on their behalf.</li>
+          <li><strong>Person:</strong> Includes persons or anybody or bodies corporate.</li>
+          <li><strong>SDR:</strong> Special Drawing Rights as defined by the International Monetary Fund.</li>
+          <li><strong>Services:</strong> Any services to be provided within the scope of these conditions.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 2,
+    title: "Clause 2: Scope & Application of Conditions",
+    category: "Scope & Application",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p>Subject to sub-paragraph below, all and any activities of the Company in the course of business, whether gratuitous or not, are undertaken subject to these conditions.</p>
+        <ul className="list-decimal pl-6 space-y-1.5">
+          <li>The provisions of Part I shall apply to all such services and activities.</li>
+          <li>The provisions of Part II shall only apply to the extent that the Company provides such services and activities as agents.</li>
+          <li>The provisions of Part III shall only apply to the extent that the Company provides such services and activities as principals.</li>
+        </ul>
+        <p>If any legislation, to include regulations and directives, is compulsorily applicable to any business undertaken, these conditions shall, as regards such business, be read as subject to such legislation, and nothing in these conditions shall be construed as a surrender by the Company of any of its rights or immunities or as an increase of any of its responsibilities or liabilities under such legislation.</p>
+      </div>
+    )
+  },
+  {
+    id: 3,
+    title: "Clause 3: Company Capacity (Agent vs. Principal)",
+    category: "Scope & Application",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p>All services and activities are provided by the Company as agents except in the following circumstances where the Company acts as principal:</p>
+        <ul className="list-alpha pl-6 space-y-1.5">
+          <li>Where the Company performs any carriage, handling or storage of Goods but only to the extent that the carriage is performed by the Company itself or its servants and the Goods are in the actual custody and control of the Company.</li>
+          <li>To the extent that the Company expressly agrees in writing to act as a principal.</li>
+          <li>To the extent that the Company is held by a court of law to have acted as a principal.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 4,
+    title: "Clause 4: Status Indicators & Quotations",
+    category: "Scope & Application",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <p>Without prejudice to the generality of clause 3:</p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>The charging by the Company of a fixed price for a service or services of whatsoever nature shall not in itself determine or be evidence that the Company is acting as an agent or a principal in respect of such service or services.</li>
+          <li>The supplying by the Company of their own or leased equipment shall not in itself determine or be evidence that the Company is acting as an agent or a principal in respect of any carriage, handling or storage of Goods.</li>
+          <li>The Company acts as an agent where the Company procures a bill of lading or other document evidencing a contract of carriage between a person, other than the Company, and the Customer or Owner.</li>
+          <li>The Company acts as an agent and never as a principal when providing services in respect of or relating to customs requirements, taxes, licenses, consular documents, certificates of origin, inspection, certificates and other similar services.</li>
+          <li>Quotations are given on the basis of immediate acceptance and are subject to the right of withdrawal or revision. If any changes occur in the rates of freight, insurance premiums or other charges, quotations and charges shall be subject to revision accordingly with or without notice.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 5,
+    title: "Clause 5: Customer Warranties",
+    category: "Customer Obligations",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <p>The Customer warrants:</p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>That he is either the owner or the authorized agent of the Owner of the Goods and that he is authorized to accept and is accepting these Conditions not only for himself but also as agent for and on behalf of the owner of the Goods.</li>
+          <li>That he has reasonable knowledge of matters affecting the conduct of his business, including but not limited to the terms of sale and purchase of the Goods and all other matters relating thereto.</li>
+          <li>That the description and particulars of any Goods or information furnished, or services required, are complete and accurate and provided in full at the time of handing over the goods or requiring such services. Any change of such instructions/information must be made with adequate notice.</li>
+          <li>That the instructions given by him are sufficient and executable and given with adequate notice.</li>
+          <li>That the Goods are properly packed, marked, labeled and stowed in a manner appropriate to any operations or transactions affecting the Goods and the characteristics of the Goods except where the Company has accepted instructions in respect of such services.</li>
+          <li>That any transport unit/equipment supplied by the customer in relation to the performance of any requested service is in good condition, fit for the purpose and is suitable for the carriage to the intended destination of the Goods loaded therein or thereon.</li>
+          <li>That where the Company provides the transport unit, on loading by the Customer, the transport unit is in good condition, and is suitable for the carriage to the intended destination of the goods loaded therein or thereon.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 6,
+    title: "Clause 6: Dangerous, Noxious & Valuable Goods",
+    category: "Customer Obligations",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Unless otherwise previously agreed in writing, the Customer shall not deliver to the Company or cause the Company to deal with or handle Goods of a dangerous or damaging nature, nor Goods likely to harbor or encourage vermin or other pests, nor with Goods liable to taint or affect other Goods.</li>
+          <li>If the Customer is in breach of the above, he shall be liable for all loss or damage whatsoever caused by or to or in connection with the Goods. The Customer shall defend, indemnify and hold harmless the Company against all penalties, claims, damages, costs and expenses, and the goods may without notice be destroyed or otherwise dealt with at the sole discretion of the Company.</li>
+          <li>If the Company agrees to accept Dangerous Goods and then, in the opinion of the Company or any other person, they constitute a risk to other goods, property, life or health, they may without notice be destroyed or otherwise dealt with at the expense of the Customer or Owner.</li>
+          <li>Without prior agreement in writing by an officer of the Company so authorized, the Company will not accept or deal with Goods that require special handling regarding carriage, handling, or security including, but not limited to bullion, coin, precious stones, jewelry, valuables, antiques, pictures, human remains, livestock, pets, plants. Should any Customer deliver such goods, the Company shall have no liability whatsoever.</li>
+          <li>It shall not be the duty of the Company to arrange for the Goods to be carried, stored or handled separately from the Goods of other customers.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 7,
+    title: "Clause 7: Temperature Controlled Cargo",
+    category: "Customer Obligations",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <ul className="list-disc pl-6 space-y-2">
+          <li>The Customer undertakes not to tender for transportation any Goods that require temperature control without previously giving written notice of their nature and particular temperature range to be maintained.</li>
+          <li>In the case of a temperature controlled container stuffed by or on behalf of the Customer by a third party, the Customer further undertakes that:
+            <ul className="list-circle pl-6 mt-1 space-y-1 text-slate-600">
+              <li>The container has been properly pre-cooled or preheated as appropriate.</li>
+              <li>The Goods have been properly stuffed in the container.</li>
+              <li>Its thermostatic controls have been properly set by the Customer or the third party.</li>
+            </ul>
+          </li>
+          <li>If the above requirements are not complied with, the Company shall not be liable for any loss of or damage to the Goods caused by such non-compliance.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 8,
+    title: "Clause 8: Cargo Insurance Rules",
+    category: "Customer Obligations",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <ul className="list-disc pl-6 space-y-2">
+          <li>No insurance will be effected except upon express instructions given in writing by the Customer. All insurance effected by the Company is subject to the usual exceptions and conditions of the policies of the insurance Company or underwriters taking the risk.</li>
+          <li>The Company is an agent of the Customer in respect of effecting insurance.</li>
+          <li>Unless otherwise agreed in writing, the Company shall not be under any obligation to effect a separate insurance on each consignment but may declare it on any open or general policy.</li>
+          <li>Should the insurers dispute their liability for any reason, the insured shall have recourse against the insurers only. The Company shall not have any responsibility or liability whatsoever in relation to the insurance.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 9,
+    title: "Clause 9: Official Declarations",
+    category: "Customer Obligations",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The Company shall not be obliged to make any declaration for the purposes of any statute, convention or contract as to the nature or value of any Goods, or as to any special interest in delivery unless express written instructions to that effect have been received and accepted by the Company.
+      </p>
+    )
+  },
+  {
+    id: 10,
+    title: "Clause 10: Cash or Document Surrender Deliveries",
+    category: "Customer Obligations",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Unless otherwise previously agreed in writing or otherwise provided for under the provisions of a document signed by the Company, instructions relating to the delivery or release of Goods against payment or against surrender of a particular document shall be in writing.</li>
+          <li>The Company’s liability resulting from such instructions relating to the delivery or release of the goods other than in writing shall not exceed that provided for in respect of mis-delivery of Goods.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 11,
+    title: "Clause 11: Departure and Arrival Scheduling",
+    category: "Customer Obligations",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Unless otherwise previously agreed in writing that the Goods shall depart or arrive by a particular date, the Company accepts no responsibility for departure or arrival dates of Goods, whether or not any such delay is caused by the negligence of the Company and/or its servants or agents.
+      </p>
+    )
+  },
+  {
+    id: 12,
+    title: "Clause 12: General Indemnities",
+    category: "Indemnities & Liability",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <p>The Customer and Owner shall defend, indemnify and hold harmless the Company against all liability, loss, damage, costs and expenses arising:</p>
+        <ul className="list-disc pl-6 space-y-1.5">
+          <li>From the nature of the goods unless caused by the Company’s negligence.</li>
+          <li>For any damage or injury caused by faulty or insufficient packing of the Goods or by faulty loading or packing when such packing has been performed by the Customer or on behalf of the Customer by a person other than the Company.</li>
+          <li>Out of the company acting in accordance with the Customer’s or Owner’s instructions.</li>
+          <li>From a breach of warranty or obligation by the Customer or arising from the negligence of the Customer or Owner.</li>
+          <li>Except to the extent caused by the Company’s negligence, the Customer and Owner shall be liable for and shall defend, indemnify and hold harmless the Company in respect of all duties, taxes, imposts, levies, deposits and outlays levied by any Authority in respect of the Goods, Dangerous Goods and/or Container.</li>
+          <li>Advice and information in whatever form it may be given is provided by the Company for the Customer and/or Owner only. They shall defend, indemnify and hold harmless the Company for all liability arising out of any other person relying on such advice.</li>
+          <li>The Customer undertakes that no claim be made against any Director, servant, employee, sub-contractor or agent of the Company which imposes or attempts to impose upon any of them any liability whatsoever in connection with the Goods.</li>
+          <li>The Customer shall be liable for the loss, damage, contamination, soiling, detention or demurrage before, during and after the carriage of property (including, but not limited to, Containers) of the Company or any person or vessel caused by the Customer or Owner.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 13,
+    title: "Clause 13: Sums and Charges, Overdue Interest & SLFFA Defaults Database",
+    category: "Charges & Liens",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <ul className="list-disc pl-6 space-y-2">
+          <li>The Customer shall pay to the Company in cash or as agreed all sums immediately when due without reduction or deferment on account of any claim, counterclaim or set-off.</li>
+          <li>Despite the acceptance by the Company of instructions to collect freight, duties, charges, or other expenses from the Consignee, the Customer shall remain responsible for the payment within seven (7) days of demand.</li>
+          <li>On all amounts overdue to the Company, the Company shall be entitled to legal interest, calculated at <strong>24% per annum</strong> for the period that such amounts are overdue.</li>
+          <li>In the event the Customer fails to pay any amount due to the Company, the Customer is deemed to have consented to:
+            <ul className="list-roman pl-6 mt-1 space-y-1 text-slate-600">
+              <li>The Company, at its discretion, without prior notice to the Customer, publishing details of the Customer’s failure to pay to the SLFFA Database of defaults.</li>
+              <li>The details of such failure remaining on the SLFFA Database for viewing by SLFFA Members until the amount so due is paid.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 14,
+    title: "Clause 14: Diligence and Duty of Care",
+    category: "Liberties & Rights",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The Company shall perform its duties with a reasonable degree of care, diligence, skill and judgement and in accordance with the code of ethics provided for in the schedule to these trading conditions.
+      </p>
+    )
+  },
+  {
+    id: 15,
+    title: "Clause 15: Duty to Advise on Insurance",
+    category: "Liberties & Rights",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Subject to clause 8, the Company shall advise its customers of the necessity of effecting insurances with regard to the various services to be performed.
+      </p>
+    )
+  },
+  {
+    id: 16,
+    title: "Clause 16: Liberties to Contract and Sub-Contract",
+    category: "Liberties & Rights",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <p>The Company shall be entitled, except insofar as has been otherwise agreed in writing, to enter into contracts, on any terms whatsoever, on behalf of itself or the Customer and without notice to the Customer:</p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>For the carriage of Goods by any route, means or person.</li>
+          <li>For the carriage of Goods of any description whether containerized or not on or under the deck of any vessel.</li>
+          <li>For the storage, packing, transshipment, loading, unloading or handling of Goods by any person at any place whether on shore or afloat and for any length of time.</li>
+          <li>For the storage of Goods in containers or with other goods of whatever nature.</li>
+          <li>For the performance of its own obligation and to do such acts as in the opinion of the Company may be necessary or incidental to the performance of the Company’s obligations.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 17,
+    title: "Clause 17: Right to Deviate & Authority Orders",
+    category: "Liberties & Rights",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <ul className="list-disc pl-6 space-y-1.5">
+          <li>The Company shall be entitled but under no obligation, to depart from the Customer’s instructions in any respect if in the opinion of the Company there is good reason to do so in the Customer’s interest and it shall not thereby incur any additional liability.</li>
+          <li>The Company may at any time comply with the order or recommendations given by any Authority. The responsibility of the Company in respect of the Goods shall cease on the delivery or other disposition of the Goods in accordance with such orders or recommendations.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 18,
+    title: "Clause 18: Operational Hindrances and Termination",
+    category: "Liberties & Rights",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        If at any time the performance of the Company’s obligations is or is likely to be affected by any hindrance, risk, delay, difficulty, or disadvantage whatsoever which cannot be avoided by reasonable endeavors, the Company may treat the performance of its obligations as terminated and place the Goods at the Customer or Owner’s disposal at any place which the Company may deem safe and convenient, whereupon the responsibility of the Company in respect of the Goods shall cease. The Customer shall be responsible for all additional costs of carriage to, and delivery and storage at, such place and all other expenses.
+      </p>
+    )
+  },
+  {
+    id: 19,
+    title: "Clause 19: Storage on Failure to Take Delivery",
+    category: "Liberties & Rights",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        If the Customer or Owner does not take delivery of the Goods or any part thereof at the time and place when and where the Company is entitled to call upon them to do so, the Company shall be entitled, without further notice, to store the Goods or any part of the Goods in the open or under cover at the sole risk and expense of the Customer. Such storage shall constitute delivery of the Goods and the liability of the Company shall wholly cease.
+      </p>
+    )
+  },
+  {
+    id: 20,
+    title: "Clause 20: Disposal and Sale of Undelivered Cargo",
+    category: "Liberties & Rights",
+    content: (
+      <div className="space-y-2 text-slate-700 text-sm leading-relaxed">
+        <p>Notwithstanding clauses 18 and 19, the Company shall be entitled, but under no obligation, at the expense of the Customer payable on demand and without any liability to the Customer and Owner, to sell or dispose of:</p>
+        <ul className="list-decimal pl-6 space-y-1">
+          <li>On giving 21-day notice in writing to the Customer, all Goods which in the opinion of the Company cannot be delivered as instructed.</li>
+          <li>Without notice, Goods which have perished, deteriorated or altered, or are liable to do so, in a manner which has caused or may be reasonably expected to cause loss or damage to any person or property or to contravene applicable regulations or requirements.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 21,
+    title: "Clause 21: Company general & particular Lien",
+    category: "Charges & Liens",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <ul className="list-disc pl-6 space-y-2">
+          <li>The Company shall have a particular and general lien on all Goods and/or documents relating to Goods in its possession for all sums of whatsoever kind and nature due at any time from the Customer or Owner including any previously unsatisfied freight charges. On giving 28 day notice in writing to the Customer, the Company shall be entitled to sell or dispose of such Goods and/or documents at the expense of the Customer and apply the proceeds towards the payment of such sums.</li>
+          <li>In any event, any lien shall survive the delivery of the goods, and extend to cover the cost of recovering any sums due. For that purpose, the Carrier shall have the right to sell the Goods and documents by public auction or private treaty, without notice to the Merchant and at the Merchant’s expense.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 22,
+    title: "Clause 22: Brokerage and Commissions",
+    category: "Charges & Liens",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The Company shall be entitled to retain and be paid all brokerages, commissions, allowances and other remunerations customarily retained by or paid to freight forwarders including any and all costs and expenses relating to the research, designing and development of trade solutions related to the services provided either by the company itself or at the instance of the company if carried out for and behalf of the customer.
+      </p>
+    )
+  },
+  {
+    id: 23,
+    title: "Clause 23: Joint & Several Liability Enforcement",
+    category: "Charges & Liens",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The Company shall have the right to enforce against the Owner and the Customer jointly and severally any liability of the Customer under these Conditions or to recover from them any sums to be paid by the Customer, which upon demand have not been paid.
+      </p>
+    )
+  },
+  {
+    id: 24,
+    title: "Clause 24: Container Stuffing and Liability",
+    category: "Customer Obligations",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <div className="space-y-2">
+          <p className="font-semibold text-slate-800">A. If a Container has been packed or stuffed by or on behalf of the Customer, the Company shall not be liable for loss of or damage to the Goods if:</p>
+          <ul className="list-roman pl-6 space-y-2">
+            <li>I. Caused by the manner in which the Container has been packed or stuffed.</li>
+            <li>II. Caused by the unsuitability of the contents for carriage in the Container actually used, unless the Company has approved the suitability.</li>
+            <li>
+              III. Caused by the unsuitability or defective condition of the Container actually used provided that where the Container has been supplied by or on behalf of the Company this paragraph (III) shall only apply if the unsuitability or defective condition:
+              <ul className="list-alpha pl-6 mt-1 space-y-1 text-slate-600">
+                <li>A). Was not caused by negligence on the part of the Company, or</li>
+                <li>B). Would have been apparent upon reasonable inspection by the Customer or Owner or person acting on behalf of either of them at or prior to the time when the Container was packed or stuffed.</li>
+              </ul>
+            </li>
+            <li>IV. The Container is not sealed at the commencement of the carriage except where the Company has agreed to seal the Container.</li>
+          </ul>
+        </div>
+        <p><strong>B.</strong> The Customer shall defend, indemnify and hold harmless the Company against any claim, Liability, loss, damage, costs and expenses arising from one or more of the matters covered in (A) above.</p>
+        <p><strong>C.</strong> Where the Company is instructed to provide a Container, in the absence of a written request to the contrary accepted by the Company, the Company is not obliged to provide a container of any particular type or quality.</p>
+      </div>
+    )
+  },
+  {
+    id: 25,
+    title: "Clause 25: General Liability and Exclusions",
+    category: "Indemnities & Liability",
+    content: (
+      <div className="space-y-4 text-slate-700 text-sm leading-relaxed">
+        <div className="space-y-2">
+          <p className="font-semibold text-slate-800">A. Except insofar as otherwise provided by these Conditions, the Company shall not be liable for any loss or damage whatsoever arising from:</p>
+          <ul className="list-roman pl-6 space-y-1.5">
+            <li>I. The act or omission of the Customer or Owner or any person acting on their behalf,</li>
+            <li>II. Compliance with the instructions given to the Company by the Customer, Owner or any other person entitled to give them,</li>
+            <li>III. Insufficiency of the packing or labeling of the Goods except where such service has been provided by the Company,</li>
+            <li>IV. Handling, loading, stowage or unloading of the Goods by the Customer or Owner or any person acting on their behalf,</li>
+            <li>V. Inherent vice of the Goods,</li>
+            <li>VI. Riots, civil commotions, strikes, lockouts, stoppage or restraint of labor from whatsoever cause,</li>
+            <li>VII. Fire, flood or storm, or</li>
+            <li>VIII. Any cause which the Company could not avoid and the consequences whereof it could not prevent by the exercise of reasonable diligence.</li>
+          </ul>
+        </div>
+        <p><strong>B.</strong> Where under sub-clause (A) above the Company is not under any liability for loss or damage caused by one or more of the causes, events or occurrences above, the Company shall only be liable to the extent that the causes, events or occurrences for which he is liable under these Conditions have contributed to the loss or damage. The burden of proof that the loss or damage was due to one or more of the causes, events or occurrences specified in sub-clause (A) above shall rest upon the Company, save that when the Company establishes that in the circumstances of the case, the loss or damage could be attributed to one or more of the causes, events or occurrences specified in (iii) to (vi) of subclause (A), it shall be presumed that it was so caused. The Customer shall, however, be entitled to prove that the loss or damage was not in fact caused wholly or partly by one of the causes, events or occurrences listed under sub-clause (A).</p>
+        <p><strong>C.</strong> Subject to Clause 11, the Company shall not be liable for economic loss in any form, such as indirect or consequential loss or damage, loss of market, profit, delay, deviation, howsoever caused.</p>
+      </div>
+    )
+  },
+  {
+    id: 26,
+    title: "Clause 26: Compensation Calculations",
+    category: "Indemnities & Liability",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p><strong>A.</strong> Compensation shall be calculated by reference to the ex-works invoice value of the Goods plus carriage charges and insurance if paid.</p>
+        <p><strong>B.</strong> If there be no invoice value for the Goods, the compensation shall be calculated by reference to the value of such Goods at the place and time when they are delivered to the Customer or Owner or should have been so delivered. The value of the Goods shall be fixed according to the current market price, or if there be no commodity exchange price or current market price, by reference to the normal value of goods of the same kind and quality.</p>
+        <div className="space-y-2">
+          <p className="font-semibold text-slate-800">C. Amount of Compensation Limits:</p>
+          <ul className="list-roman pl-6 space-y-2">
+            <li>I. Except in so far as otherwise provided by these Conditions, the liability of the company, in respect of carriage of goods by air shall subject to clause 38 hereof be governed by the provisions of the Warsaw Convention and its amendments from time to time as relating to carriage of goods by air in Sri Lanka.</li>
+            <li>
+              II. The liability of the company in respect of carriage of goods by sea, however arising and notwithstanding that the cause of loss or damage be unexplained shall not exceed the following:
+              <ul className="list-alpha pl-6 mt-1 space-y-1.5 text-slate-600">
+                <li>A). In respect of all claims other than those subject to the provisions of subclause B). Below, whichever is the least of:
+                  <ul className="list-circle pl-6 mt-1 space-y-1">
+                    <li>i. The value of, or</li>
+                    <li>ii. A sum at the rate of 2 SDR per kilo of the gross weight of the Goods lost, damaged, mis-directed, mis-delivered or in respect of which a claim arises.</li>
+                  </ul>
+                </li>
+                <li>B). In respect of claims for delay where not excluded by the provisions of these Conditions, the amount of the Company's charges in respect of the Goods delayed.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    )
+  },
+  {
+    id: 27,
+    title: "Clause 27: Special Agreements for Higher Compensation",
+    category: "Indemnities & Liability",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p><strong>A.</strong> By special agreement in writing and on payment of additional charges, higher compensation may be claimed from the Company not exceeding the value of the Goods or the agreed value, whichever is the lesser.</p>
+        <p><strong>B.</strong> However in the event of the company entrusting goods to any third party for the carrying out of any services on behalf of the customer who would have any limitation of liability relating to loss or damage to goods or any refusal to agree to a higher declared value, the Company at its discretion may entrust the goods to such third party subject to such third party's limitations of liability and/or conditions of service provided however that the company may in such event notify its customer of its inability to provide higher compensation for such loss or damage occurring during the services of such third party.</p>
+      </div>
+    )
+  },
+  {
+    id: 28,
+    title: "Clause 28: Notice of Loss & Time Bar",
+    category: "Indemnities & Liability",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p>The Company shall be discharged of all liability unless:</p>
+        <div className="space-y-2 pl-4">
+          <p><strong>A.</strong></p>
+          <ul className="list-roman pl-6 space-y-1">
+            <li>I. Notice of any claim is received in writing by the Company or its agent within 14 days after the date specified in (B) below, except where the Customer can show that it was impossible to comply with this time limit and that the claim has been made as soon as it was reasonably possible so to do, and</li>
+            <li>II. Suit is brought in the proper forum and written notice thereof received by the Company within 9 months after the date specified in (B) below.</li>
+          </ul>
+          <p><strong>B.</strong></p>
+          <ul className="list-roman pl-6 space-y-1">
+            <li>I. In the case of loss or damage to Goods, the date of delivery of the Goods,</li>
+            <li>II. In the case of delay or non delivery of the Goods, the date that the Goods should have been delivered,</li>
+            <li>III. In any other case, the event giving rise to the claim.</li>
+          </ul>
+        </div>
+        <p className="font-semibold text-red-600">Otherwise any claim shall be deemed to be waived and absolutely barred.</p>
+      </div>
+    )
+  },
+  {
+    id: 29,
+    title: "Clause 29: General Average",
+    category: "Indemnities & Liability",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p>The Customer shall defend, indemnify and hold harmless the Company in respect of any claims for General Average contribution that may be made on the Company, irrespective of whether the carriage charges are pre-paid or not. The Customer shall promptly provide such security for General Average contributions as may be required by the Company or to any other party designated by the Company, in a form acceptable to the Company.</p>
+      </div>
+    )
+  },
+  {
+    id: 30,
+    title: "Clause 30: Company as Agent (Part II)",
+    category: "Agent & Principal",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed font-sans">
+        <div className="font-semibold text-slate-900 border-b pb-2 mb-2 text-base">Part II: Company as Agent</div>
+        <p><strong>A.</strong> To the extent that the Company acts as an agent, the Company does not make or purport to make any contract with the Customer for the carriage, storage or handling of the Goods nor for any other physical service in relation to them and acts solely on behalf of the Customer in securing such services by establishing contracts with third parties so that direct contractual relationship are established between the Customer and such third parties.</p>
+        <p><strong>B.</strong> The Company shall not be liable for the acts and omissions of such third parties referred to in sub-clause (A) above.</p>
+      </div>
+    )
+  },
+  {
+    id: 31,
+    title: "Clause 31: Authority to Bind the Customer & Agent Indemnities",
+    category: "Agent & Principal",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p><strong>A.</strong> The Company when acting as an agent has the authority of the Customer to enter into contracts on the customer's behalf and to do such acts so as to bind the Customer by such contracts and acts in all respects notwithstanding any departure from the Customer's instructions.</p>
+        <p><strong>B.</strong> Except to the extent caused by the Company's negligence, the Customer shall defend, indemnify and hold harmless the Company in respect of all liability, loss, damage, costs or expenses arising out of any contracts made in the procurement of the Customer's requirements in accordance with the provisions herein.</p>
+      </div>
+    )
+  },
+  {
+    id: 32,
+    title: "Clause 32: Choice of Rates",
+    category: "Agent & Principal",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Where there is a choice of rates according to the extent or degree of liability assumed by persons carrying, storing, handling the Goods, no declaration of value where optional will be made unless otherwise agreed in writing.
+      </p>
+    )
+  },
+  {
+    id: 33,
+    title: "Clause 33: Company as Principal (Part III)",
+    category: "Agent & Principal",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <div className="font-semibold text-slate-900 border-b pb-2 mb-2 text-base">Part III: Company as Principal</div>
+        <p>To the extent that the Company contracts as principal for the performance of the Customer's instructions, the Company undertakes to perform or in its own name to procure the performance of the Customer's instructions and subject to the provisions of these conditions shall be liable for the loss of or damage to the Goods occurring from the time that the Goods are taken into its charge until the time of delivery.</p>
+      </div>
+    )
+  },
+  {
+    id: 34,
+    title: "Clause 34: Principal Liability Determination by Conventions",
+    category: "Agent & Principal",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p>Notwithstanding other provisions in these Conditions, if it can be proved where the loss of or damage to the Goods occurred, the Company's liability shall be determined by the provisions contained in any international convention or national law, the provisions of which:</p>
+        <ul className="list-alpha pl-6 space-y-1.5">
+          <li>A). Cannot be departed from by private contract, to the detriment of the claimant, and</li>
+          <li>B). Could have applied if the claimant had made a separate and direct contract with the actual provider of the particular service in respect of that service or stage of carriage where the loss or damage occurred and received as evidence thereof any particular document which must be issued if such international convention or national law shall apply.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 35,
+    title: "Clause 35: Maritime & Inland Waterway Liability (Hague Visby)",
+    category: "Agent & Principal",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Notwithstanding other provisions in these Conditions, if it can be proved that the loss of or damage to the Goods occurred at sea or inland waterway and the provisions of clause 34 do not apply, the Company's liability shall be determined by the Hague Visby Rules. Carriage by sea shall be deemed to include reference to carriage by inland waterways and the Hague Visby Rules shall be construed accordingly.
+      </p>
+    )
+  },
+  {
+    id: 36,
+    title: "Clause 36: Vessel Limitation Funds",
+    category: "Agent & Principal",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Notwithstanding the provisions of Clause 35, if the loss of or damage to the Goods occurred at sea or on inland waterways, and the Owner, Charterer or operator of the vessel establishes a limitation fund, the liability of the Company shall be limited to the proportion of the said limitation fund allocated to the Goods.
+      </p>
+    )
+  },
+  {
+    id: 37,
+    title: "Clause 37: Both-to-Blame Collision & SDR Limits",
+    category: "Agent & Principal",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p>The current Both-to-Blame Collision clause as adopted by BIMCO is incorporated in these conditions.</p>
+        <div className="space-y-1.5">
+          <p><strong>A.</strong> In respect of all claims other than those subject to the provisions of sub-clause (C) below, whichever is the least of:</p>
+          <ul className="list-decimal pl-6 space-y-0.5">
+            <li>1. The value of, or</li>
+            <li>2. 2 SDR per gross kilogram of the goods lost, damaged, misdirected, mis-delivered or in respect of which a claim arises.</li>
+          </ul>
+        </div>
+        <p><strong>B.</strong> The SDR shall be as defined by the International Monetary Fund and the value of a SDR shall be calculated at the date when settlement is agreed or judgement.</p>
+        <p><strong>C.</strong> In respect of claims for delay where not excluded by the provisions of these Conditions, the amount of the Company's charges in respect of the Goods delayed.</p>
+      </div>
+    )
+  },
+  {
+    id: 38,
+    title: "Clause 38: Air Carriage Notices",
+    category: "Agent & Principal",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        If the Company acts as a principal in respect of carriage of Goods by air, the following notice is hereby given: If the carriage involves an ultimate destination or stop in a country other than the country of departure, the Warsaw Convention or its amendments for the time being may be applicable and the Conventions govern and in most cases limit the liability of carriers in respect of loss of or damage to cargo. Agreed stopping places are those places (other than the places of departure and destination) shown under requested routing and/or those places shown in carrier's timetables as scheduled stopping places for the route. The address of the first carrier is the airport of departure.
+      </p>
+    )
+  },
+  {
+    id: 39,
+    title: "Clause 39: Electronic Data Interchange (EDI) and Electronic Transactions Act",
+    category: "EDI & Electronic",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The Company shall facilitate the provision of services by the Company to its customers through the use of EDI by electronically sending and receiving data agreed in substitution for conventional paper-based documents as validated by the Electronic Transactions Act No: 19 of 2006 and all messages between the Company and its customers using such EDI method would be subject to these Standard Trading Conditions.
+      </p>
+    )
+  },
+  {
+    id: 40,
+    title: "Clause 40: EDI Technical & Security Obligations",
+    category: "EDI & Electronic",
+    content: (
+      <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+        <p className="font-semibold text-slate-800">The Company and the Customer agree that each of them shall:</p>
+        <ul className="list-alpha pl-6 space-y-1.5">
+          <li>A). At its own expense, test and maintain its equipment, software and services necessary to effectively and reliably transmit and receive messages.</li>
+          <li>B). Ensure that no changes are made to the systems operations which impair the mutual capabilities of the parties to communicate as contemplated by the EDI method without providing reasonable prior notice of the intended change.</li>
+          <li>C). Implement and maintain security procedures to protect messages and their records against misuse, improper or unauthorized access, alteration or loss.</li>
+          <li>D). Ensure that intermediaries employed to retransmit messages are instructed not to make unauthorized changes in the data content and that the data content of such messages is not disclosed to any unauthorized person.</li>
+          <li>E). Not consider any information contained in any EDI message communicated as confidential unless by operation of law or by designation in the message in which event the parties shall apply special protection (such as encryption) or other means to the messages transmitted.</li>
+          <li>F). Provide proper identification of the sender and recipient of EDI messages as a means of verifying the formal completeness and authenticity of the message.</li>
+          <li>G). Accept the integrity of all messages and agree to accord the same status as would be applicable to information sent via paper documents.</li>
+        </ul>
+      </div>
+    )
+  },
+  {
+    id: 41,
+    title: "Clause 41: Corrupted or Garbled Messages",
+    category: "EDI & Electronic",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Where there is proof that a message has been or is likely to have been corrupted, garbled, incomplete, incorrect or not in good order, it shall not be accepted by the recipient.
+      </p>
+    )
+  },
+  {
+    id: 42,
+    title: "Clause 42: Enforceable EDI Obligations",
+    category: "EDI & Electronic",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The parties agree that valid and enforceable obligations may be created by the communication of messages in compliance of EDI in terms of the Electronic Transactions Act No: 19 of 2006.
+      </p>
+    )
+  },
+  {
+    id: 43,
+    title: "Clause 43: Force Majeure & Electronic Failures",
+    category: "EDI & Electronic",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The Company would not be responsible or liable in breach by reason of any delay in performance or non performance of its obligations if such delay in performance or non performance is caused by an act of God or by any other cause beyond human control including but not limited to any mechanical, electronic or communication failure.
+      </p>
+    )
+  },
+  {
+    id: 44,
+    title: "Clause 44: Admissibility of Data Log as Evidence",
+    category: "EDI & Electronic",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Without regard to the absence of any writing and written signatures as permitted by law, the records of messages maintained by the parties (including the Data Log) shall be admissible and may be used as evidence of the information contained therein. The parties agree not to contest the admissibility of the Data Log as evidence in any legal, administrative, judicial or other proceedings.
+      </p>
+    )
+  },
+  {
+    id: 45,
+    title: "Clause 45: Service of Notice",
+    category: "Jurisdiction & Misc",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Any notice served by post shall be deemed to have to be given on the third day following the day on which it was posted to the address of the recipient of such notice last known to the Company.
+      </p>
+    )
+  },
+  {
+    id: 46,
+    title: "Clause 46: Tort and Contract Applicability",
+    category: "Jurisdiction & Misc",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        The defenses and limits of liability provided for by these Conditions shall apply in any action against the Company whether such action be founded in contract or tort.
+      </p>
+    )
+  },
+  {
+    id: 47,
+    title: "Clause 47: Heading Interpretations",
+    category: "Jurisdiction & Misc",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Headings of clauses or groups of clauses in these conditions are for indicative purposes only.
+      </p>
+    )
+  },
+  {
+    id: 48,
+    title: "Clause 48: Severability",
+    category: "Jurisdiction & Misc",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed">
+        Should any clause, or part of a clause, be found to be void or unenforceable, the remainder of that clause or section of the contract shall remain unaffected.
+      </p>
+    )
+  },
+  {
+    id: 49,
+    title: "Clause 49: Governing Law and Jurisdiction",
+    category: "Jurisdiction & Misc",
+    content: (
+      <p className="text-slate-700 text-sm leading-relaxed font-semibold">
+        These conditions and any claim or dispute arising out of or in connection with the services of the Company shall be subject to Sri Lankan Law and the exclusive jurisdiction of the Courts of Sri Lanka.
+      </p>
+    )
+  }
+];
