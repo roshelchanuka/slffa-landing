@@ -8,8 +8,8 @@ import { useAdmin } from '../../context/AdminContext';
 import Editable from '../Editable';
 import MemberLogos from '../MemberLogos';
 
-const ccnLogo = '/api/imageProxy?id=1_1EEybBCfBB_ZqtYVkeXUMpBS9wuHdXo';
-const slffaLogo = '/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0';
+const ccnLogo = '/images/drive/1_1EEybBCfBB_ZqtYVkeXUMpBS9wuHdXo.png';
+const slffaLogo = '/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png';
 
 export default function CcnTechIntegration() {
   const { ShieldCheck, ArrowRight } = LucideIcons;

@@ -1,15 +1,15 @@
 // Home Page static content data
 
 // Import images from assets/images folder
-const chatgptImgJun15 = '/api/imageProxy?id=1G36Nz9pvgIjQ6RXybtzknE9o5jSRmBNC';
-const homeSlider2 = '/api/imageProxy?id=1YsQBrtjTNTzUBdqXXJhaDu-a9vTCvTq6';
-const chatgptImgJun15_2 = '/api/imageProxy?id=1zbOkQmp0aEkHImQp8jcYYG6ZQQrZQfUp';
-const chatgptImgJun15_3 = '/api/imageProxy?id=1YQbnmSyG21E7FquAOmC5MHOWmge2Dvoo';
-const coolRoomMedicine = '/api/imageProxy?id=1Z400wzGdHaFMIWR8RblZJIK3wGPCddtL';
+const chatgptImgJun15 = '/images/drive/1G36Nz9pvgIjQ6RXybtzknE9o5jSRmBNC.png';
+const homeSlider2 = '/images/drive/1YsQBrtjTNTzUBdqXXJhaDu-a9vTCvTq6.jpg';
+const chatgptImgJun15_2 = '/images/drive/1zbOkQmp0aEkHImQp8jcYYG6ZQQrZQfUp.png';
+const chatgptImgJun15_3 = '/images/drive/1YQbnmSyG21E7FquAOmC5MHOWmge2Dvoo.png';
+const coolRoomMedicine = '/images/drive/1Z400wzGdHaFMIWR8RblZJIK3wGPCddtL.png';
 const heroSpareParts = '/images/hero-spare-parts.png';
-const chatgptImgJun25 = '/api/imageProxy?id=1ns341Mr8dWYgMYiT_ArBi0ka1JXeQjR6';
-const stcBg = '/api/imageProxy?id=1IUM3S3eK2viObbwLmsew-KWvpPwTzTW0';
-const imgGroundHandling = '/api/imageProxy?id=1NeetoUfYqpRlRXkDpCTYUGJKW5NS4Bjk';
+const chatgptImgJun25 = '/images/drive/1ns341Mr8dWYgMYiT_ArBi0ka1JXeQjR6.png';
+const stcBg = '/images/drive/1IUM3S3eK2viObbwLmsew-KWvpPwTzTW0.jpg';
+const imgGroundHandling = '/images/drive/1NeetoUfYqpRlRXkDpCTYUGJKW5NS4Bjk.mov';
 
 export { stcBg, imgGroundHandling };
 

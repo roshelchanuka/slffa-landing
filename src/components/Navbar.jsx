@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20 sm:h-28 lg:h-32">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-4 group">
-              <img src="/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0" alt="SLFFA Cargo Logo" className="h-12 sm:h-20 lg:h-26 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+              <img src="/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png" alt="SLFFA Cargo Logo" className="h-12 sm:h-20 lg:h-26 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
               <span className="text-lg sm:text-3xl lg:text-4xl font-black tracking-wider text-slate-900 dark:text-white">
                 SLFFA<span className="text-blue-600 dark:text-blue-400">CARGO</span>
               </span>
@@ -213,7 +213,7 @@ export default function Navbar() {
 
             <div className="flex justify-between items-center mb-8">
               <Link href="/" className="flex items-center space-x-3 text-2xl sm:text-3xl font-black tracking-wider text-slate-900 dark:text-white group">
-                <img src="/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0" alt="SLFFA Cargo Logo" className="h-14 sm:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+                <img src="/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png" alt="SLFFA Cargo Logo" className="h-14 sm:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
                 <span>
                   SLFFA<span className="text-blue-600 dark:text-blue-400">CARGO</span>
                 </span>
