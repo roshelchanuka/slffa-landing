@@ -1,7 +1,7 @@
 // Services Page static content data
 
 // Import images from assets/images folder
-const servicesHero = '/api/imageProxy?id=1qQS6MCKYPIc3an_r-PxxkiKK4m8RmX-V';
+const servicesHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386121/ChatGPT_Image_Jun_17_2026_at_02_27_00_PM_r9hhau.png';
 const ground1 = '/api/imageProxy?id=1TsijStJbEUuH2oSXnYbiRXidSDbepJP4';
 const ground2 = '/images/ground2.jpg';
 const ground3 = '/api/imageProxy?id=1hhdUgju0MO7B_qeBoEoVvDt0O2lfARnN';

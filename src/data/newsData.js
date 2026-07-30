@@ -1,45 +1,47 @@
 // Import anniversary 2014 images
-const anniversary2014Img1 = '/api/imageProxy?id=13utKWebtqZSma1Ugct_AQUhNDb2WZXZE';
-const anniversary2014Img2 = '/api/imageProxy?id=1M4jpBoWdJ2bzzsSokoMCLWlfLulWAaUx';
-const anniversary2014Img3 = '/api/imageProxy?id=1lL6ZwpETavxgaR6iirg8qhRNXB1oag_Z';
+const anniversary2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384834/ChatGPT_Image_Jun_4_2026_at_04_23_18_PM_sme2fq.png';
+const anniversary2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384994/ChatGPT_Image_Jun_4_2026_at_04_29_20_PM_iuhu8e.png';
+const anniversary2014Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385064/ChatGPT_Image_Jun_4_2026_at_04_31_05_PM_btjyoi.png';
 
 // Import award 2014 images
-const award2014Img1 = '/api/imageProxy?id=13nkMOHMSOtZ6wxrGYKuOti3xSEVJptJQ';
+const award2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384916/ChatGPT_Image_Jun_4_2026_at_04_44_58_PM_ksklto.png';
 
 // Import workshop 2014 images
-const workshop2014Img1 = '/api/imageProxy?id=1x-m_Id5SHfcKQwgq0vVxbgH2ra9yzolb';
-const workshop2014Img2 = '/api/imageProxy?id=1BXzswSpke0GIjLegOW2liW74U7Ci2Xsa';
+const workshop2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384965/ChatGPT_Image_Jun_4_2026_at_04_55_34_PM_kqbfhg.png';
+const workshop2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385070/ChatGPT_Image_Jun_4_2026_at_04_57_49_PM_px8ddd.png';
 
 // Import shelter construction 2014 images
-const shelter2014Img1 = '/api/imageProxy?id=1Urk6SxnI7IOD2IYU1Lbo-y9K8WaruGYm';
-const shelter2014Img2 = '/api/imageProxy?id=1O6Kfb1FJbTNzlKY8aWcTaoMpEUvSbvPZ';
+const shelter2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385020/ChatGPT_Image_Jun_4_2026_at_03_26_33_PM_iapkc9.png';
+const shelter2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384741/ChatGPT_Image_Jun_4_2026_at_03_20_55_PM_fmx5f3.png';
 
 // Import CCNhub 2026 images
-const ccnhub2026Img1 = '/api/imageProxy?id=14uxAYNBxHE_eAp2-7o3cYNg40AJ-4_sV';
-const ccnhub2026Img2 = '/api/imageProxy?id=11U9s0aiUb5ZIZjnZw-IROrfhdWqEHW40';
-const ccnhub2026Img3 = '/api/imageProxy?id=1Nbo5MNT9gXqiwnluPAf3-RcMKfYwWPfi';
+const ccnhub2026Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385192/ChatGPT_Image_Jun_4_2026_at_12_38_40_PM_c11bm1.png';
+const ccnhub2026Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385116/ChatGPT_Image_Jun_4_2026_at_12_34_23_PM_qkyrwf.png';
+const ccnhub2026Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385331/ChatGPT_Image_Jun_4_2026_at_12_44_01_PM_q33jhm.png';
 
 // Import Annual Get Together 2016 images
-const getTogether2016Img1 = '/api/imageProxy?id=1GtGpFSgad_x4tlIjwbhh5nejLjZQcffm';
-const getTogether2016Img2 = '/api/imageProxy?id=13Fy_4pJ8h4WgD5QZXwrR8lt4sspCBJqx';
-const getTogether2016Img3 = '/api/imageProxy?id=11pKdv1wEyhfEssh0jXE-oACNmxY9MGKA';
+const getTogether2016Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385576/ChatGPT_Image_Jun_5_2026_at_12_10_24_PM_wljkco.png';
+const getTogether2016Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385352/ChatGPT_Image_Jun_5_2026_at_12_13_55_PM_wkibv7.png';
+const getTogether2016Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385293/ChatGPT_Image_Jun_5_2026_at_12_12_19_PM_ul1hbp.png';
 
 // Import Annual Get Together 2017 images
-const getTogether2017Img1 = '/api/imageProxy?id=1sPmf0CiMnWft4GtrqBVptwWZpP3MUpN9';
-const getTogether2017Img2 = '/api/imageProxy?id=10RjXqPXzBP6GG4p81QTX7N-7u88t1MN-';
-const getTogether2017Img3 = '/api/imageProxy?id=1hqhLsT4OmRqIyJu-vZovaEYml0z52Tj5';
+const getTogether2017Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385519/ChatGPT_Image_Jun_5_2026_at_12_35_32_PM_q0sast.png';
+const getTogether2017Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385473/ChatGPT_Image_Jun_5_2026_at_12_34_10_PM_ousnhe.png';
+const getTogether2017Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385416/ChatGPT_Image_Jun_5_2026_at_12_28_55_PM_cq92px.png';
 
 // Import Annual Get Together 2018 images
-const getTogether2018Img1 = '/api/imageProxy?id=1Chy6SD19Xtx_zDsLl1PcNijVKOK0sw9z';
-const getTogether2018Img2 = '/api/imageProxy?id=11nz1e26p8983KZg11H7nJjPQt45vgCfG';
+const getTogether2018Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385593/ChatGPT_Image_Jun_8_2026_at_03_18_36_PM_mktd5t.png';
+const getTogether2018Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385645/ChatGPT_Image_Jun_8_2026_at_03_21_26_PM_j2cr47.png';
+const getTogether2018Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385617/ChatGPT_Image_Jun_8_2026_at_03_15_15_PM_betkkn.png';
 
 // Import Annual Get Together 2019 images
-const getTogether2019Img1 = '/api/imageProxy?id=1B7gkmKF3trfYY-3zN5UrcmZR5cTSjMnw';
-const getTogether2019Img2 = '/api/imageProxy?id=18k6q2xOJbYtnvAo9alXC0yi_sLkuUCIv';
-const getTogether2019Img4 = '/api/imageProxy?id=1KgzAV-XYIes_IFK_G8V21QfCgAXlw58e';
+const getTogether2019Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386086/ChatGPT_Image_Jun_8_2026_at_03_55_24_PM_hnxagt.png';
+const getTogether2019Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385854/ChatGPT_Image_Jun_8_2026_at_03_57_26_PM_ttxgoq.png';
+const getTogether2019Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385825/ChatGPT_Image_Jun_8_2026_at_03_49_22_PM_pbfdts.png';
+const getTogether2019Img4 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385703/ChatGPT_Image_Jun_8_2026_at_03_46_32_PM_xt5vuj.png';
 
 // Import 25th Anniversary 2019 images
-const anniversary25YearsImg1 = '/api/imageProxy?id=11g008Ldyccl6QGaBxiU7eJd9-KpzrQZx';
+const anniversary25YearsImg1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385753/ChatGPT_Image_Jun_9_2026_at_10_36_26_AM_dz2om7.png';
 
 // Import all dynamic images from pre-generated staticGalleryData
 import {
@@ -125,7 +127,7 @@ We extend our profound gratitude to our frontline logistics professionals, partn
     date: 'December 6, 2019',
     category: 'Event',
     image: getTogether2019Img1,
-    images: [getTogether2019Img1, getTogether2019Img2, getTogether2019Img4],
+    images: [getTogether2019Img1, getTogether2019Img2, getTogether2019Img3, getTogether2019Img4],
     excerpt: `SLFFACS Staff Annual Get Together was held at Full Moon Garden Hotel  -Katunayake on Friday, 06th December 2019 with the participation of Custom Officers, Srilankan Cargo, Airport & Aviation, Agents and Consignees.
 
 It was a memorable occasion for the staff members to enjoy and share the joy with the business partners with live music, dancing and fellowship.`,
@@ -157,7 +159,7 @@ SLFFA Cargo Services Ltd. is grateful to all its much-valued customers, agents a
     date: 'November 21, 2018',
     category: 'Event',
     image: getTogether2018Img1,
-    images: [getTogether2018Img1, getTogether2018Img2],
+    images: [getTogether2018Img1, getTogether2018Img2, getTogether2018Img3],
     excerpt: `SLFFACS staff Annual Get Together was held by the staff members at Eagle Lagoon View Banquet Hall, Kurana – Katunayake on Wednesday, 21st  November with the participants of Custom officers, Some agents, Srilankan/AASL staff and Selected consignees.
 
 It was a memorable occasion for the staff members to enjoy and share the joy with the business partners by live music, dancing and fellowship.`,

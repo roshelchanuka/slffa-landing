@@ -9,7 +9,7 @@ import Editable from '../components/Editable';
 import { newsItems } from '../data/newsData';
 
 // Replaced hero image to use Google Drive proxy
-const newsHeroBg = '/api/imageProxy?id=15fwYP6fPS4fEVViD2hxFmkOdLC7Nadks';
+const newsHeroBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386343/ChatGPT_Image_Jun_17_2026_at_02_42_56_PM_ij7hcj.png';
 
 const slideVariants = {
   enter: (direction) => ({

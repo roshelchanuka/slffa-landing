@@ -1,7 +1,7 @@
 // CoolRooms Page static content data
 
 // Import images from assets/images folder
-const bgHero = '/api/imageProxy?id=1flQrQwFQoO3rFI32mnodliXQIwyvol-F';
+const bgHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386273/ChatGPT_Image_May_25_2026_at_02_37_20_PM_tzecex.png';
 const imgRoom = '/api/imageProxy?id=1bvtsNt89ETLIckvvKxtmjZ_qeGm8U5hl';
 const img9034 = '/images/IMG_9034.JPG';
 const img9037 = '/api/imageProxy?id=1CMxWb3mf1FiQAGzzkf2ZPOwA7Bs-esMv';

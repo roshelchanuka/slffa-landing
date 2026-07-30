@@ -26,7 +26,7 @@ import {
 } from 'lucide-react';
 
 // Import widescreen hero and watermark background
-const usefulLinksHero = '/api/imageProxy?id=1jiPWWVjS6eOdYS-qCo-LstjSdeNisPfX';
+const usefulLinksHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785392565/useful-links-hero_lafpsc.jpg';
 const worldmapair = '/images/worldmapair.jpg';
 
 // Static ES Module Imports for all 13 official portal logos
