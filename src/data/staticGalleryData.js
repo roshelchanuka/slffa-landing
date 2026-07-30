@@ -446,22 +446,18 @@ export const anniversary30Images = [
   'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785388256/IMG_5768_gwkiox.jpg'
 ];
 export const newYear2024Images = [
-  '/api/imageProxy?id=1UIhO7jU9VVFfKnyXN6UlrgmX5pJN5hV7',
-  '/api/imageProxy?id=1mNLWNjpondEEk6Yzi8i9lJZOFYS-HCm3',
-  '/api/imageProxy?id=1OCcwIw3BViEtKBm0sZ67w_8Ncnwx6N6Y',
-  '/api/imageProxy?id=1rKEsgndlJFO7r-PVWOVddonkZusxjxEt',
-  '/api/imageProxy?id=1fDcrSGjPUuh89PPnwtXTLK1QxKH64d0X',
-  '/api/imageProxy?id=1YXzJrAEzpuPSeE8aO24IJ6vdtkfQfBI9',
-  '/api/imageProxy?id=1xFxhFdUZ1rjmp097XctlQK0STnIB21yf',
-  '/api/imageProxy?id=1LUZ_ZYebKOsuT-6jNTqSUPV5DjS0kF3I',
-  '/api/imageProxy?id=1nlXq4DD-RCOsiL2VmF8j3EQbjGPyNe-P',
-  '/api/imageProxy?id=1SbHbLglFkocykkFVKDOub0jJlGM8C0hT',
-  '/api/imageProxy?id=1grThSi2KY3FXhU808HcNlnyR-T4oQJDo',
-  '/api/imageProxy?id=1qeyQvTv4W0De99Hp_dolLVuRKgDpGYGn',
-  '/api/imageProxy?id=1LGMWW_XMy0OiwCD3t5mFX0WEB2g0Y1Sb',
-  '/api/imageProxy?id=14pzUD0idJXbYVM2A9ZqgceYh7UiGVzQf',
-  '/api/imageProxy?id=1_6YVEhVarshbo97ae1Q9i2bpGyFWOSg2',
-  '/api/imageProxy?id=1rUlG4p6xm3-Pg_tB6SK9dG-Fm62VfTO9'
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785394964/ChatGPT_Image_Jun_9_2026_at_02_27_20_PM_m4rknz.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395029/ChatGPT_Image_Jun_9_2026_at_02_19_08_PM_eqnqlr.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395092/ChatGPT_Image_Jun_9_2026_at_02_16_07_PM_oooa9s.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395139/ChatGPT_Image_Jun_9_2026_at_02_29_40_PM_b1nn0b.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395270/ChatGPT_Image_Jun_9_2026_at_02_39_14_PM_pecfsq.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395305/ChatGPT_Image_Jun_9_2026_at_02_37_14_PM_re5ax0.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395370/ChatGPT_Image_Jun_9_2026_at_02_44_40_PM_nrbkr3.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395394/ChatGPT_Image_Jun_9_2026_at_02_48_50_PM_oqxfmz.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395417/ChatGPT_Image_Jun_9_2026_at_02_50_28_PM_ybvqui.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785395420/ChatGPT_Image_Jun_9_2026_at_02_51_57_PM_v9uemg.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785396503/ChatGPT_Image_Jun_9_2026_at_02_21_58_PM_yraho8.png',
+  'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785396521/ChatGPT_Image_Jun_9_2026_at_02_19_26_PM_b3waoo.png'
 ];
 export const cricket2022Images = [
   '/api/imageProxy?id=1AqszzKKhN-SOh4ZLAfszcR-HdN7cSOuH',

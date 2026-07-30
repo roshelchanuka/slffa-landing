@@ -8,7 +8,7 @@ const chatgptImgJun15_3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v178
 const coolRoomMedicine = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386483/ChatGPT_Image_May_25_2026_at_04_13_47_PM_i8ezmx.png';
 const heroSpareParts = '/images/hero-spare-parts.png';
 const chatgptImgJun25 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386359/ChatGPT_Image_Jun_25_2026_at_03_16_35_PM_z7vtlk.png';
-const stcBg = '/images/drive/1IUM3S3eK2viObbwLmsew-KWvpPwTzTW0.jpg';
+const stcBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384326/8094abfb3faee6a58f1746642ecf234b_dxhlpq.jpg';
 const imgGroundHandling = '/images/drive/1NeetoUfYqpRlRXkDpCTYUGJKW5NS4Bjk.mov';
 
 export { stcBg, imgGroundHandling };

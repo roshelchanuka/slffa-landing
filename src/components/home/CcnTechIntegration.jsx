@@ -8,7 +8,7 @@ import { useAdmin } from '../../context/AdminContext';
 import Editable from '../Editable';
 import MemberLogos from '../MemberLogos';
 
-const ccnLogo = '/images/drive/1_1EEybBCfBB_ZqtYVkeXUMpBS9wuHdXo.png';
+const ccnLogo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384435/ccn-150x150_tsqx8c.png';
 const slffaLogo = '/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png';
 
 export default function CcnTechIntegration() {
