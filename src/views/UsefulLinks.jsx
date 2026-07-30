@@ -30,19 +30,19 @@ const usefulLinksHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v17853
 const worldmapair = '/images/worldmapair.jpg';
 
 // Static ES Module Imports for all 13 official portal logos
-const logoSlffa = '/api/imageProxy?id=1n4lX0-m1OJy8K_396U5b8p5XvwSZ2NlB';
-const logoCaa = '/api/imageProxy?id=1BHwkvdlXjPsdwsG4-92JeuuL_pzQrZuQ';
-const logoAasl = '/api/imageProxy?id=1cJYf7COk2A7Iz3LHCyNt48nF9BcGuzZS';
-const logoFiata = '/api/imageProxy?id=1T3OGbNrmKR2cYlbs7EXQCr-qEHw_ocig';
-const logoIata = '/api/imageProxy?id=1i69W0N1Yn_R84UoKdxND1h2_C3Yl7t9Y';
-const logoSrilankan = '/api/imageProxy?id=1Xy8Yz8da6ho3UTQN0JjY2MCRUsKOeCvc';
-const logoBoi = '/api/imageProxy?id=1vGer7LsZdSKoWSQvOCnL8KC9oF8Sm_Vt';
-const logoNccsl = '/api/imageProxy?id=1DrjAddClY6ZMxWl1FKjPJ_5egRmoSMRh';
-const logoCcc = '/api/imageProxy?id=1uQL5jsU_q9X8K_qyzZtuzWI9wIsHFW74';
-const logoSlpa = '/api/imageProxy?id=1OPfE_hnGOZJVD2zl-SMCGcDg5xYEd0xk';
-const logoCustoms = '/api/imageProxy?id=1eBUA05Zow8-hW_CBzXcThYvXhHvVS3SW';
-const logoSlsc = '/api/imageProxy?id=1Yg-36n8msqdh7unXGHBpsU60wP67z_tj';
-const logoWorldTime = '/api/imageProxy?id=1gP9hN-ailZQY3oXXcYVDAsh2je-vstnO';
+const logoSlffa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401303/slffa_kelfsy.png';
+const logoCaa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384368/caa_hb0hfz.png';
+const logoAasl = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384351/aviation_tgkm8s.jpg';
+const logoFiata = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386368/fiata_xvejlp.png';
+const logoIata = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386531/iata_p56pt9.png';
+const logoSrilankan = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401029/srilankan_li2gel.png';
+const logoBoi = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384355/BOI_logo_u2gnuf.jpg';
+const logoNccsl = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401290/NCCSL_uzbipx.jpg';
+const logoCcc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384435/ccc_qxmgrv.jpg';
+const logoSlpa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401029/Srilanka-ports-authority_z6jdbq.jpg';
+const logoCustoms = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401029/srilanka_customs_azxy8p.jpg';
+const logoSlsc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401030/ssc_faxsgh.jpg';
+const logoWorldTime = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401263/mainlogo6a_q7qbat.png';
 
 // Secure Lucide icon lookup dictionary
 const iconMap = {

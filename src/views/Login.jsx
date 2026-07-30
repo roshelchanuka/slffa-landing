@@ -42,7 +42,7 @@ export default function Login() {
         >
           <div className="mb-8 text-center">
             <img
-              src="/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0"
+              src="https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png"
               alt="SLFFA Cargo"
               className="mx-auto mb-4 h-20 w-auto object-contain"
             />
