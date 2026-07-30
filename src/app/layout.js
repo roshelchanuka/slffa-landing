@@ -9,7 +9,7 @@ import CookieBanner from '../components/CookieBanner';
 export const metadata = {
   title: 'SLFFA Cargo',
   icons: {
-    icon: '/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0',
+    icon: '/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png',
   },
 };
 

@@ -13,7 +13,7 @@ export default function Footer() {
           {/* About Section */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
-              <img src="/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0" alt="SLFFA Logo" className="h-16 w-auto mr-4 object-contain" />
+              <img src="/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png" alt="SLFFA Logo" className="h-16 w-auto mr-4 object-contain" />
               <h3 className="text-2xl font-bold tracking-wider">
                 SLFFA<span className="text-blue-300">CARGO</span>
               </h3>

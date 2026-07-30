@@ -42,7 +42,7 @@ export async function GET(request) {
     const responseHeaders = new Headers();
     responseHeaders.set('Content-Type', contentType || 'application/octet-stream');
     responseHeaders.set('Cache-Control', 'public, max-age=86400, immutable');
-    
+
     // Pass through relevant streaming headers
     if (response.headers.has('content-length')) {
       responseHeaders.set('Content-Length', response.headers.get('content-length'));
@@ -54,7 +54,13 @@ export async function GET(request) {
       responseHeaders.set('Content-Range', response.headers.get('content-range'));
     }
 
-    return new Response(response.body, {
+    // Buffer the body instead of passing through the raw stream: Netlify's
+    // serverless function runtime doesn't reliably forward a streamed
+    // ReadableStream body, which left images empty/corrupted in production
+    // even though streaming works fine against the local Next.js dev server.
+    const buffer = await response.arrayBuffer();
+
+    return new Response(buffer, {
       status: response.status,
       headers: responseHeaders
     });

@@ -45,7 +45,7 @@ function RouteLoader() {
           className="fixed inset-0 z-[9998] bg-white dark:bg-slate-950/95 dark:bg-slate-950/95 backdrop-blur-sm flex flex-col items-center justify-center pointer-events-auto"
         >
           <motion.img
-            src="/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0"
+            src="/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png"
             alt="Page Loading..."
             className="h-28 w-auto object-contain animate-pulse"
           />
@@ -95,7 +95,7 @@ function App() {
             className="fixed inset-0 z-[9999] bg-white dark:bg-slate-950 flex flex-col items-center justify-center pointer-events-auto overflow-hidden"
           >
             <motion.img
-              src="/api/imageProxy?id=1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0"
+              src="/images/drive/1d1z1Z0IMS6m0bu0Vqiyth92-Q0ezsPB0.png"
               alt="SLFFA Logo Loading"
               className="h-48 w-auto md:h-56 object-contain"
               animate={isZooming ? {
