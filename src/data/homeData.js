@@ -48,13 +48,6 @@ export const heroSlidesData = [
     title: "Specialized Cold Chain Medicine Cargo",
     subtitle: "Safe & Secure Cold Storage",
     description: "We handle and transport sensitive pharmaceutical and medicine cargo with the utmost care, utilizing state-of-the-art airside cool rooms (2°C - 8°C) to guarantee their safety and efficacy."
-  },
-  {
-    id: 6,
-    defaultImage: chatgptImgJun25,
-    title: "Secure Vehicle Spare Parts Logistics",
-    subtitle: "Automotive Component Handling",
-    description: "Specialized processing, high-density storage, and swift terminal handling of automotive spare parts and machinery components."
   }
 ];
 
@@ -78,11 +71,6 @@ export const featuresData = [
     iconName: "Package",
     title: "Cargo Community Network",
     description: "Seamless digital integration with CCNhub for efficient booking and tracking."
-  },
-  {
-    iconName: "Wrench",
-    title: "Vehicle Spare Parts",
-    description: "Careful processing, organized sorting, and swift dispatch of automotive components and spare parts."
   }
 ];
 
