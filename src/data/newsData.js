@@ -70,18 +70,6 @@ const getTogether2024Images = [
 
 export const newsItems = [
   {
-    id: 'slffacs-staff-annual-get-together-2024',
-    title: 'SLFFACS Staff Annual Get Together 2024',
-    date: '2024',
-    category: 'Event',
-    image: getTogether2024Images[0],
-    images: getTogether2024Images,
-    excerpt: `The SLFFACS Staff Annual Get Together 2024 at Dinindu Gardens Hotel, Seeduwa.
-
-It was a wonderful opportunity to strengthen relationships, celebrate together, and enjoy an evening filled with live music, dancing, and great fellowship. The event created many memorable moments and reflected the strong partnerships within the SLFFACS community.`,
-    url: 'https://slffacs.com/slffacs-staff-annual-get-together-2024/',
-  },
-  {
     id: 'slffacs-staff-annual-get-together-2026',
     title: 'SLFFACS Staff Annual Get Together 2026',
     date: 'February 6, 2026',
@@ -92,6 +80,18 @@ It was a wonderful opportunity to strengthen relationships, celebrate together, 
 
 It was a memorable and delightful occasion for the staff members to celebrate, unwind, and strengthen relationships with our esteemed business partners. The evening was filled with live music, dancing, and great fellowship.`,
     url: 'https://slffacs.com/slffacs-staff-annual-get-together-2026/',
+  },
+  {
+    id: 'slffacs-staff-annual-get-together-2024',
+    title: 'SLFFACS Staff Annual Get Together 2024',
+    date: '2024',
+    category: 'Event',
+    image: getTogether2024Images[0],
+    images: getTogether2024Images,
+    excerpt: `The SLFFACS Staff Annual Get Together 2024 at Dinindu Gardens Hotel, Seeduwa.
+
+It was a wonderful opportunity to strengthen relationships, celebrate together, and enjoy an evening filled with live music, dancing, and great fellowship. The event created many memorable moments and reflected the strong partnerships within the SLFFACS community.`,
+    url: 'https://slffacs.com/slffacs-staff-annual-get-together-2024/',
   },
   {
     id: 'slffacs-30-years-anniversary',
