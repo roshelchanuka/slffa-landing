@@ -19,6 +19,7 @@ export const tempRoomsData = [
     useCase: "Deep Freeze Storage",
     badgeColor: "bg-blue-600 text-white shadow-blue-500/30",
     accentColor: "border-blue-600",
+
     glowColor: "shadow-blue-500/10",
     description: "Optimized for deep frozen cargo such as vaccines, sensitive biologics, frozen foods, and ocean-bound perishable goods requiring deep sub-zero conditions."
   },
