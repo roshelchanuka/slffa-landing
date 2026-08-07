@@ -2,8 +2,8 @@
 
 // Import images from assets/images folder
 const aboutCargo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386194/ChatGPT_Image_Jun_17_2026_at_01_37_42_PM_mp4naq.png';
-const worldmapair = '/api/imageProxy?id=1NZfeVFK_JIpOiow4rWdKBCCTHIOT2V9P';
-const ground1 = '/api/imageProxy?id=1TsijStJbEUuH2oSXnYbiRXidSDbepJP4';
+const worldmapair = ''; // Google drive link removed
+const ground1 = 'https://res.cloudinary.com/pbswlnc8/image/upload/v1783696487/ChatGPT_Image_May_20_2026_at_02_53_00_PM_kdi303.png';
 const ground4 = '/images/srilankancargo.jpg';
 
 export { aboutCargo, worldmapair, ground1, ground4 };
