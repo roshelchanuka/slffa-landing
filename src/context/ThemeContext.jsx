@@ -5,7 +5,7 @@ import { createContext, useContext, useState, useEffect, useRef } from 'react';
 const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
-  const [theme, setThemeState] = useState('system');
+  const [theme, setThemeState] = useState('light');
   const [resolvedTheme, setResolvedTheme] = useState('light');
   const isMountedRef = useRef(false);
 
