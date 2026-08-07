@@ -9,7 +9,7 @@ const coolRoomMedicine = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_aut
 const heroSpareParts = '/images/hero-spare-parts.png';
 const chatgptImgJun25 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386359/ChatGPT_Image_Jun_25_2026_at_03_16_35_PM_z7vtlk.png';
 const stcBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384326/8094abfb3faee6a58f1746642ecf234b_dxhlpq.jpg';
-const imgGroundHandling = '/images/drive/1NeetoUfYqpRlRXkDpCTYUGJKW5NS4Bjk.mov';
+const imgGroundHandling = ''; // Google drive video removed
 
 export { stcBg, imgGroundHandling };
 
