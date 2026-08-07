@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useScroll, useTransform } from 'framer-motion';
 
 import HeroSlider from '../components/home/HeroSlider';
+import WhoWeAre from '../components/home/WhoWeAre';
 import FeaturedServices from '../components/home/FeaturedServices';
 import GroundOperations from '../components/home/GroundOperations';
 import NewsEvents from '../components/home/NewsEvents';
@@ -27,8 +28,12 @@ export default function Home() {
       {/* Hero Parallax Section */}
       <HeroSlider y={y} opacity={opacity} isMobile={isMobile} />
 
-      {/* Featured Services Grid */}
+      {/* Who We Are Section */}
+      <WhoWeAre />
+
+      {/* Featured Services (Cool Room & STC) */}
       <FeaturedServices />
+
 
       {/* Ground Handling Operations Section */}
       <GroundOperations />

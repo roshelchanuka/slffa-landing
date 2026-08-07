@@ -18,51 +18,8 @@ export default function FeaturedServices() {
     <section className="py-24 bg-slate-50 dark:bg-slate-950 relative overflow-hidden transition-colors duration-300">
       <div className="absolute top-0 right-0 w-64 h-64 bg-blue-100 dark:bg-blue-900/10 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <motion.div 
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true, margin: "-100px" }}
-          className="text-center mb-16"
-        >
-          <Editable id="home.services.title" defaultContent="Our Premium Services">
-            <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">Our Premium Services</h2>
-          </Editable>
-          <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
-          <Editable id="home.services.description" type="textarea" defaultContent="Delivering consistent and innovative logistics solutions tailored to meet the dynamic needs of the global commerce industry.">
-            <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              Delivering consistent and innovative logistics solutions tailored to meet the dynamic needs of the global commerce industry.
-            </p>
-          </Editable>
-        </motion.div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 xl:gap-8">
-          {featuresData.map((feature, index) => (
-            <motion.div 
-              key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              whileHover={{ y: -10, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true, margin: "-50px" }}
-              className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm p-8 border border-slate-100 dark:border-slate-800 transition-all duration-300 relative group overflow-hidden"
-            >
-              <div className="absolute top-0 left-0 w-full h-1 bg-blue-50 dark:bg-slate-9000 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-              <div className="mb-6 bg-blue-50 dark:bg-blue-950/40 w-16 h-16 rounded-xl flex items-center justify-center text-blue-600 dark:text-blue-400 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500">
-                {renderIcon(feature.iconName)}
-              </div>
-              <Editable id={`home.feature_${index}.title`} defaultContent={feature.title}>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">{feature.title}</h3>
-              </Editable>
-              <Editable id={`home.feature_${index}.description`} type="textarea" defaultContent={feature.description}>
-                <p className="text-slate-666 dark:text-slate-355 leading-relaxed">{feature.description}</p>
-              </Editable>
-            </motion.div>
-          ))}
-        </div>
- 
-        {/* Newly added Cool Rooms Feature Showcase Card/Box under the Grid */}
-        <div className="mt-20 max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
+        {/* Cool Rooms Feature Showcase Card/Box */}
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
           {/* Left Box: State-of-the-Art Cargo Cold Chain & Cool Rooms */}
           <motion.div 
             initial={{ opacity: 0, y: 40 }}
