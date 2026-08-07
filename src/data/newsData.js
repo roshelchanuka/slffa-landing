@@ -52,6 +52,40 @@ import {
   getTogether2026Images
 } from './staticGalleryData';
 
+const newYear2025Images = [
+  'https://i.ibb.co/fdXTC3bp/2025-01-01-09-32-IMG-6639.jpg',
+  'https://i.ibb.co/FbLnDBNr/2025-01-01-10-34-IMG-6670.jpg',
+  'https://i.ibb.co/mM7Gc8s/2025-01-01-10-34-IMG-6672.jpg',
+  'https://i.ibb.co/spm38Xm9/2025-01-01-10-34-IMG-6674.jpg',
+  'https://i.ibb.co/27qbxvw4/2025-01-01-10-34-IMG-6679.jpg',
+  'https://i.ibb.co/WvBLZyjF/2025-01-01-10-34-IMG-6682.jpg',
+  'https://i.ibb.co/Mr5zw7m/2025-01-01-10-34-IMG-6683.jpg',
+  'https://i.ibb.co/rfsDJ4rs/2025-01-01-10-34-IMG-6693.jpg',
+  'https://i.ibb.co/KHYtN9V/2025-01-01-10-34-IMG-6695.jpg',
+  'https://i.ibb.co/MyXTJ391/2025-01-01-10-34-IMG-6697.jpg',
+  'https://i.ibb.co/d0RjZh6B/2025-01-01-10-34-IMG-6698.jpg',
+  'https://i.ibb.co/sJwqhRg5/2025-01-01-10-34-IMG-6699.jpg',
+  'https://i.ibb.co/gZVQ0GC8/2025-01-01-10-34-IMG-6700.jpg',
+  'https://i.ibb.co/RGRT3YZ9/2025-01-01-10-34-IMG-6701.jpg',
+  'https://i.ibb.co/GQCV7dZW/2025-01-01-10-34-IMG-6702.jpg',
+  'https://i.ibb.co/ZR4HYh9q/2025-01-01-10-34-IMG-6703.jpg',
+  'https://i.ibb.co/G37924sP/2025-01-01-10-34-IMG-6704.jpg',
+  'https://i.ibb.co/NgVy72FW/2025-01-01-10-34-IMG-6705.jpg',
+  'https://i.ibb.co/VYjWF5bc/2025-01-01-10-34-IMG-6707.jpg',
+  'https://i.ibb.co/kV4mn9k2/2025-01-01-10-34-IMG-6709.jpg',
+  'https://i.ibb.co/r2D7Yb52/2025-01-01-10-36-IMG-6569.jpg',
+  'https://i.ibb.co/fdJk3Q8V/2025-01-01-10-36-IMG-6571.jpg',
+  'https://i.ibb.co/mr90nvsn/2025-01-01-10-37-IMG-6574.jpg',
+  'https://i.ibb.co/8DrtNLkP/2025-01-01-10-37-IMG-6580.jpg',
+  'https://i.ibb.co/YFbJHMnh/2025-01-01-10-37-IMG-6582.jpg',
+  'https://i.ibb.co/GvdY5MdN/2025-01-01-10-37-IMG-6587.jpg',
+  'https://i.ibb.co/twN0v9V2/2025-01-01-10-37-IMG-6591.jpg',
+  'https://i.ibb.co/7x7Qh09d/2025-01-01-10-37-IMG-6598.jpg',
+  'https://i.ibb.co/wrCg1DM8/2025-01-01-10-37-IMG-6602.jpg',
+  'https://i.ibb.co/mrq6q3r3/2025-01-01-10-37-IMG-6668.jpg',
+  'https://i.ibb.co/60v3txBM/2025-01-01-10-37-IMG-6669.jpg'
+];
+
 const getTogether2024Images = [
   'https://i.ibb.co/kVPZHqvk/BJTZ5190.jpg',
   'https://i.ibb.co/FMmqYqT/CMFO5137.jpg',
@@ -69,6 +103,20 @@ const getTogether2024Images = [
 ];
 
 export const newsItems = [
+  {
+    id: 'slffacs-new-year-2025',
+    title: 'Welcoming the New Year 2025 at SLFFA Cargo Services',
+    date: 'January 1, 2025',
+    category: 'Event',
+    image: newYear2025Images[0],
+    images: newYear2025Images,
+    excerpt: `SLFFA Cargo Services welcomed the New Year on 01 January 2025 with a traditional New Year tea gathering, bringing staff together to celebrate the beginning of another promising year.
+
+The event provided an opportunity for employees to share New Year traditions, strengthen team spirit, and reflect on the shared goals and aspirations for the year ahead. It also marked the start of a new chapter, reinforcing the organization's commitment to delivering reliable and efficient services within the logistics and cargo industry.
+
+As we step into 2025, SLFFA Cargo Services remains dedicated to excellence, innovation, and strong partnerships. We extend our sincere wishes to our clients, partners, and employees for a happy, prosperous, and successful New Year.`,
+    url: 'https://slffacs.com/welcoming-the-new-year-2025/',
+  },
   {
     id: 'slffacs-staff-annual-get-together-2026',
     title: 'SLFFACS Staff Annual Get Together 2026',
