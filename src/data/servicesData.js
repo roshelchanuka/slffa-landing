@@ -1,12 +1,12 @@
 // Services Page static content data
 
 // Import images from assets/images folder
-const servicesHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386121/ChatGPT_Image_Jun_17_2026_at_02_27_00_PM_r9hhau.png';
+const servicesHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386121/ChatGPT_Image_Jun_17_2026_at_02_27_00_PM_r9hhau.png';
 const ground1 = '/api/imageProxy?id=1TsijStJbEUuH2oSXnYbiRXidSDbepJP4';
 const ground2 = '/images/ground2.jpg';
 const ground3 = '/api/imageProxy?id=1hhdUgju0MO7B_qeBoEoVvDt0O2lfARnN';
 const ground4 = '/api/imageProxy?id=1-vL7UNLI30OTtEJ6iWmD959-eoeuKX4f';
-const yearsOfServiceImg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384347/31_Years_of_Service_Excellence_uqpayn.png';
+const yearsOfServiceImg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384347/31_Years_of_Service_Excellence_uqpayn.png';
 const img9019 = '/api/imageProxy?id=19kK9xPYn7KSeDzCU-OGBxJk9p6PcAWBB';
 const img9014 = '/images/IMG_9014.JPG';
 const chatgptImgMay20 = '/api/imageProxy?id=1xuPKvqH-Wr3Jm2y_Cv_Cw5Kz1mHDPFyB';

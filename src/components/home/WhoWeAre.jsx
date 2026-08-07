@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import Editable from '../Editable';
 
-const slffaLogo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png';
+const slffaLogo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png';
 
 export default function WhoWeAre() {
   return (

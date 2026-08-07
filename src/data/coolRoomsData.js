@@ -1,14 +1,14 @@
 // CoolRooms Page static content data
 
 // Import images from assets/images folder
-const bgHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386273/ChatGPT_Image_May_25_2026_at_02_37_20_PM_tzecex.png';
-const imgRoom = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785396593/Room_fb5bdz.png';
+const bgHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386273/ChatGPT_Image_May_25_2026_at_02_37_20_PM_tzecex.png';
+const imgRoom = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785396593/Room_fb5bdz.png';
 const img9034 = '/images/IMG_9034.JPG';
-const img9037 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785396404/IMG_9037_tgmw62.jpg';
-const img2_8CoolRoom = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384522/2-8_Cool_Room.jpg_kfamgb.png';
-const imgFreezerUnits = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386402/Freezer_-20C_2-8_Cargo_02_units_nrovor.jpg';
-const imgFreezerOutdoor = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386414/Freezer_-20C_2-8_Cargo_Out_door_02_Units_ii9x9w.jpg';
-const imgAiCoolroom = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384430/ai_coolroom_kwqeg2.jpg';
+const img9037 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785396404/IMG_9037_tgmw62.jpg';
+const img2_8CoolRoom = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384522/2-8_Cool_Room.jpg_kfamgb.png';
+const imgFreezerUnits = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386402/Freezer_-20C_2-8_Cargo_02_units_nrovor.jpg';
+const imgFreezerOutdoor = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386414/Freezer_-20C_2-8_Cargo_Out_door_02_Units_ii9x9w.jpg';
+const imgAiCoolroom = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384430/ai_coolroom_kwqeg2.jpg';
 
 export { bgHero, imgAiCoolroom };
 

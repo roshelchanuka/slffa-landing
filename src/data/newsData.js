@@ -1,47 +1,47 @@
 // Import anniversary 2014 images
-const anniversary2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384834/ChatGPT_Image_Jun_4_2026_at_04_23_18_PM_sme2fq.png';
-const anniversary2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384994/ChatGPT_Image_Jun_4_2026_at_04_29_20_PM_iuhu8e.png';
-const anniversary2014Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385064/ChatGPT_Image_Jun_4_2026_at_04_31_05_PM_btjyoi.png';
+const anniversary2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384834/ChatGPT_Image_Jun_4_2026_at_04_23_18_PM_sme2fq.png';
+const anniversary2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384994/ChatGPT_Image_Jun_4_2026_at_04_29_20_PM_iuhu8e.png';
+const anniversary2014Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385064/ChatGPT_Image_Jun_4_2026_at_04_31_05_PM_btjyoi.png';
 
 // Import award 2014 images
-const award2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384916/ChatGPT_Image_Jun_4_2026_at_04_44_58_PM_ksklto.png';
+const award2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384916/ChatGPT_Image_Jun_4_2026_at_04_44_58_PM_ksklto.png';
 
 // Import workshop 2014 images
-const workshop2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384965/ChatGPT_Image_Jun_4_2026_at_04_55_34_PM_kqbfhg.png';
-const workshop2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385070/ChatGPT_Image_Jun_4_2026_at_04_57_49_PM_px8ddd.png';
+const workshop2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384965/ChatGPT_Image_Jun_4_2026_at_04_55_34_PM_kqbfhg.png';
+const workshop2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385070/ChatGPT_Image_Jun_4_2026_at_04_57_49_PM_px8ddd.png';
 
 // Import shelter construction 2014 images
-const shelter2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385020/ChatGPT_Image_Jun_4_2026_at_03_26_33_PM_iapkc9.png';
-const shelter2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384741/ChatGPT_Image_Jun_4_2026_at_03_20_55_PM_fmx5f3.png';
+const shelter2014Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385020/ChatGPT_Image_Jun_4_2026_at_03_26_33_PM_iapkc9.png';
+const shelter2014Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384741/ChatGPT_Image_Jun_4_2026_at_03_20_55_PM_fmx5f3.png';
 
 // Import CCNhub 2026 images
-const ccnhub2026Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385192/ChatGPT_Image_Jun_4_2026_at_12_38_40_PM_c11bm1.png';
-const ccnhub2026Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385116/ChatGPT_Image_Jun_4_2026_at_12_34_23_PM_qkyrwf.png';
-const ccnhub2026Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385331/ChatGPT_Image_Jun_4_2026_at_12_44_01_PM_q33jhm.png';
+const ccnhub2026Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385192/ChatGPT_Image_Jun_4_2026_at_12_38_40_PM_c11bm1.png';
+const ccnhub2026Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385116/ChatGPT_Image_Jun_4_2026_at_12_34_23_PM_qkyrwf.png';
+const ccnhub2026Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385331/ChatGPT_Image_Jun_4_2026_at_12_44_01_PM_q33jhm.png';
 
 // Import Annual Get Together 2016 images
-const getTogether2016Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385576/ChatGPT_Image_Jun_5_2026_at_12_10_24_PM_wljkco.png';
-const getTogether2016Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385352/ChatGPT_Image_Jun_5_2026_at_12_13_55_PM_wkibv7.png';
-const getTogether2016Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385293/ChatGPT_Image_Jun_5_2026_at_12_12_19_PM_ul1hbp.png';
+const getTogether2016Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385576/ChatGPT_Image_Jun_5_2026_at_12_10_24_PM_wljkco.png';
+const getTogether2016Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385352/ChatGPT_Image_Jun_5_2026_at_12_13_55_PM_wkibv7.png';
+const getTogether2016Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385293/ChatGPT_Image_Jun_5_2026_at_12_12_19_PM_ul1hbp.png';
 
 // Import Annual Get Together 2017 images
-const getTogether2017Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385519/ChatGPT_Image_Jun_5_2026_at_12_35_32_PM_q0sast.png';
-const getTogether2017Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385473/ChatGPT_Image_Jun_5_2026_at_12_34_10_PM_ousnhe.png';
-const getTogether2017Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385416/ChatGPT_Image_Jun_5_2026_at_12_28_55_PM_cq92px.png';
+const getTogether2017Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385519/ChatGPT_Image_Jun_5_2026_at_12_35_32_PM_q0sast.png';
+const getTogether2017Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385473/ChatGPT_Image_Jun_5_2026_at_12_34_10_PM_ousnhe.png';
+const getTogether2017Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385416/ChatGPT_Image_Jun_5_2026_at_12_28_55_PM_cq92px.png';
 
 // Import Annual Get Together 2018 images
-const getTogether2018Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385593/ChatGPT_Image_Jun_8_2026_at_03_18_36_PM_mktd5t.png';
-const getTogether2018Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385645/ChatGPT_Image_Jun_8_2026_at_03_21_26_PM_j2cr47.png';
-const getTogether2018Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385617/ChatGPT_Image_Jun_8_2026_at_03_15_15_PM_betkkn.png';
+const getTogether2018Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385593/ChatGPT_Image_Jun_8_2026_at_03_18_36_PM_mktd5t.png';
+const getTogether2018Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385645/ChatGPT_Image_Jun_8_2026_at_03_21_26_PM_j2cr47.png';
+const getTogether2018Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385617/ChatGPT_Image_Jun_8_2026_at_03_15_15_PM_betkkn.png';
 
 // Import Annual Get Together 2019 images
-const getTogether2019Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386086/ChatGPT_Image_Jun_8_2026_at_03_55_24_PM_hnxagt.png';
-const getTogether2019Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385854/ChatGPT_Image_Jun_8_2026_at_03_57_26_PM_ttxgoq.png';
-const getTogether2019Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385825/ChatGPT_Image_Jun_8_2026_at_03_49_22_PM_pbfdts.png';
-const getTogether2019Img4 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385703/ChatGPT_Image_Jun_8_2026_at_03_46_32_PM_xt5vuj.png';
+const getTogether2019Img1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386086/ChatGPT_Image_Jun_8_2026_at_03_55_24_PM_hnxagt.png';
+const getTogether2019Img2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385854/ChatGPT_Image_Jun_8_2026_at_03_57_26_PM_ttxgoq.png';
+const getTogether2019Img3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385825/ChatGPT_Image_Jun_8_2026_at_03_49_22_PM_pbfdts.png';
+const getTogether2019Img4 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385703/ChatGPT_Image_Jun_8_2026_at_03_46_32_PM_xt5vuj.png';
 
 // Import 25th Anniversary 2019 images
-const anniversary25YearsImg1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385753/ChatGPT_Image_Jun_9_2026_at_10_36_26_AM_dz2om7.png';
+const anniversary25YearsImg1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385753/ChatGPT_Image_Jun_9_2026_at_10_36_26_AM_dz2om7.png';
 
 // Import all dynamic images from pre-generated staticGalleryData
 import {

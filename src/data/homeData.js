@@ -1,14 +1,14 @@
 // Home Page static content data
 
 // Import images from assets/images folder
-const chatgptImgJun15 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386068/ChatGPT_Image_Jun_15_2026_at_11_59_54_AM_szbxoo.png';
-const homeSlider2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386540/home-slider-2_x6inw0.jpg';
-const chatgptImgJun15_2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386102/ChatGPT_Image_Jun_15_2026_at_12_14_54_PM_gbzntn.png';
-const chatgptImgJun15_3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385918/ChatGPT_Image_Jun_15_2026_at_01_09_59_PM_es2bhz.png';
-const coolRoomMedicine = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386483/ChatGPT_Image_May_25_2026_at_04_13_47_PM_i8ezmx.png';
+const chatgptImgJun15 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386068/ChatGPT_Image_Jun_15_2026_at_11_59_54_AM_szbxoo.png';
+const homeSlider2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386540/home-slider-2_x6inw0.jpg';
+const chatgptImgJun15_2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386102/ChatGPT_Image_Jun_15_2026_at_12_14_54_PM_gbzntn.png';
+const chatgptImgJun15_3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385918/ChatGPT_Image_Jun_15_2026_at_01_09_59_PM_es2bhz.png';
+const coolRoomMedicine = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386483/ChatGPT_Image_May_25_2026_at_04_13_47_PM_i8ezmx.png';
 const heroSpareParts = '/images/hero-spare-parts.png';
-const chatgptImgJun25 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386359/ChatGPT_Image_Jun_25_2026_at_03_16_35_PM_z7vtlk.png';
-const stcBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384326/8094abfb3faee6a58f1746642ecf234b_dxhlpq.jpg';
+const chatgptImgJun25 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386359/ChatGPT_Image_Jun_25_2026_at_03_16_35_PM_z7vtlk.png';
+const stcBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384326/8094abfb3faee6a58f1746642ecf234b_dxhlpq.jpg';
 const imgGroundHandling = '/images/drive/1NeetoUfYqpRlRXkDpCTYUGJKW5NS4Bjk.mov';
 
 export { stcBg, imgGroundHandling };

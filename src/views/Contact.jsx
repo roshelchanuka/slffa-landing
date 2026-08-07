@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { MapPin, Phone, Mail } from 'lucide-react';
 import Editable from '../components/Editable';
 import { useAdmin } from '../context/AdminContext';
-const contactHeroBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386375/ChatGPT_Image_Jun_25_2026_at_04_00_52_PM_bfkese.png';
+const contactHeroBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386375/ChatGPT_Image_Jun_25_2026_at_04_00_52_PM_bfkese.png';
 
 const Contact = () => {
   const { getContent } = useAdmin();

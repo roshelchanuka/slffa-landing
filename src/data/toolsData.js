@@ -1,7 +1,7 @@
 // Tools Page static content data
 
 // Import image from images folder
-const airwaybillImg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384362/Air_Waybill_hmvs6e.jpg';
+const airwaybillImg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384362/Air_Waybill_hmvs6e.jpg';
 
 export { airwaybillImg };
 

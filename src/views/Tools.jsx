@@ -10,7 +10,7 @@ import CargoCalculators from '../components/tools/CargoCalculators';
 import TradingConditions from '../components/tools/TradingConditions';
 
 // Import image from the root images folder
-const chatgptImgJun9 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385778/ChatGPT_Image_Jun_9_2026_at_03_30_36_PM_ptp0ok.png';
+const chatgptImgJun9 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385778/ChatGPT_Image_Jun_9_2026_at_03_30_36_PM_ptp0ok.png';
 
 const Tools = () => {
   const { getContent } = useAdmin();

@@ -26,23 +26,23 @@ import {
 } from 'lucide-react';
 
 // Import widescreen hero and watermark background
-const usefulLinksHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785392565/useful-links-hero_lafpsc.jpg';
+const usefulLinksHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785392565/useful-links-hero_lafpsc.jpg';
 const worldmapair = '/images/worldmapair.jpg';
 
 // Static ES Module Imports for all 13 official portal logos
-const logoSlffa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401303/slffa_kelfsy.png';
-const logoCaa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384368/caa_hb0hfz.png';
-const logoAasl = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384351/aviation_tgkm8s.jpg';
-const logoFiata = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386368/fiata_xvejlp.png';
-const logoIata = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386531/iata_p56pt9.png';
-const logoSrilankan = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401029/srilankan_li2gel.png';
-const logoBoi = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384355/BOI_logo_u2gnuf.jpg';
-const logoNccsl = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401290/NCCSL_uzbipx.jpg';
-const logoCcc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384435/ccc_qxmgrv.jpg';
-const logoSlpa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401029/Srilanka-ports-authority_z6jdbq.jpg';
-const logoCustoms = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401029/srilanka_customs_azxy8p.jpg';
-const logoSlsc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401030/ssc_faxsgh.jpg';
-const logoWorldTime = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785401263/mainlogo6a_q7qbat.png';
+const logoSlffa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401303/slffa_kelfsy.png';
+const logoCaa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384368/caa_hb0hfz.png';
+const logoAasl = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384351/aviation_tgkm8s.jpg';
+const logoFiata = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386368/fiata_xvejlp.png';
+const logoIata = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386531/iata_p56pt9.png';
+const logoSrilankan = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401029/srilankan_li2gel.png';
+const logoBoi = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384355/BOI_logo_u2gnuf.jpg';
+const logoNccsl = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401290/NCCSL_uzbipx.jpg';
+const logoCcc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384435/ccc_qxmgrv.jpg';
+const logoSlpa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401029/Srilanka-ports-authority_z6jdbq.jpg';
+const logoCustoms = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401029/srilanka_customs_azxy8p.jpg';
+const logoSlsc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401030/ssc_faxsgh.jpg';
+const logoWorldTime = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401263/mainlogo6a_q7qbat.png';
 
 // Secure Lucide icon lookup dictionary
 const iconMap = {

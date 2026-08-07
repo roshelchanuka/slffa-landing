@@ -45,7 +45,7 @@ function RouteLoader() {
           className="fixed inset-0 z-[9998] bg-white dark:bg-slate-950/95 dark:bg-slate-950/95 backdrop-blur-sm flex flex-col items-center justify-center pointer-events-auto"
         >
           <motion.img
-            src="https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png"
+            src="https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png"
             alt="Page Loading..."
             className="h-28 w-auto object-contain animate-pulse"
           />
@@ -95,7 +95,7 @@ function App() {
             className="fixed inset-0 z-[9999] bg-white dark:bg-slate-950 flex flex-col items-center justify-center pointer-events-auto overflow-hidden"
           >
             <motion.img
-              src="https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png"
+              src="https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png"
               alt="SLFFA Logo Loading"
               className="h-48 w-auto md:h-56 object-contain"
               animate={isZooming ? {

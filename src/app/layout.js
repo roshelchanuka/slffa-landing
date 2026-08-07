@@ -9,7 +9,7 @@ import CookieBanner from '../components/CookieBanner';
 export const metadata = {
   title: 'SLFFA Cargo',
   icons: {
-    icon: 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png',
+    icon: 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png',
   },
 };
 

@@ -1,7 +1,7 @@
 // About Page static content data
 
 // Import images from assets/images folder
-const aboutCargo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386194/ChatGPT_Image_Jun_17_2026_at_01_37_42_PM_mp4naq.png';
+const aboutCargo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386194/ChatGPT_Image_Jun_17_2026_at_01_37_42_PM_mp4naq.png';
 const worldmapair = '/api/imageProxy?id=1NZfeVFK_JIpOiow4rWdKBCCTHIOT2V9P';
 const ground1 = '/api/imageProxy?id=1TsijStJbEUuH2oSXnYbiRXidSDbepJP4';
 const ground4 = '/images/srilankancargo.jpg';

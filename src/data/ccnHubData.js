@@ -1,7 +1,7 @@
 // CcnHub Page static content data
 
 // Import images from assets/images folder
-const bgImage = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785386448/download_vnfn2w.png';
+const bgImage = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386448/download_vnfn2w.png';
 const eventImg1 = '/images/ChatGPT Image Jun 4, 2026 at 12_34_23 PM.png';
 const eventImg2 = '/images/ChatGPT Image Jun 4, 2026 at 12_38_40 PM.png';
 const eventImg3 = '/images/ChatGPT Image Jun 4, 2026 at 12_44_01 PM.png';
