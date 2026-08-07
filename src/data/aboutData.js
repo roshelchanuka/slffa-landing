@@ -2,7 +2,7 @@
 
 // Import images from assets/images folder
 const aboutCargo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386194/ChatGPT_Image_Jun_17_2026_at_01_37_42_PM_mp4naq.png';
-const worldmapair = ''; // Google drive link removed
+const worldmapair = 'https://i.ibb.co/gFXLtJz8/worldmapair.jpg';
 const ground1 = 'https://res.cloudinary.com/pbswlnc8/image/upload/v1783696487/ChatGPT_Image_May_20_2026_at_02_53_00_PM_kdi303.png';
 const ground4 = '/images/srilankancargo.jpg';
 
