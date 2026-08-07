@@ -55,44 +55,7 @@ export default function Navbar() {
                   </Link>
                 );
               })}
-              {isAdmin ? (
-                <div className="flex items-center space-x-3">
-                  {isEditMode && (
-                    <button
-                      onClick={() => setIsMediaLibraryOpen(true)}
-                      className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-4 py-2.5 rounded-full shadow-lg shadow-blue-500/20 hover:shadow-blue-500/35 transition-all duration-300 transform hover:-translate-y-0.5 text-xs uppercase tracking-wider cursor-pointer border border-blue-500"
-                    >
-                      <Image className="h-4 w-4" />
-                      Media Library
-                    </button>
-                  )}
-                  <button
-                    onClick={toggleEditMode}
-                    className={`flex items-center gap-2 font-bold px-4 py-2.5 rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-0.5 text-xs uppercase tracking-wider cursor-pointer border ${
-                      isEditMode
-                        ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-emerald-500/20 border-emerald-500'
-                        : 'bg-slate-800 hover:bg-slate-900 text-slate-100 border-slate-700 shadow-slate-950/20'
-                    }`}
-                  >
-                    <Edit3 className="h-4 w-4" />
-                    {isEditMode ? 'Edit Mode: ON' : 'Edit: OFF'}
-                  </button>
-                  <button
-                    onClick={logout}
-                    className="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-4 py-2.5 rounded-full shadow-lg shadow-red-500/20 hover:shadow-red-500/35 transition-all duration-300 transform hover:-translate-y-0.5 text-xs uppercase tracking-wider cursor-pointer"
-                  >
-                    <LogOut className="h-4 w-4" />
-                    Logout
-                  </button>
-                </div>
-              ) : (
-                <Link
-                  href="/login"
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-4 xl:px-6 py-2 xl:py-2.5 rounded-full shadow-lg shadow-blue-500/20 hover:shadow-blue-500/35 transition-all duration-300 transform hover:-translate-y-0.5 text-xs xl:text-sm uppercase tracking-wider inline-block"
-                >
-                  Login
-                </Link>
-              )}
+
               <ThemeToggle />
             </div>
           </div>
@@ -281,64 +244,7 @@ export default function Navbar() {
                 }}
                 className="pt-2"
               >
-                {isAdmin ? (
-                  <div className="flex flex-col gap-3">
-                    {isEditMode && (
-                      <motion.button
-                        whileHover={{ scale: 1.015 }}
-                        whileTap={{ scale: 0.985 }}
-                        onClick={() => {
-                          setIsMediaLibraryOpen(true);
-                          setIsOpen(false);
-                        }}
-                        className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-50 dark:bg-slate-9000 text-white font-bold py-3.5 rounded-2xl shadow-lg transition-all duration-300 text-sm uppercase tracking-wider border border-blue-500 cursor-pointer"
-                      >
-                        <Image className="h-5 w-5" />
-                        Media Library
-                      </motion.button>
-                    )}
-                    <motion.button
-                      whileHover={{ scale: 1.015 }}
-                      whileTap={{ scale: 0.985 }}
-                      onClick={() => {
-                        toggleEditMode();
-                        setIsOpen(false);
-                      }}
-                      className={`w-full flex items-center justify-center gap-2 font-bold py-3.5 rounded-2xl shadow-md transition-all duration-300 text-sm uppercase tracking-wider border cursor-pointer ${
-                        isEditMode
-                          ? 'bg-emerald-600 text-white border-emerald-500'
-                          : 'bg-slate-800 dark:bg-slate-900 text-slate-200 dark:text-slate-100 border-slate-700'
-                      }`}
-                    >
-                      <Edit3 className="h-5 w-5" />
-                      {isEditMode ? 'Edit Mode: ON' : 'Edit Mode: OFF'}
-                    </motion.button>
-                    <motion.button
-                      whileHover={{ scale: 1.015 }}
-                      whileTap={{ scale: 0.985 }}
-                      onClick={() => {
-                        logout();
-                        setIsOpen(false);
-                      }}
-                      className="w-full flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold py-3.5 rounded-2xl shadow-lg transition-all duration-300 text-sm uppercase tracking-wider border border-red-500/30 cursor-pointer"
-                    >
-                      <LogOut className="h-5 w-5" />
-                      Logout
-                    </motion.button>
-                  </div>
-                ) : (
-                  <motion.div
-                    whileHover={{ scale: 1.015 }}
-                    whileTap={{ scale: 0.985 }}
-                  >
-                    <Link
-                      href="/login"
-                      className="w-full flex items-center justify-center bg-blue-600 hover:bg-blue-50 dark:bg-slate-9000 text-white font-bold py-4 rounded-2xl shadow-lg transition-all duration-300 text-base uppercase tracking-wider border border-blue-500/30"
-                    >
-                      Login
-                    </Link>
-                  </motion.div>
-                )}
+
               </motion.div>
             </motion.div>
 

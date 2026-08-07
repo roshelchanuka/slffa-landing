@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { HashRouter as Router, Routes, Route, usePathname } from 'react-router-dom';
 import { AdminProvider } from './context/AdminContext';
 import { ThemeProvider } from './context/ThemeContext';
-import MediaLibraryModal from './components/MediaLibraryModal';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -16,7 +16,7 @@ import UsefulLinks from './views/UsefulLinks';
 import Tools from './views/Tools';
 import CcnHub from './views/CcnHub';
 import CoolRooms from './views/CoolRooms';
-import Login from './views/Login';
+
 import CookiePolicy from './views/CookiePolicy';
 import CookieConsent from 'react-cookie-consent';
 
@@ -124,7 +124,7 @@ function App() {
         <Router>
           <ScrollToTop />
           <RouteLoader />
-          <MediaLibraryModal />
+
           <div className="min-h-screen flex flex-col font-sans overflow-x-hidden relative w-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
             <Navbar />
             <main className="flex-grow w-full overflow-x-hidden">
@@ -138,7 +138,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/ccn-hub" element={<CcnHub />} />
                 <Route path="/cool-rooms" element={<CoolRooms />} />
-                <Route path="/login" element={<Login />} />
+
                 <Route path="/cookie-policy" element={<CookiePolicy />} />
               </Routes>
             </main>
