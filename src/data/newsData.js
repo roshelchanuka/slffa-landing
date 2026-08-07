@@ -104,6 +104,18 @@ const getTogether2024Images = [
 
 export const newsItems = [
   {
+    id: 'slffacs-staff-annual-get-together-2026',
+    title: 'SLFFACS Staff Annual Get Together 2026',
+    date: 'February 6, 2026',
+    category: 'Event',
+    image: getTogether2026Images[0],
+    images: getTogether2026Images,
+    excerpt: `The SLFFACS Staff Annual Get Together was grandly held on Friday, 06th February 2026, at the Dinindu Gardens Hotel in Seeduwa. The event was graced by the participation of Customs Officers, SriLankan Cargo, Airport & Aviation officials, industry agents, and valued consignees.
+
+It was a memorable and delightful occasion for the staff members to celebrate, unwind, and strengthen relationships with our esteemed business partners. The evening was filled with live music, dancing, and great fellowship.`,
+    url: 'https://slffacs.com/slffacs-staff-annual-get-together-2026/',
+  },
+  {
     id: 'slffacs-new-year-2025',
     title: 'Welcoming the New Year 2025 at SLFFA Cargo Services',
     date: 'January 1, 2025',
@@ -116,18 +128,6 @@ The event provided an opportunity for employees to share New Year traditions, st
 
 As we step into 2025, SLFFA Cargo Services remains dedicated to excellence, innovation, and strong partnerships. We extend our sincere wishes to our clients, partners, and employees for a happy, prosperous, and successful New Year.`,
     url: 'https://slffacs.com/welcoming-the-new-year-2025/',
-  },
-  {
-    id: 'slffacs-staff-annual-get-together-2026',
-    title: 'SLFFACS Staff Annual Get Together 2026',
-    date: 'February 6, 2026',
-    category: 'Event',
-    image: getTogether2026Images[0],
-    images: getTogether2026Images,
-    excerpt: `The SLFFACS Staff Annual Get Together was grandly held on Friday, 06th February 2026, at the Dinindu Gardens Hotel in Seeduwa. The event was graced by the participation of Customs Officers, SriLankan Cargo, Airport & Aviation officials, industry agents, and valued consignees.
-
-It was a memorable and delightful occasion for the staff members to celebrate, unwind, and strengthen relationships with our esteemed business partners. The evening was filled with live music, dancing, and great fellowship.`,
-    url: 'https://slffacs.com/slffacs-staff-annual-get-together-2026/',
   },
   {
     id: 'slffacs-staff-annual-get-together-2024',
