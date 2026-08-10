@@ -101,7 +101,7 @@ export const initialGalleryData = [
     description: "Secure breakdown and processing of inbound pallets at the terminal."
   },
   {
-    image: ground3,
+    image: "https://i.ibb.co/r2cSPM12/Chat-GPT-Image-May-26-2026-at-11-21-06-AM.png",
     title: "Advanced Material Handling",
     description: "Forklifts and specialized dollies performing rapid cargo dispatch."
   },
@@ -116,7 +116,7 @@ export const initialGalleryData = [
     description: "Experienced terminal handlers executing rapid and error-free pallet breakdown operations."
   },
   {
-    image: chatgptImgMay20,
+    image: "https://i.ibb.co/2DwcD3T/Chat-GPT-Image-May-20-2026-at-02-53-00-PM.png",
     title: "Weatherproof Terminal Shelter",
     description: "Ample covered airside storage protecting cargo entirely from weather elements during breakdown."
   }
