@@ -96,7 +96,7 @@ export const physicalFacilitiesData = [
 
 export const initialGalleryData = [
   {
-    image: ground1,
+    image: "https://i.ibb.co/R479MQMz/Chat-GPT-Image-Jun-4-2026-at-03-20-57-PM.png",
     title: "Airside Ground Handling",
     description: "Secure breakdown and processing of inbound pallets at the terminal."
   },

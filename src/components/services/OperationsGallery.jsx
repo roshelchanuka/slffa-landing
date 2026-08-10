@@ -233,7 +233,7 @@ export default function OperationsGallery() {
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-white tracking-wide mb-2">
                   {galleryItems[activeImageIndex].title}
                 </h3>
-                <p className="text-slate-350 text-sm sm:text-base font-light leading-relaxed">
+                <p className="text-white text-sm sm:text-base font-light leading-relaxed">
                   {galleryItems[activeImageIndex].description}
                 </p>
                 
