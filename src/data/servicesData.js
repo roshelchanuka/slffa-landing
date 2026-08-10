@@ -111,7 +111,7 @@ export const initialGalleryData = [
     description: "Experienced staff executing error-free pallet breakdown and sorting."
   },
   {
-    image: img9019,
+    image: "https://i.ibb.co/XZnFFQ3j/IMG-9019.jpg",
     title: "Cargo Breakdown Processing",
     description: "Experienced terminal handlers executing rapid and error-free pallet breakdown operations."
   },
