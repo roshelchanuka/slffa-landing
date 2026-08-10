@@ -106,7 +106,7 @@ export const initialGalleryData = [
     description: "Forklifts and specialized dollies performing rapid cargo dispatch."
   },
   {
-    image: ground4,
+    image: "https://i.ibb.co/QvRXjFwd/Chat-GPT-Image-Jul-13-2026-09-11-38-PM.png",
     title: "Break-Bulk & Operations",
     description: "Experienced staff executing error-free pallet breakdown and sorting."
   },
