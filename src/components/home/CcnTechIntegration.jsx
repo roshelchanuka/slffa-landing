@@ -54,7 +54,7 @@ export default function CcnTechIntegration() {
               <div className="absolute inset-0 flex items-center justify-center opacity-[0.06] dark:opacity-[0.03] pointer-events-none select-none z-0">
                 <img src={ccnLogo} alt="CCN Logo Watermark" className="w-72 h-72 md:w-96 md:h-96 object-contain" />
               </div>
-              
+
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
