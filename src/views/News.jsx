@@ -164,8 +164,8 @@ export default function News() {
           <div className="max-w-3xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-sky-200">
               <Newspaper className="h-4 w-4" />
-              <Editable id="news.hero.badge" defaultContent="News & Events">
-                <span>News & Events</span>
+              <Editable id="news.hero.badge" defaultContent="Events">
+                <span>Events</span>
               </Editable>
             </div>
 
