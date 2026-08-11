@@ -15,7 +15,7 @@ export default function StatsGrid() {
     <section className="py-24 relative overflow-hidden text-white bg-slffaBlue">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
-        style={{ backgroundImage: `url('/api/imageProxy?id=1Urk6SxnI7IOD2IYU1Lbo-y9K8WaruGYm')` }}
+        style={{ backgroundImage: `url('https://i.ibb.co/Qj36WfCX/slffacargo-7.png')` }}
       ></div>
       
       {/* Rich sky blue overlay shadow */}
