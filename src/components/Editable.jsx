@@ -14,33 +14,36 @@ export default function Editable({ id, defaultContent, type = 'text', children }
 
   if (!isEditMode) {
     // When edit mode is inactive, return the child with the stored value injected
-    try {
-      const child = React.Children.only(children);
-      if (type === 'image') {
-        if (child.type === 'img' || child.type === 'video') {
-          return React.cloneElement(child, { src: currentValue });
-        } else {
-          return React.cloneElement(child, {
-            style: {
-              ...(child.props.style || {}),
-              backgroundImage: `url('${currentValue}')`
-            }
-          });
-        }
-      } else {
-        return React.cloneElement(child, { children: currentValue });
-      }
-    } catch (e) {
-      console.warn("Editable wrapper expects a single child element.", e);
+    const childArray = React.Children.toArray(children);
+    if (childArray.length !== 1 || !React.isValidElement(childArray[0])) {
+      console.warn('Editable wrapper expects a single React element child. Received:', childArray.length);
       return children;
+    }
+    const child = childArray[0];
+    if (type === 'image') {
+      if (child.type === 'img' || child.type === 'video') {
+        return React.cloneElement(child, { src: currentValue });
+      } else {
+        return React.cloneElement(child, {
+          style: {
+            ...(child.props.style || {}),
+            backgroundImage: `url('${currentValue}')`
+          }
+        });
+      }
+    } else {
+      return React.cloneElement(child, { children: currentValue });
     }
   }
 
   // Edit Mode is active
   let childElement;
   let isAbsolute = false;
-  try {
-    const child = React.Children.only(children);
+  const childArrayEdit = React.Children.toArray(children);
+  if (childArrayEdit.length !== 1 || !React.isValidElement(childArrayEdit[0])) {
+    childElement = children;
+  } else {
+    const child = childArrayEdit[0];
     isAbsolute = child && child.props && child.props.className && child.props.className.includes('absolute');
     if (type === 'image') {
       if (child.type === 'img' || child.type === 'video') {
@@ -56,8 +59,6 @@ export default function Editable({ id, defaultContent, type = 'text', children }
     } else {
       childElement = React.cloneElement(child, { children: currentValue });
     }
-  } catch (e) {
-    childElement = children;
   }
 
   if (type === 'image') {
