@@ -50,34 +50,6 @@ export const anniversary30Images = [
   'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785388256/IMG_5768_gwkiox.jpg'
 ];
 export const newYear2024Images = [
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785394964/ChatGPT_Image_Jun_9_2026_at_02_27_20_PM_m4rknz.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395029/ChatGPT_Image_Jun_9_2026_at_02_19_08_PM_eqnqlr.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395092/ChatGPT_Image_Jun_9_2026_at_02_16_07_PM_oooa9s.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395139/ChatGPT_Image_Jun_9_2026_at_02_29_40_PM_b1nn0b.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395270/ChatGPT_Image_Jun_9_2026_at_02_39_14_PM_pecfsq.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395305/ChatGPT_Image_Jun_9_2026_at_02_37_14_PM_re5ax0.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395370/ChatGPT_Image_Jun_9_2026_at_02_44_40_PM_nrbkr3.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395394/ChatGPT_Image_Jun_9_2026_at_02_48_50_PM_oqxfmz.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395417/ChatGPT_Image_Jun_9_2026_at_02_50_28_PM_ybvqui.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785395420/ChatGPT_Image_Jun_9_2026_at_02_51_57_PM_v9uemg.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785396503/ChatGPT_Image_Jun_9_2026_at_02_21_58_PM_yraho8.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785396521/ChatGPT_Image_Jun_9_2026_at_02_19_26_PM_b3waoo.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402406/ChatGPT_Image_Jun_9_2026_at_12_02_43_PM_flhyss.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402431/ChatGPT_Image_Jun_9_2026_at_12_08_31_PM_vkrtuu.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402435/ChatGPT_Image_Jun_9_2026_at_01_09_05_PM_if0yzn.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402444/ChatGPT_Image_Jun_9_2026_at_12_04_19_PM_n0hhtn.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402455/ChatGPT_Image_Jun_9_2026_at_12_08_22_PM_djyarc.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402581/ChatGPT_Image_Jun_9_2026_at_12_10_04_PM_robukj.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402642/ChatGPT_Image_Jun_9_2026_at_12_11_01_PM_ijf5yg.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402659/ChatGPT_Image_Jun_9_2026_at_12_14_33_PM_ht7b3x.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402665/ChatGPT_Image_Jun_9_2026_at_12_13_02_PM_mtxrmj.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402665/ChatGPT_Image_Jun_9_2026_at_12_12_09_PM_d88vrw.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402677/ChatGPT_Image_Jun_9_2026_at_12_15_38_PM_adg508.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402810/ChatGPT_Image_Jun_9_2026_at_12_20_11_PM_g5frf1.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402833/ChatGPT_Image_Jun_9_2026_at_12_16_55_PM_qmgqsf.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402841/ChatGPT_Image_Jun_9_2026_at_12_25_41_PM_ljamtt.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402845/ChatGPT_Image_Jun_9_2026_at_12_23_09_PM_etatso.png',
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785402848/ChatGPT_Image_Jun_9_2026_at_12_21_24_PM_adwmiw.png'
 ];
 export const cricket2022Images = [
   'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401639/IMG_5831_q0sury.jpg',
