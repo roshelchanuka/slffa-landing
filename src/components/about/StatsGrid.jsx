@@ -4,11 +4,8 @@ import { motion } from 'framer-motion';
 import * as LucideIcons from 'lucide-react';
 import { statsData, ground4 } from '../../data/aboutData';
 import Editable from '../Editable';
-import { useAdmin } from '../../context/AdminContext';
 
 export default function StatsGrid() {
-  const { getContent } = useAdmin();
-  const bgImage = getContent('about.stats.image', 'https://i.ibb.co/Qj36WfCX/slffacargo-7.png');
   const renderIcon = (iconName) => {
     const IconComponent = LucideIcons[iconName];
     return IconComponent ? <IconComponent className="h-6 w-6 text-blue-500" /> : null;
@@ -16,12 +13,10 @@ export default function StatsGrid() {
 
   return (
     <section className="py-24 relative overflow-hidden text-white bg-slffaBlue">
-      <Editable id="about.stats.image" type="image" defaultContent="https://i.ibb.co/Qj36WfCX/slffacargo-7.png">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
-          style={{ backgroundImage: `url('${bgImage}')` }}
-        ></div>
-      </Editable>
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+        style={{ backgroundImage: `url('https://i.ibb.co/205RJx3z/slffacargo-7.png')` }}
+      ></div>
       
       {/* Rich sky blue overlay shadow */}
       <div className="absolute inset-0 bg-gradient-to-tr from-slffaBlue/75 via-slffaBlue/65 to-transparent z-10"></div>
