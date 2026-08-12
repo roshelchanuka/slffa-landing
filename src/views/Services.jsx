@@ -198,9 +198,9 @@ export default function Services() {
             {/* Right Column (Crisp & Beautiful Image Showcase) */}
             <div className="w-full lg:w-5/12 shrink-0">
               <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-slate-100 dark:border-slate-800/80 dark:border-slate-800 relative group bg-slate-100 dark:bg-slate-900">
-                <Editable id="services.cta.image" type="image" defaultContent={ground3}>
+                <Editable id="services.cta.image" type="image" defaultContent="https://i.ibb.co/205RJx3z/slffacargo-7.png">
                   <img 
-                    src={ground3} 
+                    src="https://i.ibb.co/205RJx3z/slffacargo-7.png" 
                     alt="Airside Advantage Ground Operations" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
