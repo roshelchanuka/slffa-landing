@@ -34,7 +34,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
       
       <div className="text-slate-700 dark:text-slate-300 leading-relaxed space-y-8 text-sm md:text-base max-w-5xl mx-auto">
         
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.part1.title" defaultContent="Part I: General Conditions">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-6 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Part I: General Conditions
@@ -96,7 +96,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
               transition={{ duration: 0.5, ease: "easeInOut" }}
               className="overflow-hidden space-y-8"
             >
-              <motion.div variants={itemVariants} className="space-y-6">
+              <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
                 <div className="space-y-6">
                   <div className="pt-6 border-t border-slate-200 dark:border-slate-800">
               <Editable id="tools.stc.clause2.title" defaultContent="2. Scope and Applicability">
@@ -210,7 +210,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.obligations.title" defaultContent="Obligations of Customer">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Obligations of Customer
@@ -281,7 +281,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.special.title" defaultContent="Special Instructions, Goods and Services">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Special Instructions, Goods and Services
@@ -446,7 +446,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.indemnities.title" defaultContent="General Indemnities">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               General Indemnities
@@ -546,7 +546,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.charges.title" defaultContent="Charges and Payments">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Charges and Payments
@@ -602,7 +602,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.liberties.title" defaultContent="Liberties and Rights of Company">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Liberties and Rights of Company
@@ -748,7 +748,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.part2.title" defaultContent="Part II: Company as Agent">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Part II: Company as Agent
@@ -809,7 +809,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.part3.title" defaultContent="Part III: Company as Principal">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Part III: Company as Principal
@@ -1041,7 +1041,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </div>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="space-y-6">
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "0px" }} variants={itemVariants} className="space-y-6">
           <Editable id="tools.stc.misc.title" defaultContent="Miscellaneous and Jurisdiction">
             <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-400 mt-12 mb-4 border-b border-blue-100 dark:border-blue-900/40 pb-2">
               Miscellaneous and Jurisdiction
