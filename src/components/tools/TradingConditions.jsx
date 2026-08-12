@@ -1,12 +1,14 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import { FileText } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import Editable from '../Editable';
 import { definitionsData } from '../../data/toolsData';
 
 export default function TradingConditions({ containerVariants, itemVariants }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <motion.div 
       id="standard-trading"
@@ -61,7 +63,42 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
               </div>
             </div>
 
-            <div className="pt-6 border-t border-slate-200 dark:border-slate-800">
+            {!isExpanded && (
+              <div className="flex mt-6 mb-2">
+                <button 
+                  onClick={() => setIsExpanded(true)}
+                  className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-semibold underline underline-offset-4 transition-colors cursor-pointer"
+                >
+                  Continue reading
+                </button>
+              </div>
+            )}
+            
+            {isExpanded && (
+              <div className="flex mt-6 mb-2">
+                <button 
+                  onClick={() => setIsExpanded(false)}
+                  className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-semibold underline underline-offset-4 transition-colors cursor-pointer"
+                >
+                  Hide
+                </button>
+              </div>
+            )}
+          </div>
+        </motion.div>
+
+        <AnimatePresence>
+          {isExpanded && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              className="overflow-hidden space-y-8"
+            >
+              <motion.div variants={itemVariants} className="space-y-6">
+                <div className="space-y-6">
+                  <div className="pt-6 border-t border-slate-200 dark:border-slate-800">
               <Editable id="tools.stc.clause2.title" defaultContent="2. Scope and Applicability">
                 <h4 className="text-lg font-bold text-blue-600 dark:text-blue-400 mb-3">2. Scope and Applicability</h4>
               </Editable>
@@ -1066,8 +1103,11 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
                 </p>
               </Editable>
             </div>
-          </div>
+            </div>
+          </motion.div>
         </motion.div>
+    )}
+  </AnimatePresence>
       </div>
     </motion.div>
   );
