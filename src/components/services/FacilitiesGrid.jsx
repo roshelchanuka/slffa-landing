@@ -5,7 +5,7 @@ import * as LucideIcons from 'lucide-react';
 import { physicalFacilitiesData } from '../../data/servicesData';
 import Editable from '../Editable';
 
-const facilitiesBg = 'https://i.ibb.co/1ftnWPsG/Chat-GPT-Image-Jun-4-2026-at-03-26-33-PM.png';
+const facilitiesBg = 'https://i.ibb.co/205RJx3z/slffacargo-7.png';
 
 export default function FacilitiesGrid() {
   const renderIcon = (iconName) => {
@@ -16,12 +16,10 @@ export default function FacilitiesGrid() {
   return (
     <section className="py-24 text-white relative overflow-hidden group">
       {/* Background Image spanning the entire section */}
-      <Editable id="services.facilities.bg" type="image" defaultContent={facilitiesBg}>
-        <div 
-          className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" 
-          style={{ backgroundImage: `url('${facilitiesBg}')` }}
-        ></div>
-      </Editable>
+      <div 
+        className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" 
+        style={{ backgroundImage: `url('${facilitiesBg}')` }}
+      ></div>
       
       {/* Lighter sky blue shadow overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-sky-950/60 via-sky-900/40 to-sky-500/10 z-0"></div>
