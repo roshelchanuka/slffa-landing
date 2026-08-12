@@ -9,8 +9,8 @@ const slffaLogo = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_aut
 
 export default function WhoWeAre() {
   return (
-    <section className="py-24 bg-white dark:bg-slate-900 overflow-hidden transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-24 bg-white dark:bg-slate-900 overflow-hidden transition-colors duration-300 relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="w-full lg:w-1/2">
             <motion.div
@@ -71,6 +71,8 @@ export default function WhoWeAre() {
                viewport={{ once: true }}
                className="hidden md:block absolute -top-8 -left-8 w-32 h-32 bg-slffaLightBlue/10 dark:bg-slffaLightBlue/5 rounded-full blur-xl -z-0"
              ></motion.div>
+          </div>
+            </div>
           </div>
         </div>
       </div>

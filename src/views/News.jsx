@@ -9,7 +9,7 @@ import Editable from '../components/Editable';
 import { newsItems } from '../data/newsData';
 
 // Replaced hero image to use Google Drive proxy
-const newsHeroBg = 'https://i.ibb.co/k2jscbgx/pexels-jonathanborba-33824585-jpg.jpg';
+const newsHeroBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386343/ChatGPT_Image_Jun_17_2026_at_02_42_56_PM_ij7hcj.png';
 
 const slideVariants = {
   enter: (direction) => ({
@@ -146,7 +146,7 @@ export default function News() {
           className="absolute inset-0 z-0"
         >
           {/* Split official brand navy blue gradient overlay (matching Services/About) */}
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/60 via-slate-950/30 to-transparent lg:from-slate-950/60 lg:via-slate-900/30 lg:to-transparent z-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/50 to-slate-950/15 lg:from-slate-950/85 lg:via-slate-900/60 lg:to-transparent z-10"></div>
 
           {/* Smooth zoom scale transition background image */}
           <Editable id="news.hero.image" type="image" defaultContent={newsHeroBg}>
