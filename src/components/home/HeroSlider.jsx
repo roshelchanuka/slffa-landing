@@ -101,7 +101,7 @@ export default function HeroSlider({ y, opacity, isMobile }) {
             </Editable>
             {slides[currentSlide].description && (
               <Editable id={`home.hero.slide_${slides[currentSlide].id}.description`} type="textarea" defaultContent={slides[currentSlide].description}>
-                <motion.p variants={itemVariants} className="text-sm sm:text-base xl:text-lg text-blue-50/90 mb-8 md:mb-12 leading-relaxed max-w-2xl font-light backdrop-blur-sm">
+                <motion.p variants={itemVariants} className="text-sm sm:text-base xl:text-lg text-blue-50/90 mb-8 md:mb-12 leading-relaxed max-w-2xl font-light">
                   {slides[currentSlide].description}
                 </motion.p>
               </Editable>
