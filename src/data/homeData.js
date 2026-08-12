@@ -18,7 +18,7 @@ export const heroSlidesData = [
     id: 1,
     defaultImage: 'https://i.ibb.co/zT49hzgz/Chat-GPT-Image-Aug-11-2026-11-42-56-AM.png',
     title: "Faster Freight, Seamless Connections",
-    subtitle: "Speed & Reliability",
+    subtitle: "",
     description: "Experience unparalleled speed and efficiency in air cargo handling. We ensure your shipments are processed and delivered with seamless connectivity."
   }
 ];

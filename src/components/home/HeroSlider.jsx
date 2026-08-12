@@ -85,13 +85,15 @@ export default function HeroSlider({ y, opacity, isMobile }) {
             exit={{ opacity: 0, y: -20, transition: { duration: 0.5 } }}
             className="max-w-3xl text-white"
           >
-            <Editable id={`home.hero.slide_${slides[currentSlide].id}.subtitle`} defaultContent={slides[currentSlide].subtitle}>
-              <motion.div variants={itemVariants} className="inline-block mb-4 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
-                <h2 className="text-xs sm:text-sm xl:text-base font-bold text-blue-200 uppercase tracking-[0.2em]">
-                  {slides[currentSlide].subtitle}
-                </h2>
-              </motion.div>
-            </Editable>
+            {slides[currentSlide].subtitle && (
+              <Editable id={`home.hero.slide_${slides[currentSlide].id}.subtitle`} defaultContent={slides[currentSlide].subtitle}>
+                <motion.div variants={itemVariants} className="inline-block mb-4 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
+                  <h2 className="text-xs sm:text-sm xl:text-base font-bold text-blue-200 uppercase tracking-[0.2em]">
+                    {slides[currentSlide].subtitle}
+                  </h2>
+                </motion.div>
+              </Editable>
+            )}
             <Editable id={`home.hero.slide_${slides[currentSlide].id}.title`} defaultContent={slides[currentSlide].title}>
               <motion.h1 variants={itemVariants} className="text-3xl sm:text-5xl xl:text-6xl font-black tracking-tighter mb-6 md:mb-8 leading-[1.2] text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/70 drop-shadow-sm">
                 {slides[currentSlide].title}
