@@ -5,7 +5,7 @@ import * as LucideIcons from 'lucide-react';
 import { physicalFacilitiesData } from '../../data/servicesData';
 import Editable from '../Editable';
 
-const facilitiesBg = 'https://i.ibb.co/205RJx3z/slffacargo-7.png';
+const facilitiesBg = 'https://i.ibb.co/N8HYxtK/Chat-GPT-Image-Jun-4-2026-at-03-26-33-PM.png';
 
 export default function FacilitiesGrid() {
   const renderIcon = (iconName) => {
