@@ -87,6 +87,18 @@ export const cricket2022Images = [
   'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401776/IMG_5840_llxjon.jpg'
 ];
 export const newYear2021Images = [
+  'https://i.ibb.co/vCLNQy4F/Chat-GPT-Image-Jun-9-2026-at-02-16-07-PM.png',
+  'https://i.ibb.co/YT4BLMkx/Chat-GPT-Image-Jun-9-2026-at-02-19-08-PM.png',
+  'https://i.ibb.co/VpMMJyvK/Chat-GPT-Image-Jun-9-2026-at-02-19-26-PM.png',
+  'https://i.ibb.co/4w2ZNwxL/Chat-GPT-Image-Jun-9-2026-at-02-21-58-PM.png',
+  'https://i.ibb.co/5hmSKhnT/Chat-GPT-Image-Jun-9-2026-at-02-27-20-PM.png',
+  'https://i.ibb.co/JWYx7k3c/Chat-GPT-Image-Jun-9-2026-at-02-29-40-PM.png',
+  'https://i.ibb.co/F4yY5q8W/Chat-GPT-Image-Jun-9-2026-at-02-37-14-PM.png',
+  'https://i.ibb.co/Tx6dVZ8T/Chat-GPT-Image-Jun-9-2026-at-02-39-14-PM.png',
+  'https://i.ibb.co/LDxrPH6H/Chat-GPT-Image-Jun-9-2026-at-02-44-40-PM.png',
+  'https://i.ibb.co/YB368Z8n/Chat-GPT-Image-Jun-9-2026-at-02-48-50-PM.png',
+  'https://i.ibb.co/Kx3M9tV5/Chat-GPT-Image-Jun-9-2026-at-02-50-28-PM.png',
+  'https://i.ibb.co/S4168wTb/Chat-GPT-Image-Jun-9-2026-at-02-51-57-PM.png'
 ];
 export const getTogether2026Images = [
   'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785403199/1d2760b9-f223-406f-864d-6c3b9cf979aa_axqcwo.jpg',
