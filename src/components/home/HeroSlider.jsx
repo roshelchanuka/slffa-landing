@@ -93,7 +93,7 @@ export default function HeroSlider({ y, opacity, isMobile }) {
               </motion.div>
             </Editable>
             <Editable id={`home.hero.slide_${slides[currentSlide].id}.title`} defaultContent={slides[currentSlide].title}>
-              <motion.h1 variants={itemVariants} className="text-4xl sm:text-6xl xl:text-8xl font-black tracking-tighter mb-6 md:mb-8 leading-[1.1] text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/70 drop-shadow-sm">
+              <motion.h1 variants={itemVariants} className="text-3xl sm:text-5xl xl:text-6xl font-black tracking-tighter mb-6 md:mb-8 leading-[1.2] text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/70 drop-shadow-sm">
                 {slides[currentSlide].title}
               </motion.h1>
             </Editable>
