@@ -72,8 +72,6 @@ export default function WhoWeAre() {
                className="hidden md:block absolute -top-8 -left-8 w-32 h-32 bg-slffaLightBlue/10 dark:bg-slffaLightBlue/5 rounded-full blur-xl -z-0"
              ></motion.div>
           </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
