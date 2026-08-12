@@ -46,7 +46,7 @@ export default function HeroSlider({ y, opacity, isMobile }) {
         style={isMobile ? {} : { y, opacity }}
         className="absolute inset-0 z-0"
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-slffaBlue/90 via-slffaBlue/55 to-slffaBlue/15 xl:from-slffaBlue/80 xl:via-slffaBlue/50 xl:to-transparent z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slffaBlue/70 via-slffaBlue/40 to-transparent xl:from-slffaBlue/60 xl:via-slffaBlue/30 xl:to-transparent z-10"></div>
         <AnimatePresence mode="wait">
           <motion.div 
             key={currentSlide}
@@ -67,15 +67,15 @@ export default function HeroSlider({ y, opacity, isMobile }) {
                   backgroundImage: `url('${slides[currentSlide].image}')` 
                 }}
               >
-                {/* Subtle dark overlay directly on the image to shade it and enhance text legibility */}
-                <div className="absolute inset-0 bg-slate-950/40 mix-blend-multiply"></div>
+                {/* Lighter dark overlay to keep image in focus while preserving text legibility */}
+                <div className="absolute inset-0 bg-slate-900/20"></div>
               </div>
             </Editable>
           </motion.div>
         </AnimatePresence>
       </motion.div>
       
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full pt-24 pb-14 sm:pt-32 sm:pb-20 xl:py-0 text-left">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full pt-24 pb-14 sm:pt-32 sm:pb-20 xl:py-0 flex items-center text-left h-full">
         <AnimatePresence mode="wait">
           <motion.div 
             key={currentSlide}
@@ -95,15 +95,17 @@ export default function HeroSlider({ y, opacity, isMobile }) {
               </Editable>
             )}
             <Editable id={`home.hero.slide_${slides[currentSlide].id}.title`} defaultContent={slides[currentSlide].title}>
-              <motion.h1 variants={itemVariants} className="text-3xl sm:text-5xl xl:text-6xl font-black tracking-tighter mb-6 md:mb-8 leading-[1.2] text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/70 drop-shadow-sm">
+              <motion.h1 variants={itemVariants} className="text-2xl sm:text-4xl xl:text-5xl font-extrabold tracking-tight mb-6 md:mb-8 leading-[1.2] text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/70 drop-shadow-md">
                 {slides[currentSlide].title}
               </motion.h1>
             </Editable>
-            <Editable id={`home.hero.slide_${slides[currentSlide].id}.description`} type="textarea" defaultContent={slides[currentSlide].description}>
-              <motion.p variants={itemVariants} className="text-base sm:text-lg xl:text-2xl text-blue-50/90 mb-8 md:mb-12 leading-relaxed max-w-3xl font-light border-l-4 border-blue-400 pl-6 backdrop-blur-sm">
-                {slides[currentSlide].description}
-              </motion.p>
-            </Editable>
+            {slides[currentSlide].description && (
+              <Editable id={`home.hero.slide_${slides[currentSlide].id}.description`} type="textarea" defaultContent={slides[currentSlide].description}>
+                <motion.p variants={itemVariants} className="text-base sm:text-lg xl:text-2xl text-blue-50/90 mb-8 md:mb-12 leading-relaxed max-w-3xl font-light backdrop-blur-sm mx-auto">
+                  {slides[currentSlide].description}
+                </motion.p>
+              </Editable>
+            )}
           </motion.div>
         </AnimatePresence>
       </div>
