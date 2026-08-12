@@ -73,17 +73,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
                 </button>
               </div>
             )}
-            
-            {isExpanded && (
-              <div className="flex mt-6 mb-2">
-                <button 
-                  onClick={() => setIsExpanded(false)}
-                  className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-semibold underline underline-offset-4 transition-colors cursor-pointer"
-                >
-                  Hide
-                </button>
-              </div>
-            )}
+
           </div>
         </motion.div>
 
@@ -1102,6 +1092,20 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
                   These conditions and any claim or dispute arising out of or in connection with the services of the Company shall be subject to Sri Lankan Law and the exclusive jurisdiction of the Courts of Sri Lanka.
                 </p>
               </Editable>
+
+              <div className="flex mt-8">
+                <button 
+                  onClick={() => {
+                    setIsExpanded(false);
+                    setTimeout(() => {
+                      document.getElementById('standard-trading')?.scrollIntoView({ behavior: 'smooth' });
+                    }, 100);
+                  }}
+                  className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-semibold underline underline-offset-4 transition-colors cursor-pointer"
+                >
+                  Hide
+                </button>
+              </div>
             </div>
             </div>
           </motion.div>
