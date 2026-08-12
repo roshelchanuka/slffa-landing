@@ -12,10 +12,10 @@ export default function VisionMission() {
           
           {/* Vision Column */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, scale: 0.8, y: 30 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ type: "spring", stiffness: 100, damping: 15, duration: 0.5 }}
             className="space-y-4"
           >
             <Editable id="about.vision.title" defaultContent="Vision">
@@ -30,10 +30,10 @@ export default function VisionMission() {
 
           {/* Mission Column */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, scale: 0.8, y: 30 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            transition={{ type: "spring", stiffness: 100, damping: 15, duration: 0.5, delay: 0.2 }}
             className="space-y-4"
           >
             <Editable id="about.mission.title" defaultContent="Mission">
