@@ -16,38 +16,10 @@ export { stcBg, imgGroundHandling };
 export const heroSlidesData = [
   {
     id: 1,
-    defaultImage: chatgptImgJun15,
-    title: "Handling Air Cargo with Speed & Accuracy",
-    subtitle: "",
-    description: "State-of-the-art temperature-controlled facilities ensuring your perishable goods remain fresh."
-  },
-  {
-    id: 2,
-    defaultImage: homeSlider2,
-    title: "Advanced Temperature-Controlled Storage",
-    subtitle: "Premium Cold Room Solutions",
-    description: "Industry-grade cold storage from +25°C to -80°C. Specialized for pharmaceuticals, perishables, and sensitive cargo with 24/7 reliable management."
-  },
-  {
-    id: 3,
-    defaultImage: chatgptImgJun15_2,
-    title: "Tailored for the Apparel Industry",
-    subtitle: "Fabric Rolls & Garments",
-    description: "Efficient terminal operations tailored for Sri Lanka's leading apparel and textile industry."
-  },
-  {
-    id: 4,
-    defaultImage: chatgptImgJun15_3,
-    title: "Precision Cargo Solutions",
-    subtitle: "Electric Items & Electronics",
-    description: "Careful loading and unloading protocols to protect your sensitive electronic equipment."
-  },
-  {
-    id: 5,
-    defaultImage: coolRoomMedicine,
-    title: "Specialized Cold Chain Medicine Cargo",
-    subtitle: "Safe & Secure Cold Storage",
-    description: "We handle and transport sensitive pharmaceutical and medicine cargo with the utmost care, utilizing state-of-the-art airside cool rooms (2°C - 8°C) to guarantee their safety and efficacy."
+    defaultImage: 'https://i.ibb.co/zT49hzgz/Chat-GPT-Image-Aug-11-2026-11-42-56-AM.png',
+    title: "Faster Freight, Seamless Connections",
+    subtitle: "Speed & Reliability",
+    description: "Experience unparalleled speed and efficiency in air cargo handling. We ensure your shipments are processed and delivered with seamless connectivity."
   }
 ];
 

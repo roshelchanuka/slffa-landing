@@ -86,17 +86,19 @@ export default function HeroSlider({ y, opacity, isMobile }) {
             className="max-w-3xl text-white"
           >
             <Editable id={`home.hero.slide_${slides[currentSlide].id}.subtitle`} defaultContent={slides[currentSlide].subtitle}>
-              <motion.h2 variants={itemVariants} className="text-sm sm:text-base xl:text-2xl font-bold text-blue-300 mb-2 uppercase tracking-wider drop-shadow-md">
-                {slides[currentSlide].subtitle}
-              </motion.h2>
+              <motion.div variants={itemVariants} className="inline-block mb-4 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
+                <h2 className="text-xs sm:text-sm xl:text-base font-bold text-blue-200 uppercase tracking-[0.2em]">
+                  {slides[currentSlide].subtitle}
+                </h2>
+              </motion.div>
             </Editable>
             <Editable id={`home.hero.slide_${slides[currentSlide].id}.title`} defaultContent={slides[currentSlide].title}>
-              <motion.h1 variants={itemVariants} className="text-3xl sm:text-5xl xl:text-7xl font-extrabold tracking-tight mb-4 md:mb-6 leading-tight drop-shadow-lg animate-pulse-slow">
+              <motion.h1 variants={itemVariants} className="text-4xl sm:text-6xl xl:text-8xl font-black tracking-tighter mb-6 md:mb-8 leading-[1.1] text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white/70 drop-shadow-sm">
                 {slides[currentSlide].title}
               </motion.h1>
             </Editable>
             <Editable id={`home.hero.slide_${slides[currentSlide].id}.description`} type="textarea" defaultContent={slides[currentSlide].description}>
-              <motion.p variants={itemVariants} className="text-sm sm:text-base xl:text-xl text-blue-100 mb-6 md:mb-10 leading-relaxed max-w-2xl font-light drop-shadow-md">
+              <motion.p variants={itemVariants} className="text-base sm:text-lg xl:text-2xl text-blue-50/90 mb-8 md:mb-12 leading-relaxed max-w-3xl font-light border-l-4 border-blue-400 pl-6 backdrop-blur-sm">
                 {slides[currentSlide].description}
               </motion.p>
             </Editable>
@@ -105,18 +107,20 @@ export default function HeroSlider({ y, opacity, isMobile }) {
       </div>
       
       {/* Slider Indicators */}
-      <div className="absolute bottom-6 md:bottom-8 left-6 sm:left-8 lg:left-12 z-20 flex space-x-3">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentSlide(index)}
-            className={`h-2 rounded-full transition-all duration-500 cursor-pointer ${
-              currentSlide === index ? 'w-8 bg-blue-400' : 'w-2 bg-white dark:bg-slate-950/40 hover:bg-white dark:bg-slate-950/70'
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-          ></button>
-        ))}
-      </div>
+      {slides.length > 1 && (
+        <div className="absolute bottom-6 md:bottom-8 left-6 sm:left-8 lg:left-12 z-20 flex space-x-3">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentSlide(index)}
+              className={`h-2 rounded-full transition-all duration-500 cursor-pointer ${
+                currentSlide === index ? 'w-8 bg-blue-400' : 'w-2 bg-white/50 hover:bg-white'
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            ></button>
+          ))}
+        </div>
+      )}
 
       {/* Scroll Indicator */}
       <motion.div 
