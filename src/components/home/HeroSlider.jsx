@@ -75,7 +75,7 @@ export default function HeroSlider({ y, opacity, isMobile }) {
         </AnimatePresence>
       </motion.div>
       
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full pt-24 pb-14 sm:pt-32 sm:pb-20 xl:py-0 flex items-center text-left h-full">
+      <div className="relative z-10 max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 w-full pt-24 pb-14 sm:pt-32 sm:pb-20 xl:py-0 flex items-center text-left h-full">
         <AnimatePresence mode="wait">
           <motion.div 
             key={currentSlide}
@@ -83,7 +83,7 @@ export default function HeroSlider({ y, opacity, isMobile }) {
             initial="hidden"
             animate="visible"
             exit={{ opacity: 0, y: -20, transition: { duration: 0.5 } }}
-            className="max-w-3xl text-white"
+            className="max-w-3xl text-white mt-24 sm:mt-32 xl:mt-40"
           >
             {slides[currentSlide].subtitle && (
               <Editable id={`home.hero.slide_${slides[currentSlide].id}.subtitle`} defaultContent={slides[currentSlide].subtitle}>
@@ -101,7 +101,7 @@ export default function HeroSlider({ y, opacity, isMobile }) {
             </Editable>
             {slides[currentSlide].description && (
               <Editable id={`home.hero.slide_${slides[currentSlide].id}.description`} type="textarea" defaultContent={slides[currentSlide].description}>
-                <motion.p variants={itemVariants} className="text-base sm:text-lg xl:text-2xl text-blue-50/90 mb-8 md:mb-12 leading-relaxed max-w-3xl font-light backdrop-blur-sm mx-auto">
+                <motion.p variants={itemVariants} className="text-sm sm:text-base xl:text-lg text-blue-50/90 mb-8 md:mb-12 leading-relaxed max-w-2xl font-light backdrop-blur-sm">
                   {slides[currentSlide].description}
                 </motion.p>
               </Editable>
