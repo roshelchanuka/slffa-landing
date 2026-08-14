@@ -2,9 +2,9 @@
 
 // Import images from assets/images folder
 const bgImage = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386448/download_vnfn2w.png';
-const eventImg1 = '/images/ChatGPT Image Jun 4, 2026 at 12_34_23 PM.png';
-const eventImg2 = '/images/ChatGPT Image Jun 4, 2026 at 12_38_40 PM.png';
-const eventImg3 = '/images/ChatGPT Image Jun 4, 2026 at 12_44_01 PM.png';
+const eventImg1 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385116/ChatGPT_Image_Jun_4_2026_at_12_34_23_PM_qkyrwf.png';
+const eventImg2 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385192/ChatGPT_Image_Jun_4_2026_at_12_38_40_PM_c11bm1.png';
+const eventImg3 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/v1785385331/ChatGPT_Image_Jun_4_2026_at_12_44_01_PM_q33jhm.png';
 
 export { bgImage, eventImg1, eventImg2, eventImg3 };
 
