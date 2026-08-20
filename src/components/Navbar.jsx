@@ -23,7 +23,6 @@ export default function Navbar() {
     { name: 'About Us', path: '/about', icon: Info },
     { name: 'Our Services', path: '/services', icon: Briefcase },
     { name: 'CCN Operation', path: '/ccn-hub', icon: Globe },
-    { name: 'Events', path: '/news', icon: Newspaper },
     { name: 'Tools', path: '/tools', icon: Wrench },
     { name: 'Contact Us', path: '/contact', icon: PhoneCall },
   ];
