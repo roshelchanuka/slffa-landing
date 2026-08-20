@@ -9,6 +9,7 @@ import FeaturedServices from '../components/home/FeaturedServices';
 import GroundOperations from '../components/home/GroundOperations';
 import NewsEvents from '../components/home/NewsEvents';
 import CcnTechIntegration from '../components/home/CcnTechIntegration';
+import UsefulLinksPromo from '../components/home/UsefulLinksPromo';
 
 export default function Home() {
   const { scrollY } = useScroll();
@@ -31,8 +32,11 @@ export default function Home() {
       {/* Who We Are Section */}
       <WhoWeAre />
 
-      {/* Featured Services (Cool Room & STC) */}
-      <FeaturedServices />
+      {/* Featured Services (STC) */}
+      <FeaturedServices hideCoolRooms={true} />
+
+      {/* Useful Links Promo */}
+      <UsefulLinksPromo />
 
 
       {/* Ground Handling Operations Section */}
