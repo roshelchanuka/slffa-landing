@@ -9,7 +9,6 @@ import { aboutCargo } from '../data/aboutData';
 import IntroStory from '../components/about/IntroStory';
 import VisionMission from '../components/about/VisionMission';
 import StatsGrid from '../components/about/StatsGrid';
-import CoreExcellence from '../components/about/CoreExcellence';
 
 export default function About() {
   const { scrollY } = useScroll();
@@ -110,9 +109,6 @@ export default function About() {
 
       {/* Stats Section */}
       <StatsGrid />
-
-      {/* Core Excellence & Standards Section */}
-      <CoreExcellence />
 
     </div>
   );
