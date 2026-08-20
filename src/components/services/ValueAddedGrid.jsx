@@ -14,10 +14,10 @@ export default function ValueAddedGrid({ staggerContainer, fadeInUp }) {
   };
 
   return (
-    <section className="py-24 text-white relative overflow-hidden group">
+    <section className="py-24 text-white relative overflow-hidden">
       {/* Background Image spanning the entire section */}
       <div 
-        className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" 
+        className="absolute inset-0 bg-cover bg-center" 
         style={{ backgroundImage: `url('${facilitiesBg}')` }}
       ></div>
       
