@@ -97,7 +97,7 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className={`flex-grow ${hideCoolRooms ? 'w-full' : 'lg:w-2/5'} rounded-3xl border border-slate-200 dark:border-slate-800/80 dark:border-slate-800 p-8 md:p-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(245,158,11,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col justify-between group`}
+            className={`flex-grow ${hideCoolRooms ? 'w-full min-h-[300px] md:min-h-[340px] p-10 md:p-12' : 'lg:w-2/5 p-8 md:p-10'} rounded-3xl border border-slate-200 dark:border-slate-800/80 dark:border-slate-800 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(245,158,11,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col justify-between group`}
           >
             {/* Background Image with hover zoom */}
             <div 
