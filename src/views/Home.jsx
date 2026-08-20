@@ -7,7 +7,7 @@ import HeroSlider from '../components/home/HeroSlider';
 import WhoWeAre from '../components/home/WhoWeAre';
 import FeaturedServices from '../components/home/FeaturedServices';
 import GroundOperations from '../components/home/GroundOperations';
-import NewsEvents from '../components/home/NewsEvents';
+import SimpleNewsIntro from '../components/home/SimpleNewsIntro';
 import CcnTechIntegration from '../components/home/CcnTechIntegration';
 import UsefulLinksPromo from '../components/home/UsefulLinksPromo';
 
@@ -35,6 +35,9 @@ export default function Home() {
       {/* Featured Services (STC) */}
       <FeaturedServices hideCoolRooms={true} />
 
+      {/* Simple News & Events Intro */}
+      <SimpleNewsIntro />
+
       {/* Useful Links Promo */}
       <UsefulLinksPromo />
 
@@ -42,8 +45,7 @@ export default function Home() {
       {/* Ground Handling Operations Section */}
       <GroundOperations />
 
-      {/* Standalone News & Events Section */}
-      <NewsEvents />
+      {/* Standalone News & Events Section (Removed) */}
 
       {/* CCNhub Technology Integration Section */}
       {/* <CcnTechIntegration /> */}
