@@ -11,6 +11,7 @@ import ShelterExpansion from '../components/services/ShelterExpansion';
 import ValueAddedGrid from '../components/services/ValueAddedGrid';
 import FacilitiesGrid from '../components/services/FacilitiesGrid';
 import OperationsGallery from '../components/services/OperationsGallery';
+import FeaturedServices from '../components/home/FeaturedServices';
 
 export default function Services() {
   const { scrollY } = useScroll();
@@ -112,6 +113,9 @@ export default function Services() {
 
       {/* Our Services - Value Added Grid */}
       <ValueAddedGrid staggerContainer={staggerContainer} fadeInUp={fadeInUp} />
+
+      {/* Featured Services (Cool Room & STC) added here */}
+      <FeaturedServices hideSTC={true} />
 
       {/* Physical Facilities Section */}
       <FacilitiesGrid />

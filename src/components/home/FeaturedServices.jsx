@@ -6,7 +6,7 @@ import * as LucideIcons from 'lucide-react';
 import { featuresData, stcBg } from '../../data/homeData';
 import Editable from '../Editable';
 
-export default function FeaturedServices() {
+export default function FeaturedServices({ hideSTC = false }) {
   const { Snowflake, ShieldCheck, FileText, ArrowRight } = LucideIcons;
 
   const renderIcon = (iconName) => {
@@ -26,7 +26,7 @@ export default function FeaturedServices() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="flex-grow lg:w-3/5 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800/80 dark:border-slate-800 p-8 md:p-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(37,99,235,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col md:flex-row items-stretch gap-6"
+            className={`flex-grow ${hideSTC ? 'w-full' : 'lg:w-3/5'} bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800/80 dark:border-slate-800 p-8 md:p-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(37,99,235,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col md:flex-row items-stretch gap-6`}
           >
             {/* Elegant side color highlight bar */}
             <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-blue-600 to-sky-400"></div>
@@ -89,7 +89,8 @@ export default function FeaturedServices() {
           </motion.div>
  
           {/* Right Box: Standard Trading Conditions Link Box */}
-          <motion.div 
+          {!hideSTC && (
+            <motion.div 
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -146,6 +147,7 @@ export default function FeaturedServices() {
               <FileText className="h-24 w-24 text-slate-900 dark:text-slate-100" />
             </div>
           </motion.div>
+          )}
         </div>
       </div>
     </section>
