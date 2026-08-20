@@ -42,7 +42,7 @@ export default function Home() {
       <NewsEvents />
 
       {/* CCNhub Technology Integration Section */}
-      <CcnTechIntegration />
+      {/* <CcnTechIntegration /> */}
     </div>
   );
 }

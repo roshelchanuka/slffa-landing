@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Edit3, LogOut, Image, Home, Info, Briefcase, Newspaper, Wrench, PhoneCall } from 'lucide-react';
+import { Menu, X, Edit3, LogOut, Image, Home, Info, Briefcase, Newspaper, Wrench, PhoneCall, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAdmin } from '../context/AdminContext';
@@ -22,6 +22,7 @@ export default function Navbar() {
     { name: 'Home', path: '/', icon: Home },
     { name: 'About Us', path: '/about', icon: Info },
     { name: 'Our Services', path: '/services', icon: Briefcase },
+    { name: 'CCN Hub', path: '/ccn-hub', icon: Globe },
     { name: 'Events', path: '/news', icon: Newspaper },
     { name: 'Tools', path: '/tools', icon: Wrench },
     { name: 'Contact Us', path: '/contact', icon: PhoneCall },
