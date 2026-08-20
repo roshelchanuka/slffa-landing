@@ -76,7 +76,7 @@ export default function OperationsGallery() {
   };
 
   return (
-    <section id="ground-handling" className="py-24 bg-white dark:bg-slate-950 relative z-30 scroll-mt-28">
+    <section id="ground-handling" className={`py-24 bg-white dark:bg-slate-950 relative scroll-mt-28 ${activeImageIndex !== null || isGalleryModalOpen ? 'z-[9999]' : 'z-30'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center mb-16 max-w-3xl mx-auto">

@@ -10,6 +10,7 @@ import GroundOperations from '../components/home/GroundOperations';
 import SimpleNewsIntro from '../components/home/SimpleNewsIntro';
 import CcnTechIntegration from '../components/home/CcnTechIntegration';
 import UsefulLinksPromo from '../components/home/UsefulLinksPromo';
+import MemberLogos from '../components/MemberLogos';
 
 export default function Home() {
   const { scrollY } = useScroll();
@@ -49,6 +50,9 @@ export default function Home() {
 
       {/* CCNhub Technology Integration Section */}
       {/* <CcnTechIntegration /> */}
+      
+      {/* Member Logos Section */}
+      <MemberLogos />
     </div>
   );
 }
