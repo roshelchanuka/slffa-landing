@@ -88,7 +88,8 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
               <Snowflake className="h-16 w-16 md:h-20 md:w-20 text-blue-500/90 animate-spin-slow drop-shadow-[0_4px_20px_rgba(59,130,246,0.25)]" />
             </div>
           </motion.div>
- 
+          )}
+
           {/* Right Box: Standard Trading Conditions Link Box */}
           {!hideSTC && (
             <motion.div 
