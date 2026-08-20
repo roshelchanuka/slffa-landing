@@ -20,9 +20,9 @@ export const valueAddedServicesData = [
     description: "Premium, value-added import air cargo services strategically located airside at the Bandaranaike International Airport in Katunayake."
   },
   {
-    iconName: "Calendar",
-    title: "Demurrage Free Window",
-    description: "Demurrage-free terminal storage and handling facility for a generous period of 3 days from the date of arrival of cargo."
+    iconName: "CheckCircle2",
+    title: "100% Error-Free Record",
+    description: "Maintaining a flawless 100% error-free delivery and terminal release record through rigorous quality checks and state-of-the-art software systems."
   },
   {
     iconName: "Send",
@@ -30,20 +30,16 @@ export const valueAddedServicesData = [
     description: "Provision of door-to-door delivery of import documents by courier. This enables rapid release of crucial documents from Agents to their Consignees."
   },
   {
-    iconName: "CheckCircle2",
-    title: "100% Error-Free Record",
-    description: "Maintaining a flawless 100% error-free delivery and terminal release record through rigorous quality checks and state-of-the-art software systems."
+    iconName: "Calendar",
+    title: "Demurrage Free Window",
+    description: "Demurrage-free terminal storage and handling facility for a generous period of 3 days from the date of arrival of cargo."
   },
   {
     iconName: "Search",
     title: "Immediate Trace Assistance",
     description: "Immediate direct assistance to all Cargo Agents & Consignees to trace their physical cargo and import documentation in real-time."
   },
-  {
-    iconName: "Moon",
-    title: "Night Delivery Logistics",
-    description: "Fully staffed night delivery of cargo and paperwork. Enjoy flexible, non-peak hour dispatch and swift clearances after dark."
-  },
+
   {
     iconName: "Shield",
     title: "Safe Operations & Handling",
