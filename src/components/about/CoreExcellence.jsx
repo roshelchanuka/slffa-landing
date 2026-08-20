@@ -14,76 +14,14 @@ export default function CoreExcellence() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-16">
 
-            {/* Visual Column */}
-            <div className="w-full lg:w-1/2 order-2 lg:order-1 relative">
-              <div className="bg-blue-50 dark:bg-slate-900 rounded-3xl p-8 sm:p-12 border border-blue-100 dark:border-blue-900/40">
-                <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center">
-                  <Award className="text-blue-600 dark:text-blue-400 mr-2 h-7 w-7" />
-                  <Editable id="about.corevalues.title" defaultContent="Our Core Values & Operations">
-                    <span>Our Core Values & Operations</span>
-                  </Editable>
-                </h3>
-
-                <div className="space-y-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="bg-blue-600 text-white rounded-lg p-2 mt-1 shrink-0">
-                      <CheckCircle2 className="h-5 w-5" />
-                    </div>
-                    <div>
-                      <Editable id="about.corevalues.item_1.title" defaultContent="Proven Accuracy & Reliability">
-                        <h4 className="font-bold text-slate-900 dark:text-white mb-1">Proven Accuracy & Reliability</h4>
-                      </Editable>
-                      <Editable id="about.corevalues.item_1.desc" type="textarea" defaultContent="A long and proven track record of absolute accuracy and speed in releasing imports, highly appreciated by top satisfied clients.">
-                        <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                          A long and proven track record of absolute accuracy and speed in releasing imports, highly appreciated by top satisfied clients.
-                        </p>
-                      </Editable>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <div className="bg-blue-600 text-white rounded-lg p-2 mt-1 shrink-0">
-                      <Zap className="h-5 w-5" />
-                    </div>
-                    <div>
-                      <Editable id="about.corevalues.item_2.title" defaultContent="Tailored for Apparel & Garments">
-                        <h4 className="font-bold text-slate-900 dark:text-white mb-1">Tailored for Apparel & Garments</h4>
-                      </Editable>
-                      <Editable id="about.corevalues.item_2.desc" type="textarea" defaultContent="Highly utilized by free trade zone organizations, especially those importing raw fabrics and textiles to manufacture quality garments.">
-                        <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                          Highly utilized by free trade zone organizations, especially those importing raw fabrics and textiles to manufacture quality garments.
-                        </p>
-                      </Editable>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <div className="bg-blue-600 text-white rounded-lg p-2 mt-1 shrink-0">
-                      <Globe className="h-5 w-5" />
-                    </div>
-                    <div>
-                      <Editable id="about.corevalues.item_3.title" defaultContent="State-of-the-Art Web Infrastructure">
-                        <h4 className="font-bold text-slate-900 dark:text-white mb-1">State-of-the-Art Web Infrastructure</h4>
-                      </Editable>
-                      <Editable id="about.corevalues.item_3.desc" type="textarea" defaultContent="Operations operate in a seamless web-based software environment to automate receipts, terminal storage updates, and delivery alerts.">
-                        <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                          Operations operate in a seamless web-based software environment to automate receipts, terminal storage updates, and delivery alerts.
-                        </p>
-                      </Editable>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Content Column */}
-            <div className="w-full lg:w-1/2 order-1 lg:order-2">
+            <div className="w-full max-w-4xl mx-auto text-center">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="space-y-6"
+                className="space-y-6 flex flex-col items-center"
               >
                 <span className="text-blue-600 dark:text-blue-400 font-bold text-sm uppercase tracking-widest block">Speed and Standards</span>
                 <Editable id="about.icao.title" defaultContent="Targeting the ICAO Recommended Practice">
@@ -91,7 +29,7 @@ export default function CoreExcellence() {
                     Targeting the ICAO Recommended Practice
                   </h2>
                 </Editable>
-                <div className="w-20 h-1.5 bg-blue-600 rounded-full mt-4"></div>
+                <div className="w-20 h-1.5 bg-blue-600 rounded-full mt-4 mx-auto"></div>
 
                 <Editable id="about.icao.desc_1" type="textarea" defaultContent="Our main operational activity continues to be facilitating the smooth and uninterrupted flow of air-freighted import cargo in Sri Lanka. Speed of release is vital to businesses.">
                   <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
@@ -100,9 +38,9 @@ export default function CoreExcellence() {
                   </p>
                 </Editable>
 
-                <Editable id="about.icao.desc_2" type="textarea" defaultContent="It has always been the primary objective of SLFFA Cargo Services to meet and maintain the ICAO Recommended Practice: processing all incoming cargo through the terminal within a maximum period of 4 hours from receipt from the air carrier.">
+                <Editable id="about.icao.desc_2" type="textarea" defaultContent="It has always been the primary objective of SLFFA Cargo Services LTD to meet and maintain the ICAO Recommended Practice: processing all incoming cargo through the terminal within a maximum period of 4 hours from receipt from the air carrier.">
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                    It has always been the primary objective of SLFFA Cargo Services to meet and maintain the <strong className="text-slate-800 dark:text-slate-200">ICAO "Recommended Practice"</strong>:
+                    It has always been the primary objective of SLFFA Cargo Services LTD to meet and maintain the <strong className="text-slate-800 dark:text-slate-200">ICAO "Recommended Practice"</strong>:
                     processing all incoming cargo through the terminal within a <strong>maximum period of 4 hours</strong> from receipt from the air carrier.
                   </p>
                 </Editable>
@@ -113,7 +51,7 @@ export default function CoreExcellence() {
                   </p>
                 </Editable>
 
-                <div className="pt-4">
+                <div className="pt-4 w-full flex justify-center">
                   <div className="flex items-center space-x-6">
                     <div className="text-center">
                       <Editable id="about.icao.stat_1.value" defaultContent="4 hrs">
