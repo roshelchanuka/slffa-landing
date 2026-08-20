@@ -27,6 +27,13 @@ export const heroSlidesData = [
     title: "Faster Freight, Seamless Connections",
     subtitle: "",
     description: "Experience unparalleled speed and efficiency in air cargo handling. We ensure your shipments are processed and delivered with seamless connectivity."
+  },
+  {
+    id: 3,
+    defaultImage: 'https://i.ibb.co/MynBKrpg/Chat-GPT-Image-Aug-20-2026-11-18-06-AM.png',
+    title: "Precision in Every Cargo Movement",
+    subtitle: "",
+    description: "Error-free logistics management backed by strict quality control to deliver exactly what you expect, every single time."
   }
 ];
 
