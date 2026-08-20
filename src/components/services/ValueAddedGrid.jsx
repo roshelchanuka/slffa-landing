@@ -5,31 +5,41 @@ import * as LucideIcons from 'lucide-react';
 import { valueAddedServicesData } from '../../data/servicesData';
 import Editable from '../Editable';
 
+const facilitiesBg = 'https://i.ibb.co/N8HYxtK/Chat-GPT-Image-Jun-4-2026-at-03-26-33-PM.png';
+
 export default function ValueAddedGrid({ staggerContainer, fadeInUp }) {
   const renderIcon = (iconName) => {
     const IconComponent = LucideIcons[iconName];
-    return IconComponent ? <IconComponent className="h-7 w-7 text-blue-600 dark:text-blue-400" /> : null;
+    return IconComponent ? <IconComponent className="h-7 w-7 text-sky-400" /> : null;
   };
 
   return (
-    <section className="py-24 bg-white dark:bg-slate-950 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-80 h-80 bg-blue-50 dark:bg-slate-900 rounded-full blur-3xl opacity-60 translate-x-1/3 -translate-y-1/3"></div>
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-slate-100 dark:bg-slate-800 rounded-full blur-3xl opacity-60 -translate-x-1/3 translate-y-1/3"></div>
+    <section className="py-24 text-white relative overflow-hidden group">
+      {/* Background Image spanning the entire section */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" 
+        style={{ backgroundImage: `url('${facilitiesBg}')` }}
+      ></div>
+      
+      {/* Lighter sky blue shadow overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-sky-950/80 via-sky-900/60 to-sky-500/20 z-0"></div>
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-sky-300/30 rounded-full blur-3xl pointer-events-none z-0"></div>
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-sky-200/20 rounded-full blur-3xl pointer-events-none z-0"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <div className="text-center mb-20 max-w-3xl mx-auto">
           <Editable id="services.valueadded.badge" defaultContent="What We Offer">
-            <span className="text-blue-600 dark:text-blue-400 font-bold text-sm uppercase tracking-widest block mb-2">What We Offer</span>
+            <span className="text-sky-200 font-bold text-sm uppercase tracking-widest block mb-2 drop-shadow-md">What We Offer</span>
           </Editable>
           <Editable id="services.valueadded.title" defaultContent="Value-Added Airside Import Services">
-            <h2 className="text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
+            <h2 className="text-4xl font-extrabold text-white leading-tight drop-shadow-lg">
               Value-Added Airside Import Services
             </h2>
           </Editable>
-          <div className="w-20 h-1.5 bg-blue-600 mx-auto rounded-full mt-4 mb-6"></div>
+          <div className="w-20 h-1.5 bg-sky-400 mx-auto rounded-full mt-4 mb-6 shadow-sm"></div>
           <Editable id="services.valueadded.description" type="textarea" defaultContent="We leverage our unique location directly airside at Bandaranaike International Airport to offer our partners unmatched time and cost benefits.">
-            <p className="text-slate-660 text-lg">
+            <p className="text-sky-50 text-lg font-light drop-shadow-md font-medium">
               We leverage our unique location directly airside at Bandaranaike International Airport to offer our partners unmatched time and cost benefits.
             </p>
           </Editable>
@@ -46,20 +56,20 @@ export default function ValueAddedGrid({ staggerContainer, fadeInUp }) {
             <motion.div 
               key={index}
               variants={fadeInUp}
-              whileHover={{ y: -8, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02)" }}
-              className="bg-white dark:bg-slate-950 rounded-2xl border border-slate-100 dark:border-slate-800 p-8 shadow-sm transition-all duration-300 relative group overflow-hidden"
+              whileHover={{ y: -8, border: "1px solid rgba(14, 165, 233, 0.6)", backgroundColor: "rgba(15, 23, 42, 0.55)", boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)" }}
+              className="bg-slate-900/40 backdrop-blur-md border border-slate-700/40 p-8 rounded-2xl transition-all duration-300 shadow-xl relative group overflow-hidden"
             >
-              <div className="absolute top-0 left-0 w-full h-[3px] bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-              <div className="mb-6 bg-blue-50 dark:bg-slate-900 w-14 h-14 rounded-xl flex items-center justify-center text-blue-600 dark:text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500">
+              <div className="absolute top-0 left-0 w-full h-[3px] bg-sky-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+              <div className="mb-6 bg-slate-800/60 w-14 h-14 rounded-xl flex items-center justify-center text-sky-300 border border-sky-400/30 shadow-inner group-hover:bg-sky-400 group-hover:text-slate-900 transition-all duration-500">
                 {renderIcon(service.iconName)}
               </div>
               <Editable id={`services.valueadded.${index}.title`} defaultContent={service.title}>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 dark:text-blue-400 transition-colors">
+                <h3 className="text-xl font-bold text-white mb-3 tracking-wide drop-shadow-sm group-hover:text-sky-300 transition-colors">
                   {service.title}
                 </h3>
               </Editable>
               <Editable id={`services.valueadded.${index}.desc`} type="textarea" defaultContent={service.description}>
-                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                <p className="text-sky-50/90 text-sm leading-relaxed font-light drop-shadow-sm">
                   {service.description}
                 </p>
               </Editable>
@@ -71,3 +81,4 @@ export default function ValueAddedGrid({ staggerContainer, fadeInUp }) {
     </section>
   );
 }
+

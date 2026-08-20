@@ -9,7 +9,6 @@ import Editable from '../components/Editable';
 import { servicesHero, ground3 } from '../data/servicesData';
 import ShelterExpansion from '../components/services/ShelterExpansion';
 import ValueAddedGrid from '../components/services/ValueAddedGrid';
-import FacilitiesGrid from '../components/services/FacilitiesGrid';
 import OperationsGallery from '../components/services/OperationsGallery';
 import FeaturedServices from '../components/home/FeaturedServices';
 
@@ -116,9 +115,6 @@ export default function Services() {
 
       {/* Featured Services (Cool Room & STC) added here */}
       <FeaturedServices hideSTC={true} />
-
-      {/* Physical Facilities Section */}
-      <FacilitiesGrid />
 
       {/* Terminal Operations Image Gallery */}
       <OperationsGallery />
