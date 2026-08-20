@@ -62,7 +62,7 @@ export default function HeroSlider({ y, opacity, isMobile }) {
               defaultContent={slides[currentSlide].defaultImage}
             >
               <div 
-                className="absolute inset-0 bg-cover bg-center"
+                className={`absolute inset-0 bg-no-repeat ${currentSlide === 1 ? 'bg-cover bg-[position:right_center]' : 'bg-cover bg-center'}`}
                 style={{ 
                   backgroundImage: `url('${slides[currentSlide].image}')` 
                 }}

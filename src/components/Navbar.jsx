@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20 sm:h-28 lg:h-32">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-4 group">
-              <img src="https://i.ibb.co/ymr2Tskj/slffalogo3.png" alt="SLFFA Cargo Logo" className="h-10 sm:h-16 lg:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+              <img src="https://i.ibb.co/ymr2Tskj/slffalogo3.png" alt="SLFFA Cargo Logo" className="h-14 sm:h-20 lg:h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
             </Link>
           </div>
           <div className="hidden xl:block ml-auto">
@@ -174,7 +174,7 @@ export default function Navbar() {
 
             <div className="flex justify-between items-center mb-8">
               <Link href="/" className="flex items-center space-x-3 text-2xl sm:text-3xl font-black tracking-wider text-slate-900 dark:text-white group">
-                <img src="https://i.ibb.co/ymr2Tskj/slffalogo3.png" alt="SLFFA Cargo Logo" className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+                <img src="https://i.ibb.co/ymr2Tskj/slffalogo3.png" alt="SLFFA Cargo Logo" className="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
               </Link>
               <div className="flex items-center space-x-3">
                 <motion.button
