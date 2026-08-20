@@ -92,14 +92,14 @@ export default function Services() {
             </motion.h1>
           </Editable>
           
-          <Editable id="services.hero.description" type="textarea" defaultContent="Providing exceptional import cargo handling, state-of-the-art cold storage, and digital integrations directly at Bandaranaike International Airport.">
+          <Editable id="services.hero.description" type="textarea" defaultContent="Providing exceptional import cargo handling airside, state-of-the-art cold storage, and digital integrations directly at Bandaranaike International Airport.">
             <motion.p 
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed font-light"
             >
-              Providing exceptional import cargo handling, state-of-the-art cold storage, and digital integrations directly at Bandaranaike International Airport.
+              Providing exceptional import cargo handling airside, state-of-the-art cold storage, and digital integrations directly at Bandaranaike International Airport.
             </motion.p>
           </Editable>
         </div>
