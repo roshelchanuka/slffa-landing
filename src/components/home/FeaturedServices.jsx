@@ -105,7 +105,7 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
               style={{ backgroundImage: `url('${stcBg}')` }}
             ></div>
             {/* Overlay for legibility */}
-            <div className="absolute inset-0 bg-white dark:bg-slate-950/78 dark:bg-slate-900/78 group-hover:bg-white dark:bg-slate-950/68 dark:group-hover:bg-slate-900/68 transition-colors duration-500 z-0"></div>
+            <div className="absolute inset-0 bg-white/90 dark:bg-slate-950/78 dark:bg-slate-900/78 group-hover:bg-white/80 dark:bg-slate-950/68 dark:group-hover:bg-slate-900/68 transition-colors duration-500 z-0"></div>
  
             {/* Elegant side color highlight bar in amber/gold */}
             <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-amber-50 to-orange-400 z-10"></div>
