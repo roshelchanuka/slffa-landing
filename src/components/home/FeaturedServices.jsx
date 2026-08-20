@@ -6,7 +6,7 @@ import * as LucideIcons from 'lucide-react';
 import { featuresData, stcBg } from '../../data/homeData';
 import Editable from '../Editable';
 
-export default function FeaturedServices({ hideSTC = false }) {
+export default function FeaturedServices({ hideSTC = false, hideCoolRooms = false }) {
   const { Snowflake, ShieldCheck, FileText, ArrowRight } = LucideIcons;
 
   const renderIcon = (iconName) => {
@@ -21,7 +21,8 @@ export default function FeaturedServices({ hideSTC = false }) {
         {/* Cool Rooms Feature Showcase Card/Box */}
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
           {/* Left Box: State-of-the-Art Cargo Cold Chain & Cool Rooms */}
-          <motion.div 
+          {!hideCoolRooms && (
+            <motion.div 
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -95,7 +96,7 @@ export default function FeaturedServices({ hideSTC = false }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="flex-grow lg:w-2/5 rounded-3xl border border-slate-200 dark:border-slate-800/80 dark:border-slate-800 p-8 md:p-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(245,158,11,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col justify-between group"
+            className={`flex-grow ${hideCoolRooms ? 'w-full' : 'lg:w-2/5'} rounded-3xl border border-slate-200 dark:border-slate-800/80 dark:border-slate-800 p-8 md:p-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(245,158,11,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col justify-between group`}
           >
             {/* Background Image with hover zoom */}
             <div 
