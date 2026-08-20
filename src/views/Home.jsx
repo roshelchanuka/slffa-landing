@@ -33,11 +33,9 @@ export default function Home() {
       {/* Who We Are Section */}
       <WhoWeAre />
 
-      {/* Featured Services (STC) */}
-      <FeaturedServices hideCoolRooms={true} />
+      {/* Featured Services (News & STC) */}
+      <FeaturedServices hideCoolRooms={true} showNewsIntro={true} />
 
-      {/* Simple News & Events Intro */}
-      <SimpleNewsIntro />
 
       {/* Useful Links Promo */}
       <UsefulLinksPromo />

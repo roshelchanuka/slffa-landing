@@ -6,7 +6,7 @@ import * as LucideIcons from 'lucide-react';
 import { featuresData, stcBg } from '../../data/homeData';
 import Editable from '../Editable';
 
-export default function FeaturedServices({ hideSTC = false, hideCoolRooms = false }) {
+export default function FeaturedServices({ hideSTC = false, hideCoolRooms = false, showNewsIntro = false }) {
   const { Snowflake, ShieldCheck, FileText, ArrowRight } = LucideIcons;
 
   const renderIcon = (iconName) => {
@@ -18,10 +18,10 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
     <section className="py-24 bg-slate-50 dark:bg-slate-950 relative overflow-hidden transition-colors duration-300">
       <div className="absolute top-0 right-0 w-64 h-64 bg-blue-100 dark:bg-blue-900/10 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Cool Rooms Feature Showcase Card/Box */}
+        {/* Feature Showcase Card/Box */}
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
-          {/* Left Box: State-of-the-Art Cargo Cold Chain & Cool Rooms */}
-          {!hideCoolRooms && (
+          {/* Left Box: Cool Rooms OR News & Events */}
+          {(showNewsIntro || !hideCoolRooms) && (
             <motion.div 
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -34,58 +34,103 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
             
             {/* Decorative background circle */}
             <div className="absolute -right-20 -bottom-20 w-48 h-48 bg-blue-50 dark:bg-slate-900/70 dark:bg-blue-900/10 rounded-full blur-3xl pointer-events-none"></div>
-            {/* Slow falling snow background animation */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none select-none z-0">
-              <div className="snowflake snow-1">❄</div>
-              <div className="snowflake snow-2">❅</div>
-              <div className="snowflake snow-3">❆</div>
-              <div className="snowflake snow-4">❄</div>
-              <div className="snowflake snow-5">❅</div>
-              <div className="snowflake snow-6">❆</div>
-              <div className="snowflake snow-7">❄</div>
-              <div className="snowflake snow-8">❅</div>
-              <div className="snowflake snow-9">❆</div>
-              <div className="snowflake snow-10">❄</div>
-              <div className="snowflake snow-11">❅</div>
-              <div className="snowflake snow-12">❆</div>
-            </div>
+            
+            {/* Slow falling snow background animation (Only for Cool Rooms) */}
+            {!showNewsIntro && (
+              <div className="absolute inset-0 overflow-hidden pointer-events-none select-none z-0">
+                <div className="snowflake snow-1">❄</div>
+                <div className="snowflake snow-2">❅</div>
+                <div className="snowflake snow-3">❆</div>
+                <div className="snowflake snow-4">❄</div>
+                <div className="snowflake snow-5">❅</div>
+                <div className="snowflake snow-6">❆</div>
+                <div className="snowflake snow-7">❄</div>
+                <div className="snowflake snow-8">❅</div>
+                <div className="snowflake snow-9">❆</div>
+                <div className="snowflake snow-10">❄</div>
+                <div className="snowflake snow-11">❅</div>
+                <div className="snowflake snow-12">❆</div>
+              </div>
+            )}
  
             <div className="flex-grow flex flex-col justify-between space-y-4 md:space-y-0 text-left relative z-10">
               <div className="space-y-3">
                 <div className="inline-flex items-center space-x-2 bg-blue-50 dark:bg-blue-955/40 border border-blue-100 dark:border-blue-900/30 px-3 py-1 rounded-full text-blue-600 dark:text-blue-400 text-xs font-bold uppercase tracking-wider">
-                  <Snowflake className="h-4 w-4 animate-pulse text-blue-500" />
-                  <Editable id="home.coolrooms.announcement.badge" defaultContent="Upgraded Facility Announcement">
-                    <span>Upgraded Facility Announcement</span>
-                  </Editable>
+                  {showNewsIntro ? (
+                    <LucideIcons.Newspaper className="h-4 w-4 text-blue-500" />
+                  ) : (
+                    <Snowflake className="h-4 w-4 animate-pulse text-blue-500" />
+                  )}
+                  {showNewsIntro ? (
+                    <Editable id="home.simplenews.badge" defaultContent="Stay Updated">
+                      <span>Stay Updated</span>
+                    </Editable>
+                  ) : (
+                    <Editable id="home.coolrooms.announcement.badge" defaultContent="Upgraded Facility Announcement">
+                      <span>Upgraded Facility Announcement</span>
+                    </Editable>
+                  )}
                 </div>
                 
-                <Editable id="home.coolrooms.announcement.title" defaultContent="State-of-the-Art Cargo Cold Chain & Cool Rooms">
-                  <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-tight">
-                    State-of-the-Art Cargo Cold Chain & Cool Rooms
-                  </h3>
-                </Editable>
+                {showNewsIntro ? (
+                  <Editable id="home.simplenews.title" defaultContent="Latest News & Events">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                      Latest News & Events
+                    </h3>
+                  </Editable>
+                ) : (
+                  <Editable id="home.coolrooms.announcement.title" defaultContent="State-of-the-Art Cargo Cold Chain & Cool Rooms">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                      State-of-the-Art Cargo Cold Chain & Cool Rooms
+                    </h3>
+                  </Editable>
+                )}
                 
-                <Editable id="home.coolrooms.announcement.description" type="textarea" defaultContent="We have expanded and upgraded our Katunayake airport airside cool room terminal. Our facility features advanced multi-zone temperature storage channels (spanning deep freezer, chilled, and controlled ambient ranges) managed under a certified maintenance standard to guarantee cargo integrity.">
-                  <p className="text-slate-655 dark:text-slate-300 text-sm leading-relaxed max-w-2xl">
-                    We have expanded and upgraded our Katunayake airport airside cool room terminal. Our facility features advanced multi-zone temperature storage channels (spanning deep freezer, chilled, and controlled ambient ranges) managed under a certified maintenance standard to guarantee cargo integrity.
-                  </p>
-                </Editable>
+                {showNewsIntro ? (
+                  <Editable id="home.simplenews.description" type="textarea" defaultContent="Stay up-to-date with the latest operational announcements, facility upgrades, industry milestones, and association news from SLFFA Cargo Services.">
+                    <p className="text-slate-655 dark:text-slate-300 text-sm leading-relaxed max-w-2xl">
+                      Stay up-to-date with the latest operational announcements, facility upgrades, industry milestones, and association news from SLFFA Cargo Services.
+                    </p>
+                  </Editable>
+                ) : (
+                  <Editable id="home.coolrooms.announcement.description" type="textarea" defaultContent="We have expanded and upgraded our Katunayake airport airside cool room terminal. Our facility features advanced multi-zone temperature storage channels (spanning deep freezer, chilled, and controlled ambient ranges) managed under a certified maintenance standard to guarantee cargo integrity.">
+                    <p className="text-slate-655 dark:text-slate-300 text-sm leading-relaxed max-w-2xl">
+                      We have expanded and upgraded our Katunayake airport airside cool room terminal. Our facility features advanced multi-zone temperature storage channels (spanning deep freezer, chilled, and controlled ambient ranges) managed under a certified maintenance standard to guarantee cargo integrity.
+                    </p>
+                  </Editable>
+                )}
               </div>
  
               <div className="pt-3 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                <Link 
-                  href="/cool-rooms" 
-                  className="hover-blink-blue inline-flex items-center text-sm font-extrabold text-blue-600 dark:text-blue-400 transition-all duration-300 gap-2 cursor-pointer decoration-2 underline underline-offset-4 decoration-blue-600/30 hover:decoration-blue-600"
-                >
-                  Explore More About Our Cool Room Facilities
-                  <ArrowRight className="h-4 w-4 text-blue-600 dark:text-blue-400 shrink-0" />
-                </Link>
+                {showNewsIntro ? (
+                  <Link 
+                    href="/news" 
+                    className="hover-blink-blue inline-flex items-center text-sm font-extrabold text-blue-600 dark:text-blue-400 transition-all duration-300 gap-2 cursor-pointer decoration-2 underline underline-offset-4 decoration-blue-600/30 hover:decoration-blue-600"
+                  >
+                    <Editable id="home.simplenews.button" defaultContent="Explore All News">
+                      <span>Explore All News</span>
+                    </Editable>
+                    <ArrowRight className="h-4 w-4 text-blue-600 dark:text-blue-400 shrink-0" />
+                  </Link>
+                ) : (
+                  <Link 
+                    href="/cool-rooms" 
+                    className="hover-blink-blue inline-flex items-center text-sm font-extrabold text-blue-600 dark:text-blue-400 transition-all duration-300 gap-2 cursor-pointer decoration-2 underline underline-offset-4 decoration-blue-600/30 hover:decoration-blue-600"
+                  >
+                    Explore More About Our Cool Room Facilities
+                    <ArrowRight className="h-4 w-4 text-blue-600 dark:text-blue-400 shrink-0" />
+                  </Link>
+                )}
               </div>
             </div>
  
-            {/* Right Column: Single Big Snow Icon */}
+            {/* Right Column: Single Big Icon */}
             <div className="flex items-center justify-center shrink-0 w-full md:w-36 relative z-10 select-none pointer-events-none">
-              <Snowflake className="h-16 w-16 md:h-20 md:w-20 text-blue-500/90 animate-spin-slow drop-shadow-[0_4px_20px_rgba(59,130,246,0.25)]" />
+              {showNewsIntro ? (
+                <LucideIcons.Newspaper className="h-16 w-16 md:h-20 md:w-20 text-blue-500/80 drop-shadow-[0_4px_20px_rgba(59,130,246,0.25)] hover:scale-110 transition-transform duration-500" />
+              ) : (
+                <Snowflake className="h-16 w-16 md:h-20 md:w-20 text-blue-500/90 animate-spin-slow drop-shadow-[0_4px_20px_rgba(59,130,246,0.25)]" />
+              )}
             </div>
           </motion.div>
           )}
