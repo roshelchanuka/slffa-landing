@@ -223,9 +223,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <span className="block font-semibold text-slate-900 dark:text-white">E-mail</span>
-                      <Editable id="contact.operations.email" defaultContent="admin@slffacs.com, import@slffacs.com">
+                      <Editable id="contact.operations.email" defaultContent="import@slffacs.com">
                         <div className="flex flex-col mt-0.5">
-                          <a href="mailto:admin@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">admin@slffacs.com</a>
                           <a href="mailto:import@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">import@slffacs.com</a>
                         </div>
                       </Editable>

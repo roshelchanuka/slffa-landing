@@ -62,8 +62,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-blue-400 flex-shrink-0" />
-                <Editable id="footer.contact.email" defaultContent="admin@slffacs.com, import@slffacs.com">
-                  <span>admin@slffacs.com, import@slffacs.com</span>
+                <Editable id="footer.contact.email" defaultContent="import@slffacs.com">
+                  <span>import@slffacs.com</span>
                 </Editable>
               </li>
             </ul>

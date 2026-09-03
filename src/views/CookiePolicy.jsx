@@ -55,7 +55,7 @@ export default function CookiePolicy() {
               <p>
                 If you have any questions about our Cookie Policy, please contact us at:
                 <br />
-                Email: <a href="mailto:admin@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">admin@slffacs.com</a>
+                Email: <a href="mailto:import@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">import@slffacs.com</a>
               </p>
             </section>
           </div>
