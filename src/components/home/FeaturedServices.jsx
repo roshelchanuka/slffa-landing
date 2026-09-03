@@ -73,9 +73,9 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
                 </div>
                 
                 {showNewsIntro ? (
-                  <Editable id="home.simplenews.title" defaultContent="Latest News & Events">
+                  <Editable id="home.simplenews.title" defaultContent="Event Photo Gallery">
                     <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-tight">
-                      Latest News & Events
+                      Event Photo Gallery
                     </h3>
                   </Editable>
                 ) : (
