@@ -6,7 +6,6 @@ import { useScroll, useTransform } from 'framer-motion';
 import HeroSlider from '../components/home/HeroSlider';
 import WhoWeAre from '../components/home/WhoWeAre';
 import FeaturedServices from '../components/home/FeaturedServices';
-import GroundOperations from '../components/home/GroundOperations';
 import SimpleNewsIntro from '../components/home/SimpleNewsIntro';
 import CcnTechIntegration from '../components/home/CcnTechIntegration';
 import UsefulLinksPromo from '../components/home/UsefulLinksPromo';
@@ -41,10 +40,7 @@ export default function Home() {
       <UsefulLinksPromo />
 
 
-      {/* Ground Handling Operations Section */}
-      <GroundOperations />
-
-      {/* Standalone News & Events Section (Removed) */}
+      {/* Ground Handling Operations Section (Removed) */}
 
       {/* CCNhub Technology Integration Section */}
       {/* <CcnTechIntegration /> */}
