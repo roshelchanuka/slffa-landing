@@ -80,14 +80,14 @@ export default function Services() {
             <span className="text-white">Our Services</span>
           </motion.div>
           
-          <Editable id="services.hero.title" defaultContent="World-Class Airside Operations">
+          <Editable id="services.hero.title" defaultContent="Safe Handling and Operations">
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight max-w-4xl"
             >
-              World-Class Airside Operations
+              Safe Handling and Operations
             </motion.h1>
           </Editable>
           

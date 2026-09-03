@@ -20,9 +20,9 @@ export const valueAddedServicesData = [
     description: "Maintaining a flawless 100% error-free delivery and terminal release record through rigorous quality checks and state-of-the-art software systems."
   },
   {
-    iconName: "Eye",
-    title: "24/7 CCTV & Security Staff",
-    description: "Comprehensive state-of-the-art CCTV camera system covering the entire facility airside and landside, supported by alert security teams."
+    iconName: "Calendar",
+    title: "Demurrage Free Window",
+    description: "Demurrage-free terminal storage and handling facility for a generous period of 3 days from the date of arrival of cargo."
   },
   {
     iconName: "Plane",
@@ -40,9 +40,9 @@ export const valueAddedServicesData = [
     description: "Provision of door-to-door delivery of import documents by courier. This enables rapid release of crucial documents from Agents to their Consignees."
   },
   {
-    iconName: "Calendar",
-    title: "Demurrage Free Window",
-    description: "Demurrage-free terminal storage and handling facility for a generous period of 3 days from the date of arrival of cargo."
+    iconName: "Eye",
+    title: "24/7 CCTV & Security Staff",
+    description: "Comprehensive state-of-the-art CCTV camera system covering the entire facility airside and landside, supported by alert security teams."
   },
   {
     iconName: "Search",
