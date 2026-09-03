@@ -15,9 +15,9 @@ export { servicesHero, yearsOfServiceImg, ground2, ground3 };
 
 export const valueAddedServicesData = [
   {
-    iconName: "Building2",
-    title: "Customs Supervised Warehouse",
-    description: "A secure, spacious 3,200 Sq. Ft. Customs supervised warehouse optimized for efficient off-loading and rapid transferring of incoming cargo."
+    iconName: "CheckCircle2",
+    title: "100% Error-Free Record",
+    description: "Maintaining a flawless 100% error-free delivery and terminal release record through rigorous quality checks and state-of-the-art software systems."
   },
   {
     iconName: "Eye",
@@ -30,9 +30,9 @@ export const valueAddedServicesData = [
     description: "Premium, value-added import air cargo services strategically located airside at the Bandaranaike International Airport in Katunayake."
   },
   {
-    iconName: "CheckCircle2",
-    title: "100% Error-Free Record",
-    description: "Maintaining a flawless 100% error-free delivery and terminal release record through rigorous quality checks and state-of-the-art software systems."
+    iconName: "Building2",
+    title: "Customs Supervised Warehouse",
+    description: "A secure, spacious 3,200 Sq. Ft. Customs supervised warehouse optimized for efficient off-loading and rapid transferring of incoming cargo."
   },
   {
     iconName: "Send",
