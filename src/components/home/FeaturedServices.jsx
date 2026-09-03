@@ -17,9 +17,9 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
   return (
     <section className="py-24 bg-slate-50 dark:bg-slate-950 relative overflow-hidden transition-colors duration-300">
       <div className="absolute top-0 right-0 w-64 h-64 bg-blue-100 dark:bg-blue-900/10 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2"></div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className={hideSTC ? "w-full relative z-10" : "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"}>
         {/* Feature Showcase Card/Box */}
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
+        <div className={hideSTC ? "w-full flex flex-col lg:flex-row items-stretch" : "max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch"}>
           {/* Left Box: Cool Rooms OR News & Events */}
           {(showNewsIntro || !hideCoolRooms) && (
             <motion.div 
@@ -27,7 +27,7 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className={`flex-grow ${hideSTC ? 'w-full' : 'lg:w-3/5'} bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800/80 dark:border-slate-800 p-8 md:p-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(37,99,235,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col md:flex-row items-stretch gap-6`}
+            className={`flex-grow ${hideSTC ? 'w-full rounded-none border-x-0' : 'lg:w-3/5 rounded-3xl border'} bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800/80 dark:border-slate-800 p-8 md:p-10 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_-5px_rgba(37,99,235,0.08)] transition-all duration-500 relative overflow-hidden flex flex-col md:flex-row items-stretch gap-6`}
           >
             {/* Elegant side color highlight bar */}
             <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-blue-600 to-sky-400"></div>
