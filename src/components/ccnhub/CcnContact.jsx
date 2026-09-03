@@ -16,8 +16,8 @@ export default function CcnContact() {
       >
         <div className="py-12">
           <div className="text-center mb-12">
-            <Editable id="ccnhub.contact.title" defaultContent="Contact CCN">
-              <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Contact CCN</h2>
+            <Editable id="ccnhub.contact.title" defaultContent="Contact CCN Team">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Contact CCN Team</h2>
             </Editable>
             <Editable id="ccnhub.contact.subtitle" defaultContent="Get in touch with our team for inquiries or support">
               <p className="text-slate-600 dark:text-slate-400 text-lg font-medium">Get in touch with our team for inquiries or support</p>
