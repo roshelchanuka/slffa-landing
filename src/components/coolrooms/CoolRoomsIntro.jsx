@@ -41,16 +41,7 @@ export default function CoolRoomsIntro() {
                   You may now proceed with transferring your temperature-controlled cargo to our warehouse with absolute confidence. Our upgraded thermal units ensure seamless environmental regulation for import pharmaceutical shipments, sensitive high-value electronics, retail cosmetics, and perishables.
                 </p>
               </Editable>
- 
-              {/* ICEMAN Maintenance highlight card */}
-              <div className="bg-blue-50 dark:bg-blue-955/20 border-l-4 border-blue-600 p-6 rounded-r-2xl shadow-sm mt-6">
-                <h4 className="font-bold text-slate-900 dark:text-white mb-2 flex items-center">
-                  <Wrench className="text-blue-600 dark:text-blue-400 h-5 w-5 mr-2 animate-pulse" /> ICEMAN Technologies SLA Protection
-                </h4>
-                <p className="text-slate-655 dark:text-slate-300 text-sm leading-relaxed">
-                  To maintain an uninterrupted cold chain, we have entered into an elite maintenance service agreement with <strong>ICEMAN Technologies (Kandana)</strong>, whose dedicated refrigeration engineering team is guaranteed to arrive at our Katunayake terminal within approximately <strong>4 hours</strong> in the event of any service requirement.
-                </p>
-              </div>
+
             </motion.div>
           </div>
  
