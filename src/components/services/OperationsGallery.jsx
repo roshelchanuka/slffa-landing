@@ -83,9 +83,9 @@ export default function OperationsGallery() {
           <Editable id="services.gallery.badge" defaultContent="Operations In Action">
             <span className="text-blue-600 dark:text-blue-400 font-bold text-sm uppercase tracking-widest block mb-2">Operations In Action</span>
           </Editable>
-          <Editable id="services.gallery.title" defaultContent="Airport Terminal Floor Gallery">
+          <Editable id="services.gallery.title" defaultContent="Airside Terminal Flow Gallery">
             <h2 className="text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
-              Airport Terminal Floor Gallery
+              Airside Terminal Flow Gallery
             </h2>
           </Editable>
           <div className="w-20 h-1.5 bg-blue-600 mx-auto rounded-full mt-4 mb-6"></div>
