@@ -55,10 +55,7 @@ export default function FacilitiesChecklist({ staggerContainer, fadeInUp }) {
                   </p>
                 </Editable>
               </div>
-              
-              <div className="text-[10px] font-black text-slate-350 uppercase tracking-widest mt-6">
-                Feature 0{item.id}
-              </div>
+
             </motion.div>
           ))}
         </motion.div>
