@@ -18,7 +18,7 @@ export default function FacilitiesChecklist({ staggerContainer, fadeInUp }) {
         <div className="text-center mb-20 max-w-3xl mx-auto">
           <span className="text-blue-600 dark:text-blue-400 font-bold text-sm uppercase tracking-widest block mb-2">Core Infrastructure Advantages</span>
           <h2 className="text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
-            Features Offered By Our Cool Storage Rooms
+            What You Can Expect
           </h2>
           <div className="w-20 h-1.5 bg-blue-600 mx-auto rounded-full mt-4 mb-6"></div>
           <p className="text-slate-600 dark:text-slate-400 text-lg">
