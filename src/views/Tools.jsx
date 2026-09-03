@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { useAdmin } from '../context/AdminContext';
 import Editable from '../components/Editable';
 import AwbGuide from '../components/tools/AwbGuide';
-import CargoCalculators from '../components/tools/CargoCalculators';
 import TradingConditions from '../components/tools/TradingConditions';
 
 // Import image from the root images folder
@@ -117,8 +116,7 @@ const Tools = () => {
           {/* Air WayBill Guide Section */}
           <AwbGuide containerVariants={containerVariants} itemVariants={itemVariants} />
 
-          {/* Volumetric Weight Section */}
-          <CargoCalculators containerVariants={containerVariants} itemVariants={itemVariants} />
+          {/* Volumetric Weight Section (Removed) */}
         </div>
       </section>
     </div>
