@@ -15,7 +15,7 @@ export default function ChambersGrid() {
         
         <div className="text-center mb-20 max-w-3xl mx-auto">
           <span className="text-blue-600 dark:text-blue-400 font-bold text-sm uppercase tracking-widest block mb-2">Chamber Specifications</span>
-          <h2 className="text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-sky-500 to-blue-400 dark:from-blue-400 dark:via-sky-300 dark:to-blue-200 leading-tight drop-shadow-md py-2">
             Six Dedicated Multi-Zone Chambers
           </h2>
           <div className="w-20 h-1.5 bg-blue-600 rounded-full mx-auto mt-4 mb-6"></div>
