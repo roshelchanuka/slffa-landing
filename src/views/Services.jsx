@@ -122,7 +122,7 @@ export default function Services() {
 
 
       {/* Call to Action Banner */}
-      <section className="relative py-32 z-30 overflow-hidden">
+      <section className="relative py-32 z-30 overflow-hidden mb-12">
         {/* Background Image Container */}
         <div className="absolute inset-0 z-0">
           <Editable id="services.cta.image" type="image" defaultContent="https://i.ibb.co/205RJx3z/slffacargo-7.png">
