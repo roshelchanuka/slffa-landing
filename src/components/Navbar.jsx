@@ -35,8 +35,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20 sm:h-28 lg:h-32">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-4 group">
-              <img src="https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png" alt="SLFFA Cargo Logo" className="h-14 sm:h-20 lg:h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
-              <span className="font-bold text-black dark:text-white text-lg sm:text-xl lg:text-2xl tracking-tight max-w-[150px] sm:max-w-none leading-tight">SLFFA CARGO SERVICES LTD</span>
+              <img src="https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png" alt="SLFFA Cargo Logo" className="h-16 sm:h-24 lg:h-28 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+              <span className="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-3xl tracking-tight max-w-[150px] sm:max-w-none leading-tight">SLFFA CARGO SERVICES LTD</span>
             </Link>
           </div>
           <div className="hidden xl:block ml-auto">
