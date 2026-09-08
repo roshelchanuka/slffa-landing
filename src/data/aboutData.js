@@ -38,11 +38,5 @@ export const statsData = [
     value: "1500+ Consignees",
     label: "Active Trade Clients",
     description: "Serving diverse trade sectors, from apparel manufacturers to technology leaders."
-  },
-  {
-    iconName: "Clock",
-    value: "Under 4 Hours",
-    label: "ICAO Release Goal",
-    description: "Committed to the recommended practice of swift terminal exit within 4 hours."
   }
 ];
