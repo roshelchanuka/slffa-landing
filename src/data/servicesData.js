@@ -55,11 +55,7 @@ export const valueAddedServicesData = [
     title: "Safe Operations & Handling",
     description: "Extremely safe handling of cargo by our highly experienced, certified terminal workforce adhering to global transport security protocols."
   },
-  {
-    iconName: "Users",
-    title: "On-Site Customs Support",
-    description: "Continuous availability of Customs staff right at our facility to guarantee a speedy and completely hassle-free cargo delivery process."
-  },
+
   {
     iconName: "Clock",
     title: "24-Hour Friendly Service",
