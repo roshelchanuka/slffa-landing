@@ -51,19 +51,7 @@ export default function CoreExcellence() {
                   </p>
                 </Editable>
 
-                <div className="pt-4 w-full flex justify-center">
-                  <div className="flex items-center space-x-6">
-                    <div className="text-center">
-                      <Editable id="about.icao.stat_1.value" defaultContent="4 hrs">
-                        <div className="text-4xl font-extrabold text-blue-600 dark:text-blue-400">4 hrs</div>
-                      </Editable>
-                      <Editable id="about.icao.stat_1.label" defaultContent="ICAO Max Target">
-                        <div className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mt-1">ICAO Max Target</div>
-                      </Editable>
-                    </div>
 
-                  </div>
-                </div>
               </motion.div>
             </div>
 
