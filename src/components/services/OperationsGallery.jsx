@@ -108,52 +108,51 @@ export default function OperationsGallery() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: idx * 0.15 }}
               onClick={() => !isEditMode && setActiveImageIndex(idx)}
-              className="aspect-[16/10] rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-800 group relative bg-slate-100 dark:bg-slate-800 cursor-pointer transition-all duration-500 hover:shadow-2xl"
+              className="rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-800 group relative bg-slate-100 dark:bg-slate-800 cursor-pointer transition-all duration-500 hover:shadow-2xl flex flex-col"
             >
-              {/* Image */}
-              <motion.div 
-                whileHover={!isEditMode ? { scale: 1.05 } : {}}
-                transition={{ duration: 0.5 }}
-                className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: `url('${item.image}')` }}
-              ></motion.div>
-              
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-955/90 via-slate-955/20 to-transparent opacity-90 group-hover:opacity-95 transition-opacity duration-300"></div>
-              
-              {/* Click to Zoom Badge */}
-              {!isEditMode && (
-                <div className="absolute top-5 right-5 bg-slate-950/75 backdrop-blur-md text-white p-3.5 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg transform translate-y-3 group-hover:translate-y-0 border border-white/10">
-                  <Maximize2 className="h-5 w-5 text-blue-400" />
-                </div>
-              )}
+              <div className="aspect-[16/10] relative overflow-hidden">
+                {/* Image */}
+                <motion.div 
+                  whileHover={!isEditMode ? { scale: 1.05 } : {}}
+                  transition={{ duration: 0.5 }}
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: `url('${item.image}')` }}
+                ></motion.div>
+                
+                {/* Gradient overlay (subtle for contrast if needed) */}
+                <div className="absolute inset-0 bg-slate-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                
+                {/* Click to Zoom Badge */}
+                {!isEditMode && (
+                  <div className="absolute top-5 right-5 bg-slate-950/75 backdrop-blur-md text-white p-3.5 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg transform translate-y-3 group-hover:translate-y-0 border border-white/10">
+                    <Maximize2 className="h-5 w-5 text-blue-400" />
+                  </div>
+                )}
 
-              {/* Edit & Delete Overlays */}
-              {isEditMode && (
-                <div className="absolute top-5 right-5 flex items-center space-x-3 z-30">
-                  <button
-                    onClick={(e) => handleOpenEditGalleryModal(idx, e)}
-                    className="bg-white dark:bg-slate-950/95 text-slate-800 dark:text-slate-200 p-2.5 rounded-full hover:bg-blue-50 dark:bg-slate-9000 hover:text-white transition-all duration-300 shadow-lg border border-slate-200 dark:border-slate-800 cursor-pointer flex items-center justify-center hover:scale-105"
-                    title="Edit Image Details"
-                  >
-                    <Pencil className="h-4 w-4" />
-                  </button>
-                  <button
-                    onClick={(e) => handleDeleteGalleryItem(idx, e)}
-                    className="bg-white dark:bg-slate-950/95 text-rose-600 p-2.5 rounded-full hover:bg-rose-600 hover:text-white transition-all duration-300 shadow-lg border border-slate-200 dark:border-slate-800 cursor-pointer flex items-center justify-center hover:scale-105"
-                    title="Delete Image"
-                  >
-                    <Trash2 className="h-4 w-4" />
-                  </button>
-                </div>
-              )}
+                {/* Edit & Delete Overlays */}
+                {isEditMode && (
+                  <div className="absolute top-5 right-5 flex items-center space-x-3 z-30">
+                    <button
+                      onClick={(e) => handleOpenEditGalleryModal(idx, e)}
+                      className="bg-white dark:bg-slate-950/95 text-slate-800 dark:text-slate-200 p-2.5 rounded-full hover:bg-blue-50 dark:bg-slate-9000 hover:text-white transition-all duration-300 shadow-lg border border-slate-200 dark:border-slate-800 cursor-pointer flex items-center justify-center hover:scale-105"
+                      title="Edit Image Details"
+                    >
+                      <Pencil className="h-4 w-4" />
+                    </button>
+                    <button
+                      onClick={(e) => handleDeleteGalleryItem(idx, e)}
+                      className="bg-white dark:bg-slate-950/95 text-rose-600 p-2.5 rounded-full hover:bg-rose-600 hover:text-white transition-all duration-300 shadow-lg border border-slate-200 dark:border-slate-800 cursor-pointer flex items-center justify-center hover:scale-105"
+                      title="Delete Image"
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </button>
+                  </div>
+                )}
+              </div>
 
-              {/* Texts on overlay */}
-              <div className="absolute bottom-6 left-6 right-6 text-white transition-transform duration-300 group-hover:translate-y-[-4px] pointer-events-none">
-                <h4 className="font-extrabold text-xl tracking-wide mb-2 drop-shadow-md text-slate-50">
-                  {item.title}
-                </h4>
-                <p className="text-slate-200 text-sm leading-relaxed font-light drop-shadow-sm max-w-xl">
+              {/* Text under the image */}
+              <div className="p-6 bg-white dark:bg-slate-900 flex-grow flex items-center border-t border-slate-100 dark:border-slate-800/50">
+                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed text-center w-full">
                   {item.description}
                 </p>
               </div>
