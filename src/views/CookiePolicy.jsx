@@ -50,14 +50,7 @@ export default function CookiePolicy() {
               </p>
             </section>
 
-            <section>
-              <h2 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">4. Contact us</h2>
-              <p>
-                If you have any questions about our Cookie Policy, please contact us at:
-                <br />
-                Email: <a href="mailto:import@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">import@slffacs.com</a>
-              </p>
-            </section>
+
           </div>
         </motion.div>
       </div>
