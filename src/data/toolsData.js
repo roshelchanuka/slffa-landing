@@ -8,7 +8,7 @@ export { airwaybillImg };
 export const definitionsData = [
   { key: 'authority', term: 'A) Authority:', desc: "A duly constituted legal or administrative person, acting within its legal powers and exercising jurisdiction within any nation, state, municipality, port or airport." },
   { key: 'carriage', term: 'B) Carriage:', desc: "Means the whole or any part of the operations and services of whatsoever nature undertaken by the Company in relation to the Goods including but not limited to the loading, unloading, storage, warehousing and handling of the goods." },
-  { key: 'company', term: 'C) Company:', desc: "Means a member of Sri Lanka Logistics and Freight Forwarders' Association (SLFFA CS) who undertakes to provide the services." },
+  { key: 'company', term: 'C) Company:', desc: "Means a member of SLFFA CARGO SERVICES LTD who undertakes to provide the services." },
   { key: 'consignee', term: 'D) Consignee:', desc: "Means the person to whom the goods are consigned." },
   { key: 'container', term: 'E) Container:', desc: "Includes, unless otherwise indicated, any vehicle, container, flat pallet, trailer, transportable tank and similar items used for the consolidation of goods as well as mobile plant and timber packages." },
   { key: 'customer', term: 'F) Customer:', desc: "Means any person, whether themselves an agent or a principal, at whose request or on whose behalf the Company undertakes any business or provides advice, information or services." },

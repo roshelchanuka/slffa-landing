@@ -20,9 +20,9 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
     >
       <motion.div variants={itemVariants} className="flex flex-col items-center text-center mb-10 border-b border-slate-200 dark:border-slate-800 pb-8 max-w-5xl mx-auto">
         <img src="https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png" alt="SLFFA CS Logo" className="h-28 w-auto mb-6 object-contain" />
-        <Editable id="tools.stc.subtitle" defaultContent="Sri Lanka Logistics and Freight Forwarders' Association (SLFFA CS)">
+        <Editable id="tools.stc.subtitle" defaultContent="SLFFA CARGO SERVICES LTD">
           <h2 className="text-xl md:text-2xl font-bold text-slate-800 dark:text-slate-200 tracking-wide uppercase">
-            Sri Lanka Logistics and Freight Forwarders' Association (SLFFA CS)
+            SLFFA CARGO SERVICES LTD
           </h2>
         </Editable>
         <Editable id="tools.stc.title" defaultContent="Standard Trading Conditions">
