@@ -115,9 +115,9 @@ export default function ShelterExpansion() {
               </Editable>
               <div className="w-24 h-1.5 bg-blue-50 dark:bg-slate-9000 rounded-full mb-8 shadow-sm"></div>
               
-              <Editable id="services.trust.description" type="textarea" defaultContent="With a dedicated, efficient, and certified workforce, ample airside warehouse space, and a highly comprehensive web-based warehouse management system, SLFFA Cargo Services has been providing excellent service for its customers for nearly two decades.">
+              <Editable id="services.trust.description" type="textarea" defaultContent="With a dedicated, efficient, and certified workforce, ample airside warehouse space, and a highly comprehensive web-based warehouse management system, SLFFA Cargo Services has been providing excellent service for its customers for nearly over three.">
                 <p className="text-slate-200 leading-relaxed font-light text-lg sm:text-xl lg:text-2xl mb-12 max-w-3xl drop-shadow-sm">
-                  With a dedicated, efficient, and certified workforce, ample airside warehouse space, and a highly comprehensive web-based warehouse management system, SLFFA Cargo Services has been providing excellent service for its customers for nearly two decades.
+                  With a dedicated, efficient, and certified workforce, ample airside warehouse space, and a highly comprehensive web-based warehouse management system, SLFFA Cargo Services has been providing excellent service for its customers for nearly over three.
                 </p>
               </Editable>
 
