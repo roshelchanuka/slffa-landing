@@ -23,7 +23,7 @@ export const statsData = [
   },
   {
     iconName: "Building2",
-    value: "3,200 Sq. Ft.",
+    value: "25,000 Sq. Ft.",
     label: "Terminal Facility",
     description: "State-of-the-art terminal at BIA optimized for quick, personalized cargo operations."
   },
