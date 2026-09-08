@@ -29,8 +29,8 @@ export default function ValueAddedGrid({ staggerContainer, fadeInUp }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <div className="text-center mb-20 max-w-3xl mx-auto">
-          <Editable id="services.valueadded.badge" defaultContent="What We Offer">
-            <span className="text-sky-200 font-bold text-sm uppercase tracking-widest block mb-2 drop-shadow-md">What We Offer</span>
+          <Editable id="services.valueadded.badge" defaultContent="We provide">
+            <span className="text-sky-200 font-bold text-sm uppercase tracking-widest block mb-2 drop-shadow-md">We provide</span>
           </Editable>
           <Editable id="services.valueadded.title" defaultContent="Value-Added Airside Import Services">
             <h2 className="text-4xl font-extrabold text-white leading-tight drop-shadow-lg">
