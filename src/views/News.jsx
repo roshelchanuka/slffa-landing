@@ -9,7 +9,7 @@ import Editable from '../components/Editable';
 import { newsItems } from '../data/newsData';
 
 // Replaced hero image to use Google Drive proxy
-const newsHeroBg = 'https://i.ibb.co/vxRgdYSp/Chat-GPT-Image-Aug-20-2026-12-04-16-PM.png';
+const newsHeroBg = 'https://i.ibb.co/ZZGXL64/Chat-GPT-Image-Jun-17-2026-at-02-42-56-PM.png';
 
 const slideVariants = {
   enter: (direction) => ({
