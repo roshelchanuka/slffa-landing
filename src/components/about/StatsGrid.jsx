@@ -29,7 +29,7 @@ export default function StatsGrid() {
           </Editable>
           <div className="w-20 h-1 bg-blue-50 dark:bg-slate-9000 mx-auto rounded-full mt-4 mb-6"></div>
           <Editable id="about.stats.subtitle" type="textarea" defaultContent="Through strategic terminal optimization and robust logistics standards, we guarantee speed, security, and personalized care.">
-            <p className="text-slate-400 text-lg">
+            <p className="text-black dark:text-slate-200 text-lg">
               Through strategic terminal optimization and robust logistics standards, we guarantee speed, security, and personalized care.
             </p>
           </Editable>
