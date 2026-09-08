@@ -229,11 +229,8 @@ export default function OperationsGallery() {
                 />
               </div>
 
-              {/* Title & Description under the image */}
+              {/* Description under the image */}
               <div className="text-center mt-6 max-w-2xl px-4">
-                <h3 className="text-2xl sm:text-3xl font-extrabold text-white tracking-wide mb-2">
-                  {galleryItems[activeImageIndex].title}
-                </h3>
                 <p className="text-white text-sm sm:text-base font-light leading-relaxed">
                   {galleryItems[activeImageIndex].description}
                 </p>
