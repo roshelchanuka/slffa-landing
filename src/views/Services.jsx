@@ -122,55 +122,52 @@ export default function Services() {
 
 
       {/* Call to Action Banner */}
-      <section className="py-24 bg-white dark:bg-slate-950 relative z-30 transition-colors duration-300">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-32 z-30 overflow-hidden">
+        {/* Background Image Container */}
+        <div className="absolute inset-0 z-0">
+          <Editable id="services.cta.image" type="image" defaultContent="https://i.ibb.co/205RJx3z/slffacargo-7.png">
+            <div 
+              className="absolute inset-0 bg-cover bg-center"
+              style={{ backgroundImage: 'url("https://i.ibb.co/205RJx3z/slffacargo-7.png")' }}
+            ></div>
+          </Editable>
+          {/* Dark Overlay for Text Legibility */}
+          <div className="absolute inset-0 bg-slate-950/75 dark:bg-slate-950/85 pointer-events-none"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div 
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative flex flex-col lg:flex-row items-center gap-12 lg:gap-16 z-10"
+            className="max-w-3xl text-center mx-auto"
           >
-            {/* Left Column (Texts & Buttons) */}
-            <div className="w-full lg:w-7/12 space-y-6">
+            <div className="space-y-6">
               <Editable id="services.cta.badge" defaultContent="Unrivaled Airside Advantage">
-                <span className="text-blue-600 dark:text-blue-400 font-bold text-sm uppercase tracking-widest block">Unrivaled Airside Advantage</span>
+                <span className="text-blue-400 font-bold text-sm uppercase tracking-widest block drop-shadow-md">Unrivaled Airside Advantage</span>
               </Editable>
-              <Editable id="services.cta.title" defaultContent="Partner with Sri Lanka's Only Alternative Import Facility Airside">
-                <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-slate-900 dark:text-white">
-                  Partner with Sri Lanka's Only Alternative Import Facility Airside
+              <Editable id="services.cta.title" defaultContent="Sri Lanka's Only Alternative Import Facility Airside">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-white drop-shadow-lg">
+                  Sri Lanka's Only Alternative Import Facility Airside
                 </h2>
               </Editable>
               <Editable id="services.cta.description" type="textarea" defaultContent="Ready to accelerate your supply chain operations, enjoy 3 days demurrage-free storage, and experience direct BIA airport airside handling excellence? Get in touch with our operations support desk.">
-                <p className="text-lg text-slate-700 dark:text-slate-300 font-medium leading-relaxed">
+                <p className="text-lg text-slate-200 font-medium leading-relaxed drop-shadow-sm">
                   Ready to accelerate your supply chain operations, enjoy 3 days demurrage-free storage, and experience direct BIA airport airside handling excellence? Get in touch with our operations support desk.
                 </p>
               </Editable>
               
-              <div className="pt-4 flex flex-col sm:flex-row gap-4">
+              <div className="pt-6 flex justify-center">
                 <Link 
                   href="/contact" 
-                  className="group bg-blue-600 text-white hover:bg-blue-50 dark:bg-slate-9000 font-bold px-8 py-4 rounded-xl transition-all duration-300 flex items-center justify-center shadow-lg shadow-blue-500/20 transform hover:-translate-y-0.5"
+                  className="group bg-blue-600 text-white hover:bg-blue-500 font-bold px-8 py-4 rounded-xl transition-all duration-300 flex items-center justify-center shadow-lg shadow-blue-500/30 transform hover:-translate-y-0.5"
                 >
                   <Editable id="services.cta.button" defaultContent="Contact Our Operations Desk">
                     <span>Contact Our Operations Desk</span>
                   </Editable>
                   <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
                 </Link>
-              </div>
-            </div>
-
-            {/* Right Column (Crisp & Beautiful Image Showcase) */}
-            <div className="w-full lg:w-5/12 shrink-0">
-              <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-slate-100 dark:border-slate-800/80 dark:border-slate-800 relative group bg-slate-100 dark:bg-slate-900">
-                <Editable id="services.cta.image" type="image" defaultContent="https://i.ibb.co/205RJx3z/slffacargo-7.png">
-                  <img 
-                    src="https://i.ibb.co/205RJx3z/slffacargo-7.png" 
-                    alt="Airside Advantage Ground Operations" 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </Editable>
-                <div className="absolute inset-0 bg-slate-950/5 dark:bg-slate-950/20 group-hover:bg-transparent transition-colors duration-300"></div>
               </div>
             </div>
           </motion.div>
