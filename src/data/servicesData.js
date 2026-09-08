@@ -32,7 +32,7 @@ export const valueAddedServicesData = [
   {
     iconName: "Building2",
     title: "Customs Supervised Warehouse",
-    description: "A secure, spacious 3,200 Sq. Ft. Customs supervised warehouse optimized for efficient off-loading and rapid transferring of incoming cargo."
+    description: "A secure, spacious 25,000 Sq. Ft. Customs supervised warehouse optimized for efficient off-loading and rapid transferring of incoming cargo."
   },
   {
     iconName: "Send",

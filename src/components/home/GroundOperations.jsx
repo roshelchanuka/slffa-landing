@@ -116,8 +116,8 @@ export default function GroundOperations() {
             className="w-full lg:w-1/2 grid grid-cols-2 gap-6"
           >
             <div className="bg-slate-900/40 backdrop-blur-md border border-white/10 p-8 rounded-3xl text-left hover:bg-slate-900/60 transition-all duration-300 group">
-              <Editable id="home.groundhandling.stat_1.value" defaultContent="3,200">
-                <div className="text-4xl sm:text-5xl font-extrabold text-blue-400 mb-2 group-hover:scale-105 transition-transform duration-300 origin-left">3,200</div>
+              <Editable id="home.groundhandling.stat_1.value" defaultContent="25,000">
+                <div className="text-4xl sm:text-5xl font-extrabold text-blue-400 mb-2 group-hover:scale-105 transition-transform duration-300 origin-left">25,000</div>
               </Editable>
               <Editable id="home.groundhandling.stat_1.label" defaultContent="Square Feet">
                 <div className="text-white font-bold text-sm">Square Feet</div>

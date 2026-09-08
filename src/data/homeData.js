@@ -63,7 +63,7 @@ export const featuresData = [
 export const groundHighlightsData = [
   {
     iconName: "Building2",
-    title: "Weatherproof 3,200 Sq/Ft Shelter",
+    title: "Weatherproof 25,000 Sq/Ft Shelter",
     desc: "Accommodates up to 16 loaded ULD pallets simultaneously, completely sealing cargo from water or outdoor exposure during the breakdown phase."
   },
   {

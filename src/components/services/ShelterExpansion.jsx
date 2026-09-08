@@ -32,9 +32,9 @@ export default function ShelterExpansion() {
                 </h2>
               </Editable>
               
-              <Editable id="services.shelter.desc1" type="textarea" defaultContent="We are delighted to announce that the construction of our highly anticipated terminal shelter covering 3,200 Sq. Ft. is now fully completed and operational.">
-                <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6 font-medium">
-                  We are delighted to announce that the construction of our highly anticipated terminal shelter covering <span className="text-blue-600 dark:text-blue-400 font-bold">3,200 Sq. Ft.</span> is now fully completed and operational.
+              <Editable id="services.shelter.desc1" type="textarea" defaultContent="We are delighted to announce that the construction of our highly anticipated terminal shelter covering 25,000 Sq. Ft. is now fully completed and operational.">
+                <p className="text-slate-700 dark:text-slate-300 font-medium leading-relaxed drop-shadow-sm">
+                  We are delighted to announce that the construction of our highly anticipated terminal shelter covering <span className="text-blue-600 dark:text-blue-400 font-bold">25,000 Sq. Ft.</span> is now fully completed and operational.
                 </p>
               </Editable>
               
@@ -51,8 +51,8 @@ export default function ShelterExpansion() {
                   <Maximize2 className="h-8 w-8" />
                 </div>
                 <div>
-                  <Editable id="services.shelter.stat1.val" defaultContent="3,200 Sq. Ft.">
-                    <div className="text-2xl font-bold text-slate-800 dark:text-slate-200">3,200 Sq. Ft.</div>
+                  <Editable id="services.shelter.stat1.val" defaultContent="25,000 Sq. Ft.">
+                    <div className="text-2xl font-bold text-slate-800 dark:text-slate-200">25,000 Sq. Ft.</div>
                   </Editable>
                   <Editable id="services.shelter.stat1.lbl" defaultContent="Total Shelter Coverage">
                     <div className="text-sm text-slate-500 dark:text-slate-400 font-semibold uppercase tracking-wider mt-1">Total Shelter Coverage</div>
