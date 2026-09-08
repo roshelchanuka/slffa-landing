@@ -103,14 +103,16 @@ export default function OperationsGallery() {
           {galleryItems.map((item, idx) => (
             <motion.div 
               key={idx}
-              initial={{ opacity: 0, scale: 0.96 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: idx * 0.15 }}
-              onClick={() => !isEditMode && setActiveImageIndex(idx)}
-              className="rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-800 group relative bg-slate-100 dark:bg-slate-800 cursor-pointer transition-all duration-500 hover:shadow-2xl flex flex-col"
+              className="flex flex-col group"
             >
-              <div className="aspect-[16/10] relative overflow-hidden">
+              <div 
+                onClick={() => !isEditMode && setActiveImageIndex(idx)}
+                className="aspect-[16/10] relative overflow-hidden rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800 cursor-pointer transition-all duration-500 hover:shadow-2xl"
+              >
                 {/* Image */}
                 <motion.div 
                   whileHover={!isEditMode ? { scale: 1.05 } : {}}
@@ -120,11 +122,11 @@ export default function OperationsGallery() {
                 ></motion.div>
                 
                 {/* Gradient overlay (subtle for contrast if needed) */}
-                <div className="absolute inset-0 bg-slate-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-slate-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
                 
                 {/* Click to Zoom Badge */}
                 {!isEditMode && (
-                  <div className="absolute top-5 right-5 bg-slate-950/75 backdrop-blur-md text-white p-3.5 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg transform translate-y-3 group-hover:translate-y-0 border border-white/10">
+                  <div className="absolute top-5 right-5 bg-slate-950/75 backdrop-blur-md text-white p-3.5 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg transform translate-y-3 group-hover:translate-y-0 border border-white/10 pointer-events-none">
                     <Maximize2 className="h-5 w-5 text-blue-400" />
                   </div>
                 )}
@@ -150,9 +152,9 @@ export default function OperationsGallery() {
                 )}
               </div>
 
-              {/* Text under the image */}
-              <div className="p-6 bg-white dark:bg-slate-900 flex-grow flex items-center border-t border-slate-100 dark:border-slate-800/50">
-                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed text-center w-full">
+              {/* Text under the image (Normal Text) */}
+              <div className="mt-4 px-2">
+                <p className="text-slate-600 dark:text-slate-400 text-base leading-relaxed text-center font-medium">
                   {item.description}
                 </p>
               </div>
