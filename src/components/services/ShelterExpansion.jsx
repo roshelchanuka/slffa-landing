@@ -121,30 +121,7 @@ export default function ShelterExpansion() {
                 </p>
               </Editable>
 
-              <div className="flex flex-col sm:flex-row gap-6">
-                <div className="bg-slate-900/80 backdrop-blur-md p-6 rounded-2xl border border-slate-700/50 hover:bg-slate-800/90 transition-colors shadow-md flex-1 max-w-[200px]">
-                  <div className="flex items-center justify-between mb-2">
-                    <Activity className="h-5 w-5 text-blue-400" />
-                  </div>
-                  <Editable id="services.trust.stat1.val" defaultContent="1994">
-                    <div className="text-3xl lg:text-4xl font-extrabold text-blue-400">1994</div>
-                  </Editable>
-                  <Editable id="services.trust.stat1.lbl" defaultContent="Established">
-                    <div className="text-xs text-slate-400 uppercase tracking-widest font-bold mt-2">Established</div>
-                  </Editable>
-                </div>
-                <div className="bg-slate-900/80 backdrop-blur-md p-6 rounded-2xl border border-slate-700/50 hover:bg-slate-800/90 transition-colors shadow-md flex-1 max-w-[200px]">
-                  <div className="flex items-center justify-between mb-2">
-                    <CheckCircle className="h-5 w-5 text-blue-400" />
-                  </div>
-                  <Editable id="services.trust.stat2.val" defaultContent="100%">
-                    <div className="text-3xl lg:text-4xl font-extrabold text-blue-400">100%</div>
-                  </Editable>
-                  <Editable id="services.trust.stat2.lbl" defaultContent="Accuracy">
-                    <div className="text-xs text-slate-400 uppercase tracking-widest font-bold mt-2">Accuracy</div>
-                  </Editable>
-                </div>
-              </div>
+
             </div>
 
             {/* Spacer for desktop to push text left and keep badge visible on the right */}
