@@ -35,7 +35,7 @@ export const statsData = [
   },
   {
     iconName: "Users",
-    value: "300+ Consignees",
+    value: "1500+ Consignees",
     label: "Active Trade Clients",
     description: "Serving diverse trade sectors, from apparel manufacturers to technology leaders."
   },
