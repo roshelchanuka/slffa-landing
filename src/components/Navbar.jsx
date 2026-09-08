@@ -49,8 +49,8 @@ export default function Navbar() {
                     href={link.path}
                     className={`transition-all duration-300 px-1 py-1 uppercase tracking-wider inline-block
                       ${isActive 
-                        ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-600 dark:border-blue-400 text-[14px] xl:text-[15px] font-black scale-105' 
-                        : 'text-slate-900 dark:text-slate-100 hover:text-blue-600 dark:hover:text-blue-400 border-b-2 border-transparent text-xs xl:text-sm font-bold hover:scale-105'}`}
+                        ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-600 dark:border-blue-400 text-[12px] xl:text-[13px] font-black scale-105' 
+                        : 'text-slate-900 dark:text-slate-100 hover:text-blue-600 dark:hover:text-blue-400 border-b-2 border-transparent text-[11px] xl:text-xs font-bold hover:scale-105'}`}
                   >
                     {link.name}
                   </Link>
