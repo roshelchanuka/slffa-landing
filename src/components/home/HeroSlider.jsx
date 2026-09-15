@@ -2,12 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useAdmin } from '../../context/AdminContext';
 import { heroSlidesData } from '../../data/homeData';
 import Editable from '../Editable';
 
 export default function HeroSlider({ y, opacity, isMobile }) {
-  const { isEditMode, getContent } = useAdmin();
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = heroSlidesData.map(slide => ({

@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
-import { useAdmin } from '../context/AdminContext';
 import Editable from '../components/Editable';
 import AwbGuide from '../components/tools/AwbGuide';
 import TradingConditions from '../components/tools/TradingConditions';
@@ -12,7 +11,6 @@ import TradingConditions from '../components/tools/TradingConditions';
 const chatgptImgJun9 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385778/ChatGPT_Image_Jun_9_2026_at_03_30_36_PM_ptp0ok.png';
 
 const Tools = () => {
-  const { getContent } = useAdmin();
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 800], ['0%', '30%']);
   const opacity = useTransform(scrollY, [0, 600], [1, 0]);

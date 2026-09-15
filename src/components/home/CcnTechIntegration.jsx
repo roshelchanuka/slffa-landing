@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import * as LucideIcons from 'lucide-react';
 import { ccnFeaturesData } from '../../data/homeData';
-import { useAdmin } from '../../context/AdminContext';
+
 import Editable from '../Editable';
 import MemberLogos from '../MemberLogos';
 

@@ -4,7 +4,6 @@ import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import Editable from '../components/Editable';
-import { useAdmin } from '../context/AdminContext';
 import { 
   Search, 
   Plane, 
@@ -276,7 +275,6 @@ const cardVariants = {
 };
 
 export default function UsefulLinks() {
-  const { isEditMode, getContent } = useAdmin();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
 

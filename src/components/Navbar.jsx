@@ -5,13 +5,13 @@ import { usePathname } from 'next/navigation';
 import { Menu, X, Edit3, LogOut, Image, Home, Info, Briefcase, Newspaper, Wrench, PhoneCall, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useAdmin } from '../context/AdminContext';
+
 import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const { isAdmin, isEditMode, toggleEditMode, logout, setIsMediaLibraryOpen } = useAdmin();
+
 
   // Close mobile menu when route/pathname changes
   useEffect(() => {

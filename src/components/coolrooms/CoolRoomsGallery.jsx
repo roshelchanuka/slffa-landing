@@ -4,12 +4,10 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Maximize2, X, ChevronLeft, ChevronRight, User, Phone, Shield, Mail } from 'lucide-react';
 import { galleryPhotosData } from '../../data/coolRoomsData';
-import { useAdmin } from '../../context/AdminContext';
 import Editable from '../Editable';
 
 export default function CoolRoomsGallery() {
   const [activeImageIndex, setActiveImageIndex] = useState(null);
-  const { isEditMode } = useAdmin();
 
   return (
     <>

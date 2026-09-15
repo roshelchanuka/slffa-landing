@@ -6,11 +6,9 @@ import {
   Maximize2, X, ChevronLeft, ChevronRight, Pencil, Trash2, PlusCircle, Pencil as PencilIcon 
 } from 'lucide-react';
 import { initialGalleryData } from '../../data/servicesData';
-import { useAdmin } from '../../context/AdminContext';
 import Editable from '../Editable';
 
 export default function OperationsGallery() {
-  const { isEditMode, getContent, updateContent } = useAdmin();
   const [activeImageIndex, setActiveImageIndex] = useState(null);
 
   // Gallery Management States

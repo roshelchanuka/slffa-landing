@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { useAdmin } from '../../context/AdminContext';
 import { ground1 } from '../../data/aboutData';
 import Editable from '../Editable';
 

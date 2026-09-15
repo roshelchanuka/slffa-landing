@@ -5,11 +5,9 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import { MapPin, Phone, Mail, Send } from 'lucide-react';
 import Editable from '../components/Editable';
-import { useAdmin } from '../context/AdminContext';
 const contactHeroBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386375/ChatGPT_Image_Jun_25_2026_at_04_00_52_PM_bfkese.png';
 
 const Contact = () => {
-  const { getContent } = useAdmin();
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 800], ['0%', '30%']);
   const opacity = useTransform(scrollY, [0, 600], [1, 0]);
