@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YourUsername/YourRepoName # USER NEEDS TO UPDATE THIS
+  repo: roshelchanuka/slffa-landing # USER NEEDS TO UPDATE THIS
   branch: main # Or master
 
 media_folder: "public/uploads"
