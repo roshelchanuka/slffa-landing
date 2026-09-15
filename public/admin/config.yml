@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: YourUsername/YourRepoName # USER NEEDS TO UPDATE THIS
+  branch: main # Or master
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "news"
+    label: "News & Events"
+    folder: "src/content/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: "select", options: ["News", "Event", "Award", "Anniversary", "Workshop", "Infrastructure"]}
+      - {label: "Excerpt (Short Description)", name: "excerpt", widget: "text"}
+      - {label: "Body (Detailed Description)", name: "body", widget: "markdown"}
