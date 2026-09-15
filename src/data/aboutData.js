@@ -10,12 +10,6 @@ export { aboutCargo, worldmapair, ground1, ground4 };
 
 export const statsData = [
   {
-    iconName: "Calendar",
-    value: "31 Years",
-    label: "Established 1994",
-    description: "Incorporated on 15th August 1994, solely owned by the Freight Forwarding fraternity."
-  },
-  {
     iconName: "TrendingUp",
     value: "25 Metric Tons",
     label: "Daily Cargo Flow",
