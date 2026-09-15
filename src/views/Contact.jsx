@@ -3,13 +3,42 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail, Send } from 'lucide-react';
 import Editable from '../components/Editable';
 import { useAdmin } from '../context/AdminContext';
 const contactHeroBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386375/ChatGPT_Image_Jun_25_2026_at_04_00_52_PM_bfkese.png';
 
 const Contact = () => {
   const { getContent } = useAdmin();
+  const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
+  const [status, setStatus] = useState('idle'); // idle, submitting, success, error
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('submitting');
+    
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+      
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Failed to submit form');
+      
+      setStatus('success');
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    } catch (err) {
+      console.error(err);
+      setStatus('error');
+    }
+  };
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 800], ['0%', '30%']);
   const opacity = useTransform(scrollY, [0, 600], [1, 0]);
@@ -233,6 +262,53 @@ const Contact = () => {
                 </div>
               </div>
             </motion.div>
+          </motion.div>
+
+          {/* Contact Form Section */}
+          <motion.div 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1.0, ease: "easeOut" }}
+            className="w-full max-w-4xl mx-auto bg-white dark:bg-slate-900 rounded-2xl shadow-xl border border-slate-200 dark:border-slate-800 p-8 md:p-12 mb-16 relative overflow-hidden"
+          >
+            <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+            
+            <div className="text-center mb-10 relative z-10">
+              <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-3">Send us a Message</h2>
+              <p className="text-slate-500 dark:text-slate-400">Fill out the form below and our team will get back to you shortly.</p>
+            </div>
+
+            <form onSubmit={handleSubmit} className="space-y-6 relative z-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="name" className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Your Name</label>
+                  <input required type="text" id="name" name="name" value={formData.name} onChange={handleInputChange} className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" placeholder="John Doe" />
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Email Address</label>
+                  <input required type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" placeholder="john@example.com" />
+                </div>
+              </div>
+              
+              <div>
+                <label htmlFor="subject" className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Subject (Optional)</label>
+                <input type="text" id="subject" name="subject" value={formData.subject} onChange={handleInputChange} className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" placeholder="How can we help?" />
+              </div>
+
+              <div>
+                <label htmlFor="message" className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Your Message</label>
+                <textarea required id="message" name="message" value={formData.message} onChange={handleInputChange} rows={5} className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors resize-none" placeholder="Write your message here..."></textarea>
+              </div>
+
+              {status === 'error' && <p className="text-red-500 text-sm font-medium">Something went wrong. Please try again or call us.</p>}
+              {status === 'success' && <p className="text-green-500 text-sm font-medium">Thank you! Your message has been sent successfully.</p>}
+
+              <button disabled={status === 'submitting'} type="submit" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 disabled:opacity-70 disabled:cursor-not-allowed text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md">
+                {status === 'submitting' ? 'Sending...' : 'Send Message'}
+                <Send className="w-4 h-4" />
+              </button>
+            </form>
           </motion.div>
 
           {/* Map - Full Width at Bottom */}

@@ -105,7 +105,7 @@ function EventSlideshow({ images }) {
   );
 }
 
-export default function News() {
+export default function News({ customNews }) {
   const [selectedYear, setSelectedYear] = useState('All');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -122,8 +122,11 @@ export default function News() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
+  // Use customNews if provided, else fallback to static newsData
+  const itemsToRender = customNews && customNews.length > 0 ? customNews : newsItems;
+
   // Filter items by selected year
-  const filteredItems = newsItems.filter(item => {
+  const filteredItems = itemsToRender.filter(item => {
     if (selectedYear === 'All') return true;
     return item.date.includes(selectedYear);
   });

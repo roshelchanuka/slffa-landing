@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { checkRateLimit } from '@/lib/rateLimit';
+import { checkRateLimit } from '../../../lib/rateLimit';
 
 // Validate that ID contains letters, numbers, hyphens, and underscores (typical Google Drive ID)
 const idSchema = z.string().min(10).regex(/^[a-zA-Z0-9_-]+$/);
