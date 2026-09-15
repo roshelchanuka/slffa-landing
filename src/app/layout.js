@@ -1,9 +1,7 @@
 import '../index.css';
-import { AdminProvider } from '../context/AdminContext';
 import { ThemeProvider } from '../context/ThemeContext';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import MediaLibraryModal from '../components/MediaLibraryModal';
 import CookieBanner from '../components/CookieBanner';
 
 export const metadata = {
@@ -23,17 +21,14 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <ThemeProvider>
-          <AdminProvider>
-            <MediaLibraryModal />
-            <div className="min-h-screen flex flex-col font-sans overflow-x-hidden relative w-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
-              <Navbar />
-              <main className="flex-grow w-full overflow-x-hidden">
-                {children}
-              </main>
-              <Footer />
-              <CookieBanner />
-            </div>
-          </AdminProvider>
+          <div className="min-h-screen flex flex-col font-sans overflow-x-hidden relative w-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+            <Navbar />
+            <main className="flex-grow w-full overflow-x-hidden">
+              {children}
+            </main>
+            <Footer />
+            <CookieBanner />
+          </div>
         </ThemeProvider>
       </body>
     </html>
