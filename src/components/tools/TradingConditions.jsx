@@ -581,8 +581,8 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
                           </li>
                           <li>
                             <span className="text-slate-805 dark:text-slate-300 font-semibold">II.</span>{' '}
-                            <Editable id="tools.stc.clause13.d.ii" type="textarea" defaultContent="In the event the Company acts in accordance with 13(D)(I) above, to the details of such failure remaining on the SLFFA CS Database for viewing by SLFFA CS Members until the amount so due is paid.">
-                              <span>In the event the Company acts in accordance with 13(D)(I) above, to the details of such failure remaining on the SLFFA CS Database for viewing by SLFFA CS Members until the amount so due is paid.</span>
+                            <Editable id="tools.stc.clause13.d.ii" type="textarea" defaultContent="In the event the Company acts in accordance with 13(D)(I) above, to the details of such failure remaining on the SLFFA CS Database for viewing until the amount so due is paid.">
+                              <span>In the event the Company acts in accordance with 13(D)(I) above, to the details of such failure remaining on the SLFFA CS Database for viewing until the amount so due is paid.</span>
                             </Editable>
                           </li>
                         </ul>

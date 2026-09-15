@@ -4,7 +4,7 @@ import Editable from './Editable';
 
 export default function Footer() {
   return (
-    <footer className="bg-slffaBlue text-white pt-24 pb-8 relative overflow-hidden">
+    <footer className="bg-[#1c5285] text-white pt-24 pb-8 relative overflow-hidden">
       {/* Beautiful top feathering gradient */}
       <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-50/50 via-slate-50/15 dark:from-slate-950/50 dark:via-slate-950/15 to-transparent pointer-events-none z-10 transition-colors duration-300"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
