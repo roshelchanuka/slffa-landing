@@ -54,7 +54,7 @@ const Contact = () => {
           className="absolute inset-0 z-0"
         >
           {/* Subtle dark gradient overlay for text readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/45 to-slate-950/15 lg:from-slate-950/80 lg:via-slate-950/40 lg:to-transparent z-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/60 via-slate-950/30 to-slate-950/10 lg:from-slate-950/50 lg:via-slate-950/20 lg:to-transparent z-10"></div>
           
           <motion.div
             initial={{ scale: 1.1, opacity: 0 }}
@@ -72,7 +72,7 @@ const Contact = () => {
                 style={{ backgroundImage: `url('${heroBg}')` }}
               >
                 {/* Dark shading directly on image */}
-                <div className="absolute inset-0 bg-slate-950/40 mix-blend-multiply"></div>
+                <div className="absolute inset-0 bg-slate-950/10 mix-blend-multiply"></div>
               </div>
             </Editable>
           </motion.div>
