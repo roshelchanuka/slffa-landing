@@ -1,12 +1,27 @@
 import { NextResponse } from 'next/server';
+import { z } from 'zod';
+import { checkRateLimit } from '@/lib/rateLimit';
+
+// Validate that ID contains letters, numbers, hyphens, and underscores (typical Google Drive ID)
+const idSchema = z.string().min(10).regex(/^[a-zA-Z0-9_-]+$/);
 
 export async function GET(request) {
-  const { searchParams } = new URL(request.url);
-  const id = searchParams.get('id');
+  // Rate limiting (60 requests per minute per IP)
+  const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
+  const isAllowed = checkRateLimit(ip, 60);
 
-  if (!id) {
-    return new NextResponse('Missing Video ID', { status: 400 });
+  if (!isAllowed) {
+    return new NextResponse('Too Many Requests', { status: 429 });
   }
+
+  const { searchParams } = new URL(request.url);
+  const rawId = searchParams.get('id');
+
+  const validationResult = idSchema.safeParse(rawId);
+  if (!validationResult.success) {
+    return new NextResponse('Invalid or Missing Video ID', { status: 400 });
+  }
+  const id = validationResult.data;
 
   const driveUrl = `https://drive.google.com/uc?export=download&id=${id}`;
 
