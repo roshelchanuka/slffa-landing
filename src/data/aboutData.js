@@ -12,7 +12,7 @@ export const statsData = [
   {
     iconName: "TrendingUp",
     value: "25 Metric Tons",
-    label: "Daily Cargo Flow",
+    label: "Daily Cargo Floor",
     description: "Averages 25 metric tons of import cargo handled daily with speed and absolute precision."
   },
   {
