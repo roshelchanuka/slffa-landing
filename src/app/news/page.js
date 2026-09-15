@@ -1,5 +1,6 @@
 import News from '../../views/News';
 import { getAllNews } from '../../lib/mdx';
+import { newsItems } from '../../data/newsData';
 
 export const metadata = {
   title: 'News & Events - SLFFA Cargo',
@@ -14,10 +15,12 @@ export default async function Page() {
     id: item.slug,
     title: item.meta.title,
     date: item.meta.date,
-    category: 'News',
+    category: item.meta.category || 'News',
     excerpt: item.meta.excerpt || item.content.substring(0, 150),
     images: [], // MDX images not set up yet
   }));
 
-  return <News customNews={formattedNews} />;
+  const allNews = [...formattedNews, ...newsItems];
+
+  return <News customNews={allNews} />;
 }
