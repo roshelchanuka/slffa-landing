@@ -26,7 +26,7 @@ const securityHeaders = [
   },
   {
     key: 'Content-Security-Policy',
-    value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://drive.google.com https://lh3.googleusercontent.com; font-src 'self' data:; connect-src 'self' https://drive.google.com; media-src 'self' blob: data: https://drive.google.com;"
+    value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' blob: data: https://drive.google.com https://lh3.googleusercontent.com https://i.ibb.co https://res.cloudinary.com https://flagcdn.com; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://drive.google.com; media-src 'self' blob: data: https://drive.google.com;"
   }
 ];
 
