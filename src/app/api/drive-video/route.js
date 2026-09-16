@@ -61,7 +61,6 @@ export async function GET(request) {
     headers.set('Cache-Control', 'public, max-age=86400'); // Cache for 1 day
     
     // Optional: Pass content-length if available
-    const contentLength = response.headers.get('Content-Length');
     if (contentLength) {
       headers.set('Content-Length', contentLength);
     }
