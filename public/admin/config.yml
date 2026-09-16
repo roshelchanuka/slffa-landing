@@ -16,5 +16,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "category", widget: "select", options: ["News", "Event", "Award", "Anniversary", "Workshop", "Infrastructure"]}
+      - {label: "Image URL", name: "image", widget: "string", required: false, hint: "Paste the external link to your image here (e.g., from Imgur, AWS S3, Google Drive, etc.)"}
       - {label: "Excerpt (Short Description)", name: "excerpt", widget: "text"}
       - {label: "Body (Detailed Description)", name: "body", widget: "markdown"}
