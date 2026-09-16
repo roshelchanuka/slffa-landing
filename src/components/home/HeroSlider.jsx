@@ -58,7 +58,7 @@ export default function HeroSlider({ y, opacity, isMobile, slidesData = null }) 
             <Editable
               id={`home.hero.slide_${slides[currentSlide].id}.image`}
               type="image"
-              defaultContent={slides[currentSlide].defaultImage}
+              defaultContent={slides[currentSlide].image}
             >
               <div 
                 className={`absolute inset-0 bg-no-repeat ${currentSlide === 1 ? 'bg-cover bg-[position:right_center]' : 'bg-cover bg-center'}`}
