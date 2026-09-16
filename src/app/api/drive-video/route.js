@@ -5,6 +5,9 @@ import { checkRateLimit } from '../../../lib/rateLimit';
 // Validate that ID contains letters, numbers, hyphens, and underscores (typical Google Drive ID)
 const idSchema = z.string().min(10).regex(/^[a-zA-Z0-9_-]+$/);
 
+/**
+ * @param {Request} request 
+ */
 export async function GET(request) {
   // Rate limiting (60 requests per minute per IP)
   const forwardedFor = request.headers.get('x-forwarded-for');

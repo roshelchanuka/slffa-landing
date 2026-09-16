@@ -5,7 +5,13 @@ const tokenCache = new LRUCache({
   ttl: 60 * 1000, // 1 minute
 });
 
+/**
+ * @param {string} ip
+ * @param {number} limit
+ * @returns {boolean}
+ */
 export function checkRateLimit(ip, limit) {
+  /** @type {number} */
   const count = tokenCache.get(ip) || 0;
   
   if (count >= limit) {
