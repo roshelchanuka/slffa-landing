@@ -19,7 +19,7 @@ export default function OperationsGallery() {
   const [modalTitle, setModalTitle] = useState('');
   const [modalDescription, setModalDescription] = useState('');
 
-  const galleryItems = getContent('services.gallery.items', initialGalleryData);
+  const galleryItems = initialGalleryData;
 
   // Gallery CRUD Handlers
   const handleDeleteGalleryItem = (indexToDelete, e) => {
@@ -108,12 +108,12 @@ export default function OperationsGallery() {
               className="flex flex-col group"
             >
               <div 
-                onClick={() => !isEditMode && setActiveImageIndex(idx)}
+                onClick={() => !false && setActiveImageIndex(idx)}
                 className="aspect-[16/10] relative overflow-hidden rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800 cursor-pointer transition-all duration-500 hover:shadow-2xl"
               >
                 {/* Image */}
                 <motion.div 
-                  whileHover={!isEditMode ? { scale: 1.05 } : {}}
+                  whileHover={!false ? { scale: 1.05 } : {}}
                   transition={{ duration: 0.5 }}
                   className="absolute inset-0 bg-cover bg-center"
                   style={{ backgroundImage: `url('${item.image}')` }}
@@ -123,14 +123,14 @@ export default function OperationsGallery() {
                 <div className="absolute inset-0 bg-slate-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
                 
                 {/* Click to Zoom Badge */}
-                {!isEditMode && (
+                {!false && (
                   <div className="absolute top-5 right-5 bg-slate-950/75 backdrop-blur-md text-white p-3.5 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg transform translate-y-3 group-hover:translate-y-0 border border-white/10 pointer-events-none">
                     <Maximize2 className="h-5 w-5 text-blue-400" />
                   </div>
                 )}
 
                 {/* Edit & Delete Overlays */}
-                {isEditMode && (
+                {false && (
                   <div className="absolute top-5 right-5 flex items-center space-x-3 z-30">
                     <button
                       onClick={(e) => handleOpenEditGalleryModal(idx, e)}
@@ -159,7 +159,7 @@ export default function OperationsGallery() {
             </motion.div>
           ))}
 
-          {isEditMode && (
+          {false && (
             <motion.div
               initial={{ opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}

@@ -20,7 +20,7 @@ const Contact = () => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const heroBg = getContent('contact.hero.image', contactHeroBg);
+  const heroBg = contactHeroBg;
 
   const containerVariants = {
     hidden: { opacity: 0 },

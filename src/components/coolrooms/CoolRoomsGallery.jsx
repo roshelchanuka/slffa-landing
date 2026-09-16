@@ -58,7 +58,7 @@ export default function CoolRoomsGallery() {
                 </div>
 
                 {/* Overlay details */}
-                <div className={`absolute bottom-5 left-5 right-5 text-white transition-transform duration-300 group-hover:translate-y-[-2px] ${isEditMode ? 'z-30 cursor-pointer' : 'pointer-events-none'}`}>
+                <div className={`absolute bottom-5 left-5 right-5 text-white transition-transform duration-300 group-hover:translate-y-[-2px] ${false ? 'z-30 cursor-pointer' : 'pointer-events-none'}`}>
                   <Editable id={`coolrooms.gallery_${idx}.title`} defaultContent={photo.title}>
                     <h4 className="font-extrabold text-lg tracking-wide mb-1 drop-shadow-md text-slate-55 animate-pulse">
                       {photo.title}

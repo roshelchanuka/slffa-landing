@@ -294,8 +294,8 @@ export default function UsefulLinks() {
   // Real-time keyword filter query
   const filteredLinks = useMemo(() => {
     return usefulLinksData.filter(link => {
-      const name = getContent(`usefullinks.portal.${link.acronym}.name`, link.name);
-      const description = getContent(`usefullinks.portal.${link.acronym}.description`, link.description);
+      const name = link.name;
+      const description = link.description;
       const matchesSearch = 
         name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         link.acronym.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -305,7 +305,7 @@ export default function UsefulLinks() {
       
       return matchesSearch && matchesCategory;
     });
-  }, [searchQuery, selectedCategory, getContent]);
+  }, [searchQuery, selectedCategory]);
 
   return (
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen pb-24 relative overflow-hidden">
@@ -559,7 +559,7 @@ export default function UsefulLinks() {
 
                 {/* Footer anchor hyperlink with high tactile responsive diagonal arrow */}
                 <div className="flex flex-col mt-auto border-t border-slate-100 dark:border-slate-800 pt-4">
-                  {isEditMode && (
+                  {false && (
                     <div className="mb-2">
                       <Editable id={`usefullinks.portal.${link.acronym}.url`} defaultContent={link.url}>
                         <span className="text-[11px] text-slate-400 hover:text-blue-500 cursor-pointer font-mono block truncate max-w-full">
@@ -569,7 +569,7 @@ export default function UsefulLinks() {
                     </div>
                   )}
                   <a 
-                    href={getContent(`usefullinks.portal.${link.acronym}.url`, link.url)} 
+                    href={link.url} 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="inline-flex items-center text-sm font-bold text-blue-600 dark:text-blue-400 hover:text-blue-500 transition-colors cursor-pointer"

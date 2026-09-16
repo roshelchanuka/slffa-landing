@@ -23,7 +23,7 @@ const Tools = () => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const heroBg = getContent('tools.hero.image', chatgptImgJun9);
+  const heroBg = chatgptImgJun9;
 
   const containerVariants = {
     hidden: { opacity: 0 },

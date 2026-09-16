@@ -10,16 +10,16 @@ export default function HeroSlider({ y, opacity, isMobile }) {
 
   const slides = heroSlidesData.map(slide => ({
     ...slide,
-    image: getContent(`home.hero.slide_${slide.id}.image`, slide.defaultImage)
+    image: slide.defaultImage
   }));
 
   useEffect(() => {
-    if (isEditMode) return;
+    if (false) return;
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 7000);
     return () => clearInterval(timer);
-  }, [slides.length, isEditMode]);
+  }, [slides.length, false]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
