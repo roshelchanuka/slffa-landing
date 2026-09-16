@@ -1,4 +1,5 @@
 import Home from '../views/Home';
+import { getHomePageData } from '../lib/cmsData';
 
 export const metadata = {
   title: 'Home - SLFFA Cargo',
@@ -6,5 +7,6 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <Home />;
+  const homeData = getHomePageData() || {};
+  return <Home cmsData={homeData} />;
 }

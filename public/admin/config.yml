@@ -19,3 +19,67 @@ collections:
       - {label: "Image URL", name: "image", widget: "string", required: false, hint: "Paste the external link to your image here (e.g., from Imgur, AWS S3, Google Drive, etc.)"}
       - {label: "Excerpt (Short Description)", name: "excerpt", widget: "text"}
       - {label: "Body (Detailed Description)", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/content/pages/home.json"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Slides"
+                name: "slides"
+                widget: "list"
+                fields:
+                  - {label: "ID", name: "id", widget: "number"}
+                  - {label: "Image URL", name: "image", widget: "string", hint: "Direct image URL"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text"}
+          - label: "Features / Cool Rooms"
+            name: "features"
+            widget: "list"
+            fields:
+              - {label: "Icon Name (Lucide)", name: "iconName", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - label: "Ground Operations Highlights"
+            name: "groundHighlights"
+            widget: "list"
+            fields:
+              - {label: "Icon Name (Lucide)", name: "iconName", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - label: "CCN Tech Integration Features"
+            name: "ccnFeatures"
+            widget: "list"
+            fields:
+              - {label: "Icon Name (Lucide)", name: "iconName", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "src/content/settings/global.json"
+        label: "Global Settings"
+        name: "global"
+        fields:
+          - label: "Contact Information"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Address", name: "address", widget: "string"}
+              - {label: "Phone Number", name: "phone", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+          - label: "Social Media Links"
+            name: "social"
+            widget: "object"
+            fields:
+              - {label: "Facebook URL", name: "facebook", widget: "string"}
+              - {label: "LinkedIn URL", name: "linkedin", widget: "string"}
+              - {label: "Twitter URL", name: "twitter", widget: "string"}

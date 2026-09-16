@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "id": 1,
+        "image": "https://i.ibb.co/27mzBrHR/Chat-GPT-Image-Aug-12-2026-at-12-00-56-PM.png",
+        "title": "Sri Lanka's Premier Cargo Terminal",
+        "subtitle": "",
+        "description": "SLFFA Cargo Services (SLFFA CS) is Sri Lanka's leading air cargo handling facility, dedicated to providing secure, seamless, and highly efficient logistics solutions at the Bandaranaike International Airport."
+      },
+      {
+        "id": 2,
+        "image": "https://i.ibb.co/v6gdRjYw/Chat-GPT-Image-Aug-20-2026-10-48-32-AM.png",
+        "title": "Faster Freight, Seamless Connections",
+        "subtitle": "",
+        "description": "Experience unparalleled speed and efficiency in air cargo handling. We ensure your shipments are processed and delivered with seamless connectivity."
+      },
+      {
+        "id": 3,
+        "image": "https://i.ibb.co/MynBKrpg/Chat-GPT-Image-Aug-20-2026-11-18-06-AM.png",
+        "title": "Precision in Every Cargo Movement",
+        "subtitle": "",
+        "description": "Error-free logistics management backed by strict quality control to deliver exactly what you expect, every single time."
+      }
+    ]
+  },
+  "features": [
+    {
+      "iconName": "Snowflake",
+      "title": "State-of-the-Art Cool Rooms",
+      "description": "Temperature-controlled facilities ensuring your perishable cargo remains fresh and secure."
+    },
+    {
+      "iconName": "Plane",
+      "title": "Air Cargo Handling",
+      "description": "Fast, reliable, and secure terminal handling services at BIA."
+    },
+    {
+      "iconName": "Shield",
+      "title": "Safety & Security",
+      "description": "24/7 surveillance and strict protocols to protect your valuable shipments."
+    },
+    {
+      "iconName": "Package",
+      "title": "Cargo Community Network",
+      "description": "Seamless digital integration with CCNhub for efficient booking and tracking."
+    }
+  ],
+  "groundHighlights": [
+    {
+      "iconName": "Building2",
+      "title": "Weatherproof 25,000 Sq/Ft Shelter",
+      "description": "Accommodates up to 16 loaded ULD pallets simultaneously, completely sealing cargo from water or outdoor exposure during the breakdown phase."
+    },
+    {
+      "iconName": "Cpu",
+      "title": "Advanced Mechanical Handling",
+      "description": "An elite airside fleet featuring electric forklifts, airport cargo dollies, heavy-duty tow tractors, and precise mechanical lift platforms."
+    },
+    {
+      "iconName": "CheckCircle2",
+      "title": "Certified Workforce & 100% Accuracy",
+      "description": "Our airport-certified operators adhere to rigorous quality standards, maintaining a flawless 100% error-free delivery and breakdown log."
+    }
+  ],
+  "ccnFeatures": [
+    {
+      "iconName": "Calendar",
+      "title": "Allotment & Bookings",
+      "description": "Highly efficient electronic space allotment and free sales booking system."
+    },
+    {
+      "iconName": "Search",
+      "title": "Track & Trace",
+      "description": "End-to-end electronic cargo tracking for full transparency of your shipment lifecycle."
+    },
+    {
+      "iconName": "Globe",
+      "title": "Flight Schedules",
+      "description": "Real-time query and reviews of flight schedules for smart planning."
+    },
+    {
+      "iconName": "FileText",
+      "title": "Neutral Air Waybills",
+      "description": "Fast, accurate electronic distribution of neutral air waybills."
+    },
+    {
+      "iconName": "DollarSign",
+      "title": "e-Invoicing & Payments",
+      "description": "Integrated secure e-invoicing and digital payment capabilities reducing delays."
+    },
+    {
+      "iconName": "Cpu",
+      "title": "Standard Integration",
+      "description": "Raising the bar for industry cargo operations by fully adopting modern e-services."
+    }
+  ]
+}

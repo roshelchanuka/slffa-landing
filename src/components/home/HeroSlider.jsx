@@ -2,15 +2,16 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { heroSlidesData } from '../../data/homeData';
+import { heroSlidesData as defaultSlidesData } from '../../data/homeData';
 import Editable from '../Editable';
 
-export default function HeroSlider({ y, opacity, isMobile }) {
+export default function HeroSlider({ y, opacity, isMobile, slidesData = null }) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const slides = heroSlidesData.map(slide => ({
+  const rawSlides = slidesData || defaultSlidesData;
+  const slides = rawSlides.map(slide => ({
     ...slide,
-    image: slide.defaultImage
+    image: slide.image || slide.defaultImage
   }));
 
   useEffect(() => {

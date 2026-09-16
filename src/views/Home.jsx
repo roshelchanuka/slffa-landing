@@ -10,7 +10,7 @@ import SimpleNewsIntro from '../components/home/SimpleNewsIntro';
 import CcnTechIntegration from '../components/home/CcnTechIntegration';
 import UsefulLinksPromo from '../components/home/UsefulLinksPromo';
 
-export default function Home() {
+export default function Home({ cmsData = {} }) {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 800], ['0%', '30%']);
   const opacity = useTransform(scrollY, [0, 600], [1, 0]);
@@ -26,13 +26,13 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Parallax Section */}
-      <HeroSlider y={y} opacity={opacity} isMobile={isMobile} />
+      <HeroSlider y={y} opacity={opacity} isMobile={isMobile} slidesData={cmsData.hero?.slides} />
 
       {/* Who We Are Section */}
       <WhoWeAre />
 
       {/* Featured Services (News & STC) */}
-      <FeaturedServices hideCoolRooms={true} showNewsIntro={true} />
+      <FeaturedServices hideCoolRooms={true} showNewsIntro={true} featuresData={cmsData.features} />
 
 
       {/* Useful Links Promo */}
