@@ -1,8 +1,6 @@
 // Dynamic gallery lists generated for Next.js
 
-export const rootImages = [
-  'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png',
-];
+
 
 export const anniversary30Images = [
   'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785388530/IMG_5808_bouke7.jpg',

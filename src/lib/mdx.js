@@ -9,12 +9,12 @@ if (!fs.existsSync(contentDirectory)) {
   fs.mkdirSync(contentDirectory, { recursive: true });
 }
 
-export function getNewsSlugs() {
+function getNewsSlugs() {
   const files = fs.readdirSync(contentDirectory);
   return files.filter(file => file.endsWith('.mdx'));
 }
 
-export function getNewsBySlug(slug) {
+function getNewsBySlug(slug) {
   const realSlug = slug.replace(/\.mdx$/, '');
   const fullPath = path.join(contentDirectory, `${realSlug}.mdx`);
   

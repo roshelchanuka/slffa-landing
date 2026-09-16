@@ -9,9 +9,8 @@ const coolRoomMedicine = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_aut
 const heroSpareParts = '/images/hero-spare-parts.png';
 const chatgptImgJun25 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785386359/ChatGPT_Image_Jun_25_2026_at_03_16_35_PM_z7vtlk.png';
 const stcBg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384326/8094abfb3faee6a58f1746642ecf234b_dxhlpq.jpg';
-const imgGroundHandling = '/api/drive-video?id=1NeetoUfYqpRlRXkDpCTYUGJKW5NS4Bjk';
 
-export { stcBg, imgGroundHandling };
+export { stcBg };
 
 export const heroSlidesData = [
   {
@@ -60,23 +59,6 @@ export const featuresData = [
   }
 ];
 
-export const groundHighlightsData = [
-  {
-    iconName: "Building2",
-    title: "Weatherproof 25,000 Sq/Ft Shelter",
-    desc: "Accommodates up to 16 loaded ULD pallets simultaneously, completely sealing cargo from water or outdoor exposure during the breakdown phase."
-  },
-  {
-    iconName: "Cpu",
-    title: "Advanced Mechanical Handling",
-    desc: "An elite airside fleet featuring electric forklifts, airport cargo dollies, heavy-duty tow tractors, and precise mechanical lift platforms."
-  },
-  {
-    iconName: "CheckCircle2",
-    title: "Certified Workforce & 100% Accuracy",
-    desc: "Our airport-certified operators adhere to rigorous quality standards, maintaining a flawless 100% error-free delivery and breakdown log."
-  }
-];
 
 export const ccnFeaturesData = [
   {
