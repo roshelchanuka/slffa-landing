@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20 sm:h-28 lg:h-32">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-4 group">
-              <img src="https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384434/62b64d45-1a8c-4c87-95a6-a1b446512078_pcjqor.png" alt="SLFFA Cargo Logo" className="h-16 sm:h-24 lg:h-28 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+              <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Cargo Logo" className="h-20 sm:h-28 lg:h-32 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
               <span className="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-3xl tracking-tight max-w-[150px] sm:max-w-none leading-tight">SLFFA CARGO SERVICES LTD</span>
             </Link>
           </div>
@@ -174,7 +174,7 @@ export default function Navbar() {
 
             <div className="flex justify-between items-center mb-8">
               <Link href="/" className="flex items-center space-x-3 text-2xl sm:text-3xl font-black tracking-wider text-slate-900 dark:text-white group">
-                <img src="https://i.ibb.co/ymr2Tskj/slffalogo3.png" alt="SLFFA Cargo Logo" className="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+                <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Cargo Logo" className="h-16 sm:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
               </Link>
               <div className="flex items-center space-x-3">
                 <motion.button

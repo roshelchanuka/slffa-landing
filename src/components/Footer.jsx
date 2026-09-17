@@ -13,7 +13,7 @@ export default function Footer() {
           {/* About Section */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
-              <img src="https://i.ibb.co/ymr2Tskj/slffalogo3.png" alt="SLFFA Logo" className="h-16 w-auto mr-4 object-contain" />
+              <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Logo" className="h-24 w-auto mr-4 object-contain" />
             </div>
             <Editable id="footer.about.description" type="textarea" defaultContent="SLFFA Cargo Services Ltd is a public unquoted company with limited liability, solely owned by the Freight Forwarding fraternity of Sri Lanka. We provide speedy, safe and efficient services including specialized Cool Room facilities.">
               <p className="text-gray-300 text-sm leading-relaxed mb-6 max-w-md">
