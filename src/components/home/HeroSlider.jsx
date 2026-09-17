@@ -14,6 +14,8 @@ export default function HeroSlider({ y, opacity, isMobile, slidesData = null }) 
     image: slide.image || slide.defaultImage
   }));
 
+  if (!slides || slides.length === 0) return null;
+
   useEffect(() => {
     if (false) return;
     const timer = setInterval(() => {
