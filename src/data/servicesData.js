@@ -5,7 +5,7 @@ const servicesHero = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_
 const ground1 = '/api/imageProxy?id=1TsijStJbEUuH2oSXnYbiRXidSDbepJP4';
 const ground3 = '/api/imageProxy?id=1hhdUgju0MO7B_qeBoEoVvDt0O2lfARnN';
 const ground4 = '/api/imageProxy?id=1-vL7UNLI30OTtEJ6iWmD959-eoeuKX4f';
-const yearsOfServiceImg = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785384347/31_Years_of_Service_Excellence_uqpayn.png';
+const yearsOfServiceImg = 'https://i.ibb.co/nNXMK7Rk/Chat-GPT-Image-Sep-17-2026-11-38-16-AM.png';
 const img9019 = '/api/imageProxy?id=19kK9xPYn7KSeDzCU-OGBxJk9p6PcAWBB';
 const img9014 = '/images/IMG_9014.JPG';
 const chatgptImgMay20 = '/api/imageProxy?id=1xuPKvqH-Wr3Jm2y_Cv_Cw5Kz1mHDPFyB';

@@ -108,9 +108,9 @@ export default function ShelterExpansion() {
               <Editable id="services.trust.badge" defaultContent="Decades of Trust">
                 <span className="text-blue-400 font-bold text-sm uppercase tracking-widest block mb-4">Decades of Trust</span>
               </Editable>
-              <Editable id="services.trust.title" defaultContent="31 Years of Exceptional Service...">
+              <Editable id="services.trust.title" defaultContent="32 Years of Exceptional Service...">
                 <h3 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-8 leading-tight drop-shadow-sm">
-                  31 Years of Exceptional Service...
+                  32 Years of Exceptional Service...
                 </h3>
               </Editable>
               <div className="w-24 h-1.5 bg-blue-50 dark:bg-slate-9000 rounded-full mb-8 shadow-sm"></div>
