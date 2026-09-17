@@ -32,10 +32,10 @@ export default function Navbar() {
       <nav className={`absolute top-0 left-0 right-0 ${isOpen ? 'z-30' : 'z-50'} bg-gradient-to-b from-white/95 via-white/50 to-transparent dark:from-slate-950/95 dark:via-slate-950/50 dark:to-transparent transition-all duration-300 py-6 text-slate-900 dark:text-slate-100`}
       >
         <div className="max-w-[95%] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20 sm:h-28 lg:h-32">
+        <div className="flex items-center justify-between h-24 sm:h-32 lg:h-40">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-4 group">
-              <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Cargo Logo" className="h-20 sm:h-28 lg:h-32 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+              <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Cargo Logo" className="h-24 sm:h-32 lg:h-40 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
               <span className="font-bold text-black dark:text-white text-xl sm:text-2xl lg:text-3xl tracking-tight max-w-[150px] sm:max-w-none leading-tight">SLFFA CARGO SERVICES LTD</span>
             </Link>
           </div>
@@ -174,7 +174,7 @@ export default function Navbar() {
 
             <div className="flex justify-between items-center mb-8">
               <Link href="/" className="flex items-center space-x-3 text-2xl sm:text-3xl font-black tracking-wider text-slate-900 dark:text-white group">
-                <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Cargo Logo" className="h-16 sm:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+                <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Cargo Logo" className="h-20 sm:h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
               </Link>
               <div className="flex items-center space-x-3">
                 <motion.button
