@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import { ShieldCheck, Wrench } from 'lucide-react';
@@ -23,9 +23,9 @@ export default function CoolRoomsIntro() {
                 <ShieldCheck className="h-4 w-4 text-blue-600 dark:text-blue-455" /> Facility Upgraded & Expanded
               </div>
               
-              <Editable id="coolrooms.thermal.title" defaultContent="State-of-the-Art Thermal Storage Solutions">
+              <Editable id="coolrooms.thermal.title" defaultContent="State-of-the-Art Cool Room Solutions">
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
-                  State-of-the-Art Thermal Storage Solutions
+                  State-of-the-Art Cool Room Solutions
                 </h2>
               </Editable>
               <div className="w-20 h-1.5 bg-blue-600 rounded-full mt-4"></div>
