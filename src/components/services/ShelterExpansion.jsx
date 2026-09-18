@@ -12,65 +12,7 @@ export default function ShelterExpansion() {
         
         <div className="flex flex-col gap-12">
           {/* Top Content Card */}
-          <motion.div 
-            initial={{ opacity: 1, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8 }}
-            className="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center gap-12"
-          >
-            <div className="lg:w-2/3">
 
-              
-              <Editable id="services.shelter.title" defaultContent="Announcing Our Brand New Shelter Expansion">
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 leading-tight">
-                  Announcing Our Brand New Shelter Expansion
-                </h2>
-              </Editable>
-              
-              <Editable id="services.shelter.desc1" type="textarea" defaultContent="We are delighted to announce that the construction of our highly anticipated terminal shelter covering 25,000 Sq. Ft. is now fully completed and operational.">
-                <p className="text-slate-700 dark:text-slate-300 font-medium leading-relaxed drop-shadow-sm">
-                  We are delighted to announce that the construction of our highly anticipated terminal shelter covering <span className="text-blue-600 dark:text-blue-400 font-bold">25,000 Sq. Ft.</span> is now fully completed and operational.
-                </p>
-              </Editable>
-              
-              <Editable id="services.shelter.desc2" type="textarea" defaultContent="This state-of-the-art expansion enhances our handling speed and safety standards. With this new shelter, we are now capable of holding up to 16 loaded pallets (ULDs), protecting your valuable consignments entirely from water damage while the breakdown of received import cargo is actively in progress.">
-                <p className="text-slate-650 leading-relaxed m-0 text-lg">
-                  This state-of-the-art expansion enhances our handling speed and safety standards. With this new shelter, we are now capable of holding up to <span className="text-slate-900 dark:text-white font-semibold">16 loaded pallets (ULDs)</span>, protecting your valuable consignments entirely from water damage while the breakdown of received import cargo is actively in progress.
-                </p>
-              </Editable>
-            </div>
-
-            <div className="lg:w-1/3 flex flex-col gap-6 w-full">
-              <div className="flex items-center space-x-4">
-                <div className="bg-blue-100 text-blue-600 dark:text-blue-400 rounded-xl p-4">
-                  <Maximize2 className="h-8 w-8" />
-                </div>
-                <div>
-                  <Editable id="services.shelter.stat1.val" defaultContent="25,000 Sq. Ft.">
-                    <div className="text-2xl font-bold text-slate-800 dark:text-slate-200">25,000 Sq. Ft.</div>
-                  </Editable>
-                  <Editable id="services.shelter.stat1.lbl" defaultContent="Total Shelter Coverage">
-                    <div className="text-sm text-slate-500 dark:text-slate-400 font-semibold uppercase tracking-wider mt-1">Total Shelter Coverage</div>
-                  </Editable>
-                </div>
-              </div>
-              <div className="w-full h-px bg-slate-200"></div>
-              <div className="flex items-center space-x-4">
-                <div className="bg-blue-100 text-blue-600 dark:text-blue-400 rounded-xl p-4">
-                  <Package className="h-8 w-8" />
-                </div>
-                <div>
-                  <Editable id="services.shelter.stat2.val" defaultContent="16 Loaded ULDs">
-                    <div className="text-2xl font-bold text-slate-800 dark:text-slate-200">16 Loaded ULDs</div>
-                  </Editable>
-                  <Editable id="services.shelter.stat2.lbl" defaultContent="Waterproof Storage">
-                    <div className="text-sm text-slate-500 dark:text-slate-400 font-semibold uppercase tracking-wider mt-1">Waterproof Storage</div>
-                  </Editable>
-                </div>
-              </div>
-            </div>
-          </motion.div>
 
           {/* Bottom Interactive Stats Card (Full Width with Badge) */}
           <motion.div 
