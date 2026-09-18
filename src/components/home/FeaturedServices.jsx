@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -23,7 +23,7 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
           {/* Left Box: Cool Rooms OR News & Events */}
           {(showNewsIntro || !hideCoolRooms) && (
             <motion.div 
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 1, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
@@ -38,18 +38,18 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
             {/* Slow falling snow background animation (Only for Cool Rooms) */}
             {!showNewsIntro && (
               <div className="absolute inset-0 overflow-hidden pointer-events-none select-none z-0">
-                <div className="snowflake snow-1">❄</div>
-                <div className="snowflake snow-2">❅</div>
-                <div className="snowflake snow-3">❆</div>
-                <div className="snowflake snow-4">❄</div>
-                <div className="snowflake snow-5">❅</div>
-                <div className="snowflake snow-6">❆</div>
-                <div className="snowflake snow-7">❄</div>
-                <div className="snowflake snow-8">❅</div>
-                <div className="snowflake snow-9">❆</div>
-                <div className="snowflake snow-10">❄</div>
-                <div className="snowflake snow-11">❅</div>
-                <div className="snowflake snow-12">❆</div>
+                <div className="snowflake snow-1">â„</div>
+                <div className="snowflake snow-2">â…</div>
+                <div className="snowflake snow-3">â†</div>
+                <div className="snowflake snow-4">â„</div>
+                <div className="snowflake snow-5">â…</div>
+                <div className="snowflake snow-6">â†</div>
+                <div className="snowflake snow-7">â„</div>
+                <div className="snowflake snow-8">â…</div>
+                <div className="snowflake snow-9">â†</div>
+                <div className="snowflake snow-10">â„</div>
+                <div className="snowflake snow-11">â…</div>
+                <div className="snowflake snow-12">â†</div>
               </div>
             )}
  
@@ -138,7 +138,7 @@ export default function FeaturedServices({ hideSTC = false, hideCoolRooms = fals
           {/* Right Box: Standard Trading Conditions Link Box */}
           {!hideSTC && (
             <motion.div 
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 1, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.1 }}

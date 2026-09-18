@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
@@ -231,7 +231,7 @@ export default function News({ customNews }) {
                     />
 
                     <motion.ul
-                      initial={{ opacity: 0, y: -10 }}
+                      initial={{ opacity: 1, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.15 }}
@@ -288,7 +288,7 @@ export default function News({ customNews }) {
                 return (
                   <motion.div 
                     key={item.id} 
-                    initial={{ opacity: 0, y: 50 }}
+                    initial={{ opacity: 1, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8, ease: "easeOut" }}

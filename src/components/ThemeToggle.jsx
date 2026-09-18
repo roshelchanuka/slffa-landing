@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -68,7 +68,7 @@ export default function ThemeToggle({ align = 'down' }) {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, scale: 0.95, y: align === 'up' ? 10 : -10 }}
+            initial={{ opacity: 1, scale: 0.95, y: align === 'up' ? 10 : -10 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: align === 'up' ? 10 : -10 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}

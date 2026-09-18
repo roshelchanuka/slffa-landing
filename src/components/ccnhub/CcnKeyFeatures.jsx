@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
@@ -15,7 +15,7 @@ export default function CcnKeyFeatures() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">
       <motion.div
-        initial={{ opacity: 0, y: 30 }}
+        initial={{ opacity: 1, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.7 }}
@@ -31,7 +31,7 @@ export default function CcnKeyFeatures() {
           {ccnFeaturesData.map((feature, index) => (
             <motion.div 
               key={index}
-              initial={{ opacity: 0, y: 40 }}
+              initial={{ opacity: 1, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               whileHover={{ y: -10, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

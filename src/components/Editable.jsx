@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 export default function Editable({ id, defaultContent, type = 'text', children }) {
   const childArray = React.Children.toArray(children);

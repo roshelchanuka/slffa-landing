@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -14,7 +14,7 @@ export default function WhoWeAre() {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="w-full lg:w-1/2">
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 1, y: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
               viewport={{ once: true, margin: "-20px" }}
@@ -41,7 +41,7 @@ export default function WhoWeAre() {
           </div>
           <div className="w-full lg:w-1/2 relative">
               <motion.div 
-                initial={{ opacity: 0, scale: 0.8 }}
+                initial={{ opacity: 1, scale: 1 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
                 viewport={{ once: true, margin: "-20px" }}
@@ -58,14 +58,14 @@ export default function WhoWeAre() {
              </motion.div>
              {/* Decorative elements */}
              <motion.div 
-               initial={{ opacity: 0, x: 50, y: 50 }}
+               initial={{ opacity: 1, x: 0, y: 0 }}
                whileInView={{ opacity: 1, x: 0, y: 0 }}
                transition={{ duration: 0.8, delay: 0.2 }}
                viewport={{ once: true }}
                className="hidden md:block absolute -bottom-8 -right-8 w-64 h-64 bg-blue-50 dark:bg-blue-950/20 rounded-2xl -z-0 border border-blue-100 dark:border-blue-900/20"
              ></motion.div>
              <motion.div 
-               initial={{ opacity: 0, x: -30, y: -30 }}
+               initial={{ opacity: 1, x: 0, y: 0 }}
                whileInView={{ opacity: 1, x: 0, y: 0 }}
                transition={{ duration: 0.8, delay: 0.3 }}
                viewport={{ once: true }}

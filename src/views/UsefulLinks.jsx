@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
@@ -107,7 +107,7 @@ const usefulLinksData = [
     acronym: "IATA",
     url: "https://www.iata.org/",
     category: "aviation",
-    description: "The trade association for the world’s airlines, supporting aviation activity, formulating industry policy, and standardizing safety and commercial procedures.",
+    description: "The trade association for the worldâ€™s airlines, supporting aviation activity, formulating industry policy, and standardizing safety and commercial procedures.",
     iconName: "ShieldCheck",
     logo: logoIata
   },
@@ -380,7 +380,7 @@ export default function UsefulLinks() {
 
         {/* Home Screen Bouncing Scroll Cue */}
         <motion.div 
-          initial={{ opacity: 0 }}
+          initial={{ opacity: 1 }}
           animate={{ opacity: 0.8 }}
           transition={{ delay: 1.2, duration: 0.8 }}
           className="hidden md:flex absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex-col items-center cursor-pointer"
@@ -405,7 +405,7 @@ export default function UsefulLinks() {
         
         {/* Beautiful spacious title block for Search */}
         <motion.div 
-          initial={{ opacity: 0, y: 15 }}
+          initial={{ opacity: 1, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 100, damping: 15 }}
@@ -421,7 +421,7 @@ export default function UsefulLinks() {
 
         {/* Interactive Search Bar Panel with glassmorphism and spring scroll slide-in */}
         <motion.div 
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 1, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 85, damping: 15 }}
@@ -460,7 +460,7 @@ export default function UsefulLinks() {
 
         {/* Categories Tab Bar featuring fluid sliding background transition and scroll slide-in */}
         <motion.div 
-          initial={{ opacity: 0, y: 15 }}
+          initial={{ opacity: 1, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 80, damping: 15, delay: 0.1 }}
@@ -586,7 +586,7 @@ export default function UsefulLinks() {
         {/* Empty Search State with spring reveal */}
         {filteredLinks.length === 0 && (
           <motion.div 
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             className="text-center py-20 bg-white dark:bg-slate-900 border border-slate-150 dark:border-slate-800 rounded-3xl shadow-sm max-w-lg mx-auto"
           >

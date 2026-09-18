@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from 'framer-motion';
 import { Eye, Target } from 'lucide-react';
@@ -13,7 +13,7 @@ export default function VisionMission() {
           
           {/* Vision Card */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
@@ -32,7 +32,7 @@ export default function VisionMission() {
               </Editable>
             </div>
 
-            <Editable id="about.vision.text" type="textarea" defaultContent="“To set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight.”">
+            <Editable id="about.vision.text" type="textarea" defaultContent="â€œTo set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight.â€">
               <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed font-normal relative z-10 flex-grow text-justify">
                 "To set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight."
               </p>
@@ -41,7 +41,7 @@ export default function VisionMission() {
 
           {/* Mission Card */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.1 }}
@@ -60,7 +60,7 @@ export default function VisionMission() {
               </Editable>
             </div>
 
-            <Editable id="about.mission.text" type="textarea" defaultContent="“Strengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times.”">
+            <Editable id="about.mission.text" type="textarea" defaultContent="â€œStrengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times.â€">
               <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed font-normal relative z-10 flex-grow text-justify">
                 "Strengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times."
               </p>

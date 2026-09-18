@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from 'framer-motion';
 import { ShieldCheck, Wrench } from 'lucide-react';
@@ -13,7 +13,7 @@ export default function CoolRoomsIntro() {
           
           <div className="w-full lg:w-1/2">
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 1, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
@@ -48,7 +48,7 @@ export default function CoolRoomsIntro() {
           {/* Visual Column (Side Image Box) */}
           <div className="w-full lg:w-1/2">
             <motion.div 
-              initial={{ opacity: 0, scale: 0.95 }}
+              initial={{ opacity: 1, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}

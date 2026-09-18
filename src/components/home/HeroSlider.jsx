@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -25,7 +25,7 @@ export default function HeroSlider({ y, opacity, isMobile, slidesData = null }) 
   }, [slides.length, false]);
 
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 1 },
     visible: {
       opacity: 1,
       transition: {
@@ -36,7 +36,7 @@ export default function HeroSlider({ y, opacity, isMobile, slidesData = null }) 
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
+    hidden: { opacity: 1, y: 0 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
   };
 
@@ -51,7 +51,7 @@ export default function HeroSlider({ y, opacity, isMobile, slidesData = null }) 
         <AnimatePresence mode="wait">
           <motion.div 
             key={currentSlide}
-            initial={{ scale: 1.1, opacity: 0 }}
+            initial={{ scale: 1, opacity: 1 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
@@ -129,7 +129,7 @@ export default function HeroSlider({ y, opacity, isMobile, slidesData = null }) 
 
       {/* Scroll Indicator */}
       <motion.div 
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 1 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
         className="hidden md:flex absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10 flex-col items-center"

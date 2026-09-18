@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -11,7 +11,7 @@ export default function CookiePolicy() {
     <div className="pt-40 pb-16 min-h-screen bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="py-8"

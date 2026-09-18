@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -101,7 +101,7 @@ export default function OperationsGallery() {
           {galleryItems.map((item, idx) => (
             <motion.div 
               key={idx}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 1, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: idx * 0.15 }}
@@ -161,7 +161,7 @@ export default function OperationsGallery() {
 
           {false && (
             <motion.div
-              initial={{ opacity: 0, scale: 0.96 }}
+              initial={{ opacity: 1, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
               onClick={handleOpenAddGalleryModal}
               className="aspect-[16/10] rounded-3xl overflow-hidden border-2 border-dashed border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/50 flex flex-col items-center justify-center cursor-pointer transition-all duration-300 hover:bg-slate-100 dark:bg-slate-800/80 hover:border-blue-500 group min-h-[300px]"
@@ -183,7 +183,7 @@ export default function OperationsGallery() {
       <AnimatePresence>
         {activeImageIndex !== null && galleryItems[activeImageIndex] && (
           <motion.div 
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-[9999] bg-slate-950/95 backdrop-blur-md flex items-center justify-center p-4 sm:p-10"
@@ -268,7 +268,7 @@ export default function OperationsGallery() {
         {isGalleryModalOpen && (
           <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
             <motion.div
-              initial={{ opacity: 0 }}
+              initial={{ opacity: 1 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setIsGalleryModalOpen(false)}
@@ -276,7 +276,7 @@ export default function OperationsGallery() {
             />
 
             <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
+              initial={{ opacity: 1, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
               className="relative w-full max-w-lg bg-white dark:bg-slate-950 rounded-2xl shadow-2xl border border-slate-100 dark:border-slate-800 z-10 overflow-hidden"

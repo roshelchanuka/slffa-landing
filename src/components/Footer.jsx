@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import { Mail, Phone, MapPin, Globe, Link as LinkIcon, Share2 } from 'lucide-react';
 import Editable from './Editable';
 

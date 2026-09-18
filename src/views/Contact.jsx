@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -78,7 +78,7 @@ const Contact = () => {
 
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-24">
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 1, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9, ease: "easeOut" }}
             className="flex items-center space-x-2 text-blue-300 mb-4 text-sm font-semibold uppercase tracking-wider"
@@ -90,7 +90,7 @@ const Contact = () => {
 
           <Editable id="contact.hero.title" defaultContent="Contact Us">
             <motion.h1
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 1, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.1, ease: "easeOut" }}
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight max-w-4xl drop-shadow-lg"
@@ -101,7 +101,7 @@ const Contact = () => {
 
           <Editable id="contact.hero.subtitle" type="textarea" defaultContent="Get in touch with SLFFA Cargo Services for all your air cargo handling and logistics needs.">
             <motion.p
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 1, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.3, ease: "easeOut" }}
               className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed font-light drop-shadow-md"
@@ -235,7 +235,7 @@ const Contact = () => {
 
           {/* Map - Full Width at Bottom */}
           <motion.div 
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 1, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1.2, ease: "easeOut" }}

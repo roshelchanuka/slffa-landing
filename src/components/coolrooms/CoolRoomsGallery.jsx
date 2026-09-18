@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -33,7 +33,7 @@ export default function CoolRoomsGallery() {
             {galleryPhotosData.map((photo, idx) => (
               <motion.div 
                 key={idx}
-                initial={{ opacity: 0, scale: 0.96 }}
+                initial={{ opacity: 1, scale: 0.96 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: idx * 0.1 }}
@@ -290,9 +290,9 @@ export default function CoolRoomsGallery() {
                 </div>
               </div>
 
-              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka">
+              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations BIA Airport â€¢ Katunayake, Sri Lanka">
                 <div className="text-[11px] text-slate-450 pt-2 font-semibold">
-                  SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka
+                  SLFFA Cargo Terminal Operations BIA Airport â€¢ Katunayake, Sri Lanka
                 </div>
               </Editable>
             </div>
@@ -304,7 +304,7 @@ export default function CoolRoomsGallery() {
       <AnimatePresence>
         {activeImageIndex !== null && (
           <motion.div 
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-50 bg-slate-955/95 backdrop-blur-md flex items-center justify-center p-4 sm:p-10"

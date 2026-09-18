@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from 'framer-motion';
 import { Maximize2, Package, ShieldCheck, Activity, CheckCircle } from 'lucide-react';
@@ -13,7 +13,7 @@ export default function ShelterExpansion() {
         <div className="flex flex-col gap-12">
           {/* Top Content Card */}
           <motion.div 
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
@@ -78,7 +78,7 @@ export default function ShelterExpansion() {
 
           {/* Bottom Interactive Stats Card (Full Width with Badge) */}
           <motion.div 
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}

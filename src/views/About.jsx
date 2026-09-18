@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -65,7 +65,7 @@ export default function About() {
 
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-24">
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 1, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="flex items-center space-x-2 text-blue-300 mb-4 text-sm font-semibold uppercase tracking-wider"
@@ -77,7 +77,7 @@ export default function About() {
 
           <Editable id="about.hero.title" defaultContent="Pioneering Airside Cargo Solutions">
             <motion.h1
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 1, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight max-w-4xl"
@@ -86,14 +86,14 @@ export default function About() {
             </motion.h1>
           </Editable>
 
-          <Editable id="about.hero.subtitle" type="textarea" defaultContent="SLFFA Cargo Services Ltd — Facilitating the smooth, secure, and highly efficient flow of air imports in Sri Lanka since 1994.">
+          <Editable id="about.hero.subtitle" type="textarea" defaultContent="SLFFA Cargo Services Ltd â€” Facilitating the smooth, secure, and highly efficient flow of air imports in Sri Lanka since 1994.">
             <motion.p
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 1, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed font-light"
             >
-              SLFFA Cargo Services Ltd — Facilitating the smooth, secure, and highly efficient flow of air imports in Sri Lanka since 1994.
+              SLFFA Cargo Services Ltd â€” Facilitating the smooth, secure, and highly efficient flow of air imports in Sri Lanka since 1994.
             </motion.p>
           </Editable>
         </div>
