@@ -26,7 +26,7 @@ const securityHeaders = [
   },
   {
     key: 'Content-Security-Policy',
-    value: "default-src 'self'; script-src 'self' https://unpkg.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; img-src 'self' blob: data: https:; font-src 'self' data: https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' data: https://drive.google.com https://api.github.com https://unpkg.com https://cdn.jsdelivr.net https://www.githubstatus.com; media-src 'self' blob: data: https:; frame-src 'self' https://www.google.com;"
+    value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; img-src 'self' blob: data: https:; font-src 'self' data: https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' data: https://drive.google.com https://api.github.com https://unpkg.com https://cdn.jsdelivr.net https://www.githubstatus.com; media-src 'self' blob: data: https:; frame-src 'self' https://www.google.com;"
   }
 ];
 
