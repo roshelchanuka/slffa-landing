@@ -27,6 +27,11 @@ export async function GET(request) {
   }
   const id = validationResult.data;
 
+  const secret = searchParams.get('secret');
+  if (process.env.DRIVE_PROXY_SECRET && secret !== process.env.DRIVE_PROXY_SECRET) {
+    return new NextResponse('Unauthorized', { status: 401 });
+  }
+
   const driveUrl = `https://drive.google.com/uc?export=download&id=${id}`;
 
   try {
