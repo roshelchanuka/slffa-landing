@@ -10,7 +10,6 @@
 @layer base {
   html, body {
     @apply bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
-    overflow-x: hidden;
     position: relative;
     width: 100%;
     max-width: 100%;
@@ -18,7 +17,6 @@
   }
   
   #root {
-    overflow-x: hidden;
     width: 100%;
     max-width: 100%;
   }

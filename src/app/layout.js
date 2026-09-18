@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <ThemeProvider>
-          <div className="min-h-screen flex flex-col font-sans overflow-x-hidden relative w-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+          <div className="min-h-screen flex flex-col font-sans relative w-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
             <Navbar />
-            <main className="flex-grow w-full overflow-x-hidden">
+            <main className="flex-grow w-full">
               {children}
             </main>
             <Footer />
