@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import { ground1 } from '../../data/aboutData';
@@ -68,7 +68,7 @@ export default function IntroStory({ containerVariants, itemVariants }) {
           </div>
 
           {/* Right Column (Image & Sticky Info Card) */}
-          <div className="w-full lg:w-5/12 space-y-12 lg:sticky lg:top-64 lg:pt-64">
+          <div className="w-full lg:w-5/12 space-y-12 lg:pt-16">
             <motion.div
               initial={{ opacity: 1, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
