@@ -107,7 +107,7 @@ const usefulLinksData = [
     acronym: "IATA",
     url: "https://www.iata.org/",
     category: "aviation",
-    description: "The trade association for the worldâ€™s airlines, supporting aviation activity, formulating industry policy, and standardizing safety and commercial procedures.",
+    description: "The trade association for the world’s airlines, supporting aviation activity, formulating industry policy, and standardizing safety and commercial procedures.",
     iconName: "ShieldCheck",
     logo: logoIata
   },

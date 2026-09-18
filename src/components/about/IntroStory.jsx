@@ -29,9 +29,9 @@ export default function IntroStory({ containerVariants, itemVariants }) {
                 <div className="w-20 h-1.5 bg-blue-600 rounded-full mt-4"></div>
               </motion.div>
 
-              <Editable id="about.corporate.desc_1" type="textarea" defaultContent="SLFFA Cargo Services Ltd is a public unquoted company with limited liability, incorporated in Sri Lanka on 15th August 1994 and is solely owned by the Freight Forwarding fraternity of Sri Lanka. Its air cargo operation at the Bandaranaike International Airport is unique in Asia and the Far-East. The Company was established by the Freight Forwarding fraternity, to provide a speedy, safe and efficient service for the benefit of their customers, â€œThe Consigneesâ€.">
+              <Editable id="about.corporate.desc_1" type="textarea" defaultContent="SLFFA Cargo Services Ltd is a public unquoted company with limited liability, incorporated in Sri Lanka on 15th August 1994 and is solely owned by the Freight Forwarding fraternity of Sri Lanka. Its air cargo operation at the Bandaranaike International Airport is unique in Asia and the Far-East. The Company was established by the Freight Forwarding fraternity, to provide a speedy, safe and efficient service for the benefit of their customers, “The Consignees”.">
                 <motion.p variants={itemVariants} className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed font-medium">
-                  <strong>SLFFA Cargo Services Ltd</strong> is a public unquoted company with limited liability, incorporated in Sri Lanka on <span className="text-blue-600 dark:text-blue-400 font-semibold">15th August 1994</span> and is solely owned by the Freight Forwarding fraternity of Sri Lanka. Its air cargo operation at the Bandaranaike International Airport is unique in Asia and the Far-East. The Company was established by the Freight Forwarding fraternity, to provide a speedy, safe and efficient service for the benefit of their customers, <span className="italic font-semibold text-slate-800 dark:text-slate-200">â€œThe Consigneesâ€</span>.
+                  <strong>SLFFA Cargo Services Ltd</strong> is a public unquoted company with limited liability, incorporated in Sri Lanka on <span className="text-blue-600 dark:text-blue-400 font-semibold">15th August 1994</span> and is solely owned by the Freight Forwarding fraternity of Sri Lanka. Its air cargo operation at the Bandaranaike International Airport is unique in Asia and the Far-East. The Company was established by the Freight Forwarding fraternity, to provide a speedy, safe and efficient service for the benefit of their customers, <span className="italic font-semibold text-slate-800 dark:text-slate-200">“The Consignees”</span>.
                 </motion.p>
               </Editable>
 
@@ -41,15 +41,15 @@ export default function IntroStory({ containerVariants, itemVariants }) {
                 </motion.p>
               </Editable>
 
-              <Editable id="about.corporate.desc_3" type="textarea" defaultContent="The main activity has been the facilitation of cargo received by Air in bulk, to ensure speed and efficiency in issue to consignees. It has been the objective of the Company to meet the ICAO â€œRecommended practiceâ€ of processing cargo through the terminal within a maximum period of 4 hours from the time of receipt of cargo by air, thereby minimizing cargo delivery time at the airport.">
+              <Editable id="about.corporate.desc_3" type="textarea" defaultContent="The main activity has been the facilitation of cargo received by Air in bulk, to ensure speed and efficiency in issue to consignees. It has been the objective of the Company to meet the ICAO “Recommended practice” of processing cargo through the terminal within a maximum period of 4 hours from the time of receipt of cargo by air, thereby minimizing cargo delivery time at the airport.">
                 <motion.p variants={itemVariants} className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  The main activity has been the facilitation of cargo received by Air in bulk, to ensure speed and efficiency in issue to consignees. It has been the objective of the Company to meet the ICAO â€œRecommended practiceâ€ of processing cargo through the terminal within a maximum period of 4 hours from the time of receipt of cargo by air, thereby minimizing cargo delivery time at the airport.
+                  The main activity has been the facilitation of cargo received by Air in bulk, to ensure speed and efficiency in issue to consignees. It has been the objective of the Company to meet the ICAO “Recommended practice” of processing cargo through the terminal within a maximum period of 4 hours from the time of receipt of cargo by air, thereby minimizing cargo delivery time at the airport.
                 </motion.p>
               </Editable>
 
-              <Editable id="about.corporate.desc_4" type="textarea" defaultContent="The Company has a proven track record of accuracy and efficiency in the release of goods, appreciated by satisfied customers. Several free trade organizations, particularly those importing textiles to manufacture garments, have found our facility useful. The Company system of receipt and delivery of cargo operate in a â€œstate of the artâ€ web based environment.">
+              <Editable id="about.corporate.desc_4" type="textarea" defaultContent="The Company has a proven track record of accuracy and efficiency in the release of goods, appreciated by satisfied customers. Several free trade organizations, particularly those importing textiles to manufacture garments, have found our facility useful. The Company system of receipt and delivery of cargo operate in a “state of the art” web based environment.">
                 <motion.p variants={itemVariants} className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  The Company has a proven track record of accuracy and efficiency in the release of goods, appreciated by satisfied customers. Several free trade organizations, particularly those importing textiles to manufacture garments, have found our facility useful. The Company system of receipt and delivery of cargo operate in a â€œstate of the artâ€ web based environment.
+                  The Company has a proven track record of accuracy and efficiency in the release of goods, appreciated by satisfied customers. Several free trade organizations, particularly those importing textiles to manufacture garments, have found our facility useful. The Company system of receipt and delivery of cargo operate in a “state of the art” web based environment.
                 </motion.p>
               </Editable>
 
@@ -100,9 +100,9 @@ export default function IntroStory({ containerVariants, itemVariants }) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative px-2"
             >
-              <Editable id="about.quote.text" type="textarea" defaultContent="â€œWhilst it augurs well for business to grow in the coming years, we continue to remain the only alternative import cargo handling facility AIRSIDE at Bandaranaike International Airport having the capability to provide VALUE ADDED SERVICES.â€">
+              <Editable id="about.quote.text" type="textarea" defaultContent="“Whilst it augurs well for business to grow in the coming years, we continue to remain the only alternative import cargo handling facility AIRSIDE at Bandaranaike International Airport having the capability to provide VALUE ADDED SERVICES.”">
                 <p className="text-slate-600 dark:text-slate-400 font-semibold italic text-lg leading-relaxed relative z-10">
-                  â€œWhilst it augurs well for business to grow in the coming years, we continue to remain the only alternative import cargo handling facility AIRSIDE at Bandaranaike International Airport having the capability to provide VALUE ADDED SERVICES.â€
+                  “Whilst it augurs well for business to grow in the coming years, we continue to remain the only alternative import cargo handling facility AIRSIDE at Bandaranaike International Airport having the capability to provide VALUE ADDED SERVICES.”
                 </p>
               </Editable>
             </motion.div>

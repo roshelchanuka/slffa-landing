@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import { Maximize2, Package, ShieldCheck, Activity, CheckCircle } from 'lucide-react';
@@ -20,11 +20,7 @@ export default function ShelterExpansion() {
             className="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center gap-12"
           >
             <div className="lg:w-2/3">
-              <Editable id="services.shelter.badge" defaultContent="Operational Upgrade Completed">
-                <div className="inline-flex items-center space-x-2 bg-emerald-50 text-emerald-700 dark:text-emerald-500 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-emerald-200">
-                  <ShieldCheck className="h-4 w-4 text-emerald-600 inline" /> Operational Upgrade Completed
-                </div>
-              </Editable>
+
               
               <Editable id="services.shelter.title" defaultContent="Announcing Our Brand New Shelter Expansion">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 leading-tight">

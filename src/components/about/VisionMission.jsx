@@ -32,7 +32,7 @@ export default function VisionMission() {
               </Editable>
             </div>
 
-            <Editable id="about.vision.text" type="textarea" defaultContent="â€œTo set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight.â€">
+            <Editable id="about.vision.text" type="textarea" defaultContent="“To set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight.”">
               <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed font-normal relative z-10 flex-grow text-justify">
                 "To set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight."
               </p>
@@ -60,7 +60,7 @@ export default function VisionMission() {
               </Editable>
             </div>
 
-            <Editable id="about.mission.text" type="textarea" defaultContent="â€œStrengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times.â€">
+            <Editable id="about.mission.text" type="textarea" defaultContent="“Strengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times.”">
               <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed font-normal relative z-10 flex-grow text-justify">
                 "Strengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times."
               </p>

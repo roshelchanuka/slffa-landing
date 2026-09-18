@@ -32,14 +32,14 @@ export default function CcnMilestones() {
                 <span>21st of July 2016</span>
               </Editable>
             </div>
-            <span className="hidden md:inline text-slate-300">â€¢</span>
+            <span className="hidden md:inline text-slate-300">•</span>
             <div className="flex items-center gap-1.5">
               <Clock className="w-4 h-4 text-slffaBlue" />
               <Editable id="ccnhub.event.meta.time" defaultContent="2:30 PM - 4:30 PM">
                 <span>2:30 PM - 4:30 PM</span>
               </Editable>
             </div>
-            <span className="hidden md:inline text-slate-300">â€¢</span>
+            <span className="hidden md:inline text-slate-300">•</span>
             <div className="flex items-center gap-1.5">
               <MapPin className="w-4 h-4 text-slffaBlue" />
               <Editable id="ccnhub.event.meta.location" defaultContent="Olympic House, Colombo 07">
@@ -69,15 +69,15 @@ export default function CcnMilestones() {
                 </p>
               </Editable>
 
-              <Editable id="ccnhub.event.p3" type="textarea" defaultContent="The session was opened by the Chairman of SLFFA Cargo Services Ltd. Mr. Diren Hallock with an emphasis on the inception of e-freight in Colombo, its current development and how the industry should evolve into the future. Mr. Sanjeewa Rodrigo â€“ Head of Cargo and Mr. Roshan Cooray â€“ Senior Executive Cargo Reservation, Qatar Airways took to the session to express their views on how the air freight industry is being simplified through e-freight and the progress made by Qatar Airways. Mr. Pubudu Prasanna â€“ Cargo Supervisor, Sri Lankan Airlines reiterated the challenges faced during the adoption of eAWB at CMB and went into detail on the newly adopted â€˜Single Processâ€™.">
+              <Editable id="ccnhub.event.p3" type="textarea" defaultContent="The session was opened by the Chairman of SLFFA Cargo Services Ltd. Mr. Diren Hallock with an emphasis on the inception of e-freight in Colombo, its current development and how the industry should evolve into the future. Mr. Sanjeewa Rodrigo – Head of Cargo and Mr. Roshan Cooray – Senior Executive Cargo Reservation, Qatar Airways took to the session to express their views on how the air freight industry is being simplified through e-freight and the progress made by Qatar Airways. Mr. Pubudu Prasanna – Cargo Supervisor, Sri Lankan Airlines reiterated the challenges faced during the adoption of eAWB at CMB and went into detail on the newly adopted ‘Single Process’.">
                 <p>
-                  The session was opened by the Chairman of SLFFA Cargo Services Ltd. Mr. Diren Hallock with an emphasis on the inception of e-freight in Colombo, its current development and how the industry should evolve into the future. Mr. Sanjeewa Rodrigo â€“ Head of Cargo and Mr. Roshan Cooray â€“ Senior Executive Cargo Reservation, Qatar Airways took to the session to express their views on how the air freight industry is being simplified through e-freight and the progress made by Qatar Airways. Mr. Pubudu Prasanna â€“ Cargo Supervisor, Sri Lankan Airlines reiterated the challenges faced during the adoption of eAWB at CMB and went into detail on the newly adopted â€˜Single Processâ€™.
+                  The session was opened by the Chairman of SLFFA Cargo Services Ltd. Mr. Diren Hallock with an emphasis on the inception of e-freight in Colombo, its current development and how the industry should evolve into the future. Mr. Sanjeewa Rodrigo – Head of Cargo and Mr. Roshan Cooray – Senior Executive Cargo Reservation, Qatar Airways took to the session to express their views on how the air freight industry is being simplified through e-freight and the progress made by Qatar Airways. Mr. Pubudu Prasanna – Cargo Supervisor, Sri Lankan Airlines reiterated the challenges faced during the adoption of eAWB at CMB and went into detail on the newly adopted ‘Single Process’.
                 </p>
               </Editable>
 
-              <Editable id="ccnhub.event.p4" type="textarea" defaultContent="To bring in more perspective to the event Mr. Dilanka Galappatti â€“ Manager System Implementation, Dart Global Logistics spoke about enabling the forwarder and the benefits of electronic submissions. A final presentation was made by Mr. Malaka Yattigala and Ms. Umalka Perera of CCNhub in order to recap the session and highlighted the importance of e-AWB to the e-Freight concept and the role of CCNhub in promoting the automation of the air freight industry in Colombo.">
+              <Editable id="ccnhub.event.p4" type="textarea" defaultContent="To bring in more perspective to the event Mr. Dilanka Galappatti – Manager System Implementation, Dart Global Logistics spoke about enabling the forwarder and the benefits of electronic submissions. A final presentation was made by Mr. Malaka Yattigala and Ms. Umalka Perera of CCNhub in order to recap the session and highlighted the importance of e-AWB to the e-Freight concept and the role of CCNhub in promoting the automation of the air freight industry in Colombo.">
                 <p>
-                  To bring in more perspective to the event Mr. Dilanka Galappatti â€“ Manager System Implementation, Dart Global Logistics spoke about enabling the forwarder and the benefits of electronic submissions. A final presentation was made by Mr. Malaka Yattigala and Ms. Umalka Perera of CCNhub in order to recap the session and highlighted the importance of e-AWB to the e-Freight concept and the role of CCNhub in promoting the automation of the air freight industry in Colombo.
+                  To bring in more perspective to the event Mr. Dilanka Galappatti – Manager System Implementation, Dart Global Logistics spoke about enabling the forwarder and the benefits of electronic submissions. A final presentation was made by Mr. Malaka Yattigala and Ms. Umalka Perera of CCNhub in order to recap the session and highlighted the importance of e-AWB to the e-Freight concept and the role of CCNhub in promoting the automation of the air freight industry in Colombo.
                 </p>
               </Editable>
 
