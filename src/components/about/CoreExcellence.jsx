@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -31,9 +31,9 @@ export default function CoreExcellence() {
                 </Editable>
                 <div className="w-20 h-1.5 bg-blue-600 rounded-full mt-4 mx-auto"></div>
 
-                <Editable id="about.icao.desc_1" type="textarea" defaultContent="Our main operational activity continues to be facilitating the smooth and uninterrupted flow of air-freighted import cargo in Sri Lanka. Speed of release is vital to businesses.">
+                <Editable id="about.icao.desc_1" type="textarea" defaultContent="Our main operational activity continues to be facilitating the smooth and uninterrupted Ground of air-freighted import cargo in Sri Lanka. Speed of release is vital to businesses.">
                   <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-                    Our main operational activity continues to be facilitating the smooth and uninterrupted flow of air-freighted import cargo in Sri Lanka.
+                    Our main operational activity continues to be facilitating the smooth and uninterrupted Ground of air-freighted import cargo in Sri Lanka.
                     Speed of release is vital to businesses.
                   </p>
                 </Editable>
