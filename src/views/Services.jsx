@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -152,9 +152,9 @@ export default function Services() {
                   Sri Lanka's Only Alternative Import Facility Airside
                 </h2>
               </Editable>
-              <Editable id="services.cta.description" type="textarea" defaultContent="Ready to accelerate your supply chain operations, enjoy 3 days demurrage-free storage, and experience direct BIA airport airside handling excellence? Get in touch with our operations support desk.">
+              <Editable id="services.cta.description" type="textarea" defaultContent="Ready to accelerate your supply chain operations, enjoy 3 days of demurrage-free storage, and experience direct BIA airport airside handling excellence? Get in touch with our Operations Support Desk.">
                 <p className="text-lg text-slate-200 font-medium leading-relaxed drop-shadow-sm">
-                  Ready to accelerate your supply chain operations, enjoy 3 days demurrage-free storage, and experience direct BIA airport airside handling excellence? Get in touch with our operations support desk.
+                  Ready to accelerate your supply chain operations, enjoy 3 days of demurrage-free storage, and experience direct BIA airport airside handling excellence? Get in touch with our Operations Support Desk.
                 </p>
               </Editable>
               
