@@ -31,7 +31,7 @@ export default function CoolRoomsIntro() {
               <div className="w-20 h-1.5 bg-blue-600 rounded-full mt-4"></div>
               
               <Editable id="coolrooms.thermal.description_1" type="textarea" defaultContent="We are pleased to inform you that we have recently increased and upgraded our cool room facilities to provide more efficient and reliable service to our valued customers.">
-                <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed font-medium">
+                <p className="text-slate-650 dark:text-slate-350 leading-relaxed">
                   We are pleased to inform you that we have recently increased and upgraded our cool room facilities to provide more efficient and reliable service to our valued customers.
                 </p>
               </Editable>
