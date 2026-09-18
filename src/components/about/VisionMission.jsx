@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import { Eye, Target } from 'lucide-react';
@@ -28,12 +28,12 @@ export default function VisionMission() {
                 <Eye className="h-6 w-6 text-amber-500 dark:text-amber-400" />
               </div>
               <Editable id="about.vision.title" defaultContent="Our Vision">
-                <h3 className="text-xl font-bold text-amber-600 dark:text-amber-400 tracking-wide uppercase">Our Vision</h3>
+                <h3 className="text-xl font-bold text-red-600 dark:text-red-500 tracking-wide uppercase">Our Vision</h3>
               </Editable>
             </div>
 
             <Editable id="about.vision.text" type="textarea" defaultContent="“To set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight.”">
-              <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed font-normal relative z-10 flex-grow text-justify">
+              <p className="text-base sm:text-lg text-blue-900 dark:text-blue-300 leading-relaxed font-bold relative z-10 flex-grow text-justify">
                 "To set the standards for service excellence in air cargo handling and warehouse solutions through total commitment to quality management and be the leader in Sri Lanka in logistics management for Air & Ocean freight."
               </p>
             </Editable>
@@ -56,12 +56,12 @@ export default function VisionMission() {
                 <Target className="h-6 w-6 text-amber-500 dark:text-amber-400" />
               </div>
               <Editable id="about.mission.title" defaultContent="Our Mission">
-                <h3 className="text-xl font-bold text-amber-600 dark:text-amber-400 tracking-wide uppercase">Our Mission</h3>
+                <h3 className="text-xl font-bold text-red-600 dark:text-red-500 tracking-wide uppercase">Our Mission</h3>
               </Editable>
             </div>
 
             <Editable id="about.mission.text" type="textarea" defaultContent="“Strengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times.”">
-              <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed font-normal relative z-10 flex-grow text-justify">
+              <p className="text-base sm:text-lg text-blue-900 dark:text-blue-300 leading-relaxed font-bold relative z-10 flex-grow text-justify">
                 "Strengthening our customer relationships to meet their expectations by delivering consistent and innovative services at all times."
               </p>
             </Editable>
