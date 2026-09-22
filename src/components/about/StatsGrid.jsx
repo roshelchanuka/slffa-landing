@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import * as LucideIcons from 'lucide-react';
@@ -23,9 +23,8 @@ export default function StatsGrid() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-blue-400 font-bold text-sm uppercase tracking-widest">Strength in Numbers</span>
-          <Editable id="about.stats.title" defaultContent="Our Track Record Speaks for Itself">
-            <h2 className="text-4xl font-extrabold mt-3">Our Track Record Speaks for Itself</h2>
+          <Editable id="about.stats.title" defaultContent="Strength in Numbers">
+            <h2 className="text-4xl font-extrabold mt-3">Strength in Numbers</h2>
           </Editable>
           <div className="w-20 h-1 bg-blue-50 dark:bg-slate-9000 mx-auto rounded-full mt-4 mb-6"></div>
           <Editable id="about.stats.subtitle" type="textarea" defaultContent="Through strategic terminal optimization and robust logistics standards, we guarantee speed, security, and personalized care.">
