@@ -57,9 +57,9 @@ export default function CcnMilestones() {
             
             {/* Event Details as Normal Paragraphs */}
             <div className="prose prose-lg prose-slate max-w-none text-slate-700 dark:text-slate-300 leading-relaxed space-y-6 text-justify">
-              <Editable id="ccnhub.event.p1" type="textarea" defaultContent="SLFFA Cargo Services Ltd (the commercial arm of SLFFA) in collaboration with CCNhub Colombo hosted an awareness session to familiarize industry stakeholders on the fundamentals of the e-AWB concept for air cargo. It was held on the 21 of July 2016 from 2.30pm to 4.30pm at the Olympic House, Colombo 07.">
+              <Editable id="ccnhub.event.p1" type="textarea" defaultContent="SLFFA Cargo Services Ltd (the commercial arm of SLFFA) in collaboration with CCNhub Colombo hosted an awareness session to familiarize industry stakeholders on the fundamentals of the e-AWB concept for air cargo.">
                 <p>
-                  SLFFA Cargo Services Ltd (the commercial arm of SLFFA) in collaboration with CCNhub Colombo hosted an awareness session to familiarize industry stakeholders on the fundamentals of the e-AWB concept for air cargo. It was held on the 21 of July 2016 from 2.30pm to 4.30pm at the Olympic House, Colombo 07.
+                  SLFFA Cargo Services Ltd (the commercial arm of SLFFA) in collaboration with CCNhub Colombo hosted an awareness session to familiarize industry stakeholders on the fundamentals of the e-AWB concept for air cargo.
                 </p>
               </Editable>
 
