@@ -32,5 +32,17 @@ export const statsData = [
     value: "1500+ Consignees",
     label: "Active Trade Clients",
     description: "Serving diverse trade sectors, from apparel manufacturers to technology leaders."
+  },
+  {
+    iconName: "CheckCircle2",
+    value: "100%",
+    label: "Error-Free Record",
+    description: "Maintaining a flawless 100% error-free delivery and terminal release record through rigorous quality checks and state-of-the-art software systems."
+  },
+  {
+    iconName: "Clock",
+    value: "24-Hour",
+    label: "Friendly Service",
+    description: "24-hour customer-friendly support. Our helpdesk and terminal operators remain actively operational round-the-clock for you."
   }
 ];
