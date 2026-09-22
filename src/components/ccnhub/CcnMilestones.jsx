@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import { Award, Calendar, Clock, MapPin } from 'lucide-react';
@@ -81,9 +81,9 @@ export default function CcnMilestones() {
                 </p>
               </Editable>
 
-              <Editable id="ccnhub.event.p5" type="textarea" defaultContent="The event witnessed a participation of more than 50 representatives from both airlines and forwarders. It was concluded with a brief Q&A session, Tea and refreshments.">
+              <Editable id="ccnhub.event.p5" type="textarea" defaultContent="The event witnessed a participation of more than 50 representatives from both airlines and forwarders.">
                 <p className="font-semibold text-slate-800 dark:text-slate-200">
-                  The event witnessed a participation of more than 50 representatives from both airlines and forwarders. It was concluded with a brief Q&A session, Tea and refreshments.
+                  The event witnessed a participation of more than 50 representatives from both airlines and forwarders.
                 </p>
               </Editable>
             </div>
