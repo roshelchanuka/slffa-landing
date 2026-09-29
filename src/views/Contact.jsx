@@ -114,185 +114,7 @@ const Contact = () => {
         <div className="absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-t from-slate-50/60 via-slate-50/25 dark:from-slate-950/60 dark:via-slate-950/25 to-transparent z-15 pointer-events-none transition-colors duration-300"></div>
       </section>
 
-      {/* Experience Statement and Contacts Card Section */}
-      <section className="py-24 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800/60 relative z-30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <div className="max-w-4xl mx-auto">
-            {/* Inquiry Contacts */}
-            <div className="w-full flex flex-col justify-center space-y-6">
-              <div>
-                <Editable id="coolrooms.contacts.title" defaultContent="Discuss Your Requirements">
-                  <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">
-                    Discuss Your Requirements
-                  </h4>
-                </Editable>
-                <Editable id="coolrooms.contacts.description" type="textarea" defaultContent="For more information or to discuss your specific requirements, please feel free to contact our terminal management team.">
-                  <p className="text-slate-650 text-sm leading-relaxed">
-                    For more information or to discuss your specific requirements, please feel free to contact our terminal management team.
-                  </p>
-                </Editable>
-              </div>
-              
-              <div className="space-y-2">
-                {/* DGM Lal Rajapaksha */}
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 py-4 border-b border-slate-200 dark:border-slate-800">
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-blue-50 dark:bg-slate-900 text-blue-600 dark:text-blue-400 rounded-xl p-3 shrink-0">
-                      <User className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <Editable id="coolrooms.contacts.dgm.name" defaultContent="Mr. Lal Rajapaksha">
-                        <h5 className="font-bold text-slate-900 dark:text-white text-sm leading-none mb-1">
-                          Mr. Lal Rajapaksha
-                        </h5>
-                      </Editable>
-                      <Editable id="coolrooms.contacts.dgm.role" defaultContent="Deputy General Manager (DGM)">
-                        <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider leading-none mt-1">
-                          Deputy General Manager (DGM)
-                        </p>
-                      </Editable>
-                    </div>
-                  </div>
-                  <div className="flex flex-col sm:items-end gap-1.5 shrink-0">
-                    <a 
-                      href="tel:+94773139389" 
-                      className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-sm gap-2"
-                    >
-                      <Phone className="h-4 w-4" />
-                      +94 77 3139389
-                    </a>
-                    <a 
-                      href="mailto:rajapaksha.l@slffacs.com" 
-                      className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-xs gap-2"
-                    >
-                      <Mail className="h-3.5 w-3.5 text-slate-400 group-hover:text-blue-500 transition-colors" />
-                      rajapaksha.l@slffacs.com
-                    </a>
-                  </div>
-                </div>
 
-                {/* Admin Manager Indika Fernando */}
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 py-4 border-b border-slate-200 dark:border-slate-800">
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-blue-50 dark:bg-slate-900 text-blue-600 dark:text-blue-400 rounded-xl p-3 shrink-0">
-                      <User className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <Editable id="coolrooms.contacts.admin.name" defaultContent="Mr. Indika Fernando">
-                        <h5 className="font-bold text-slate-900 dark:text-white text-sm leading-none mb-1">
-                          Mr. Indika Fernando
-                        </h5>
-                      </Editable>
-                      <Editable id="coolrooms.contacts.admin.role" defaultContent="Administration & HR Manager">
-                        <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider leading-none mt-1">
-                          Administration & HR Manager
-                        </p>
-                      </Editable>
-                    </div>
-                  </div>
-                  <div className="flex flex-col sm:items-end gap-1.5 shrink-0">
-                    <a 
-                      href="tel:+94772449939" 
-                      className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-sm gap-2"
-                    >
-                      <Phone className="h-4 w-4" />
-                      +94 77 2449939
-                    </a>
-                    <a 
-                      href="mailto:indika.f@slffacs.com" 
-                      className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-xs gap-2"
-                    >
-                      <Mail className="h-3.5 w-3.5 text-slate-400 group-hover:text-blue-500 transition-colors" />
-                      indika.f@slffacs.com
-                    </a>
-                  </div>
-                </div>
-
-                {/* Nishanthi Ranasinghe */}
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 py-4 border-b border-slate-200 dark:border-slate-800">
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-blue-50 dark:bg-slate-900 text-blue-600 dark:text-blue-400 rounded-xl p-3 shrink-0">
-                      <User className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <Editable id="coolrooms.contacts.person_1.name" defaultContent="Ms. Nishanthi Ranasinghe">
-                        <h5 className="font-bold text-slate-900 dark:text-white text-sm leading-none mb-1">
-                          Ms. Nishanthi Ranasinghe
-                        </h5>
-                      </Editable>
-                      <Editable id="coolrooms.contacts.person_1.role" defaultContent="Customer Service & Strategic Relations Manageress">
-                        <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider leading-none mt-1">
-                          Customer Service & Strategic Relations Manageress
-                        </p>
-                      </Editable>
-                    </div>
-                  </div>
-                  <div className="flex flex-col sm:items-end gap-1.5 shrink-0">
-                    <a 
-                      href="tel:+94772193851" 
-                      className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-sm gap-2"
-                    >
-                      <Phone className="h-4 w-4" />
-                      +94 77 2193851
-                    </a>
-                    <a 
-                      href="mailto:nishanthi.r@slffacs.com" 
-                      className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-xs gap-2"
-                    >
-                      <Mail className="h-3.5 w-3.5 text-slate-400 group-hover:text-blue-500 transition-colors" />
-                      nishanthi.r@slffacs.com
-                    </a>
-                  </div>
-                </div>
-
-                {/* Wasantha Lokubalasooriya */}
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 py-4 border-b border-slate-200 dark:border-slate-800">
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-blue-50 dark:bg-slate-900 text-blue-600 dark:text-blue-400 rounded-xl p-3 shrink-0">
-                      <User className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <Editable id="coolrooms.contacts.person_2.name" defaultContent="Mr. Wasantha Lokubalasooriya">
-                        <h5 className="font-bold text-slate-900 dark:text-white text-sm leading-none mb-1">
-                          Mr. Wasantha Lokubalasooriya
-                        </h5>
-                      </Editable>
-                      <Editable id="coolrooms.contacts.person_2.role" defaultContent="Operations Manager">
-                        <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider leading-none mt-1">
-                          Operations Manager
-                        </p>
-                      </Editable>
-                    </div>
-                  </div>
-                  <div className="flex flex-col sm:items-end gap-1.5 shrink-0">
-                    <a 
-                      href="tel:+94774694089" 
-                      className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-sm gap-2"
-                    >
-                      <Phone className="h-4 w-4" />
-                      +94 77 4694089
-                    </a>
-                    <a 
-                      href="mailto:wasantha.l@slffacs.com" 
-                      className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-xs gap-2"
-                    >
-                      <Mail className="h-3.5 w-3.5 text-slate-400 group-hover:text-blue-500 transition-colors" />
-                      wasantha.l@slffacs.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka">
-                <div className="text-[11px] text-slate-450 pt-2 font-semibold">
-                  SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka
-                </div>
-              </Editable>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Main Content Section */}
       <section className="py-20 relative z-30 bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
@@ -431,6 +253,162 @@ const Contact = () => {
               referrerPolicy="no-referrer-when-downgrade"
               title="SLFFA Cargo Services Location"
             ></iframe>
+          </motion.div>
+
+          {/* Inquiry Contacts Below Map */}
+          <motion.div 
+            initial={{ opacity: 1, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="mt-16 max-w-3xl mx-auto bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800"
+          >
+            <div className="w-full flex flex-col justify-center space-y-5">
+              <div className="text-center mb-2">
+                <Editable id="coolrooms.contacts.title" defaultContent="Discuss Your Requirements">
+                  <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">
+                    Discuss Your Requirements
+                  </h4>
+                </Editable>
+                <Editable id="coolrooms.contacts.description" type="textarea" defaultContent="For more information or to discuss your specific requirements, please feel free to contact our terminal management team.">
+                  <p className="text-slate-600 dark:text-slate-400 text-xs leading-relaxed max-w-xl mx-auto">
+                    For more information or to discuss your specific requirements, please feel free to contact our terminal management team.
+                  </p>
+                </Editable>
+              </div>
+              
+              <div className="space-y-1">
+                {/* DGM Lal Rajapaksha */}
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 py-3 border-b border-slate-100 dark:border-slate-800/50">
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-blue-50 dark:bg-slate-800 text-blue-600 dark:text-blue-400 rounded-lg p-2 shrink-0">
+                      <User className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <Editable id="coolrooms.contacts.dgm.name" defaultContent="Mr. Lal Rajapaksha">
+                        <h5 className="font-bold text-slate-900 dark:text-white text-xs leading-none mb-1">
+                          Mr. Lal Rajapaksha
+                        </h5>
+                      </Editable>
+                      <Editable id="coolrooms.contacts.dgm.role" defaultContent="Deputy General Manager (DGM)">
+                        <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none">
+                          Deputy General Manager (DGM)
+                        </p>
+                      </Editable>
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:items-end gap-1 shrink-0">
+                    <a href="tel:+94773139389" className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-xs gap-1.5">
+                      <Phone className="h-3 w-3" />
+                      +94 77 3139389
+                    </a>
+                    <a href="mailto:rajapaksha.l@slffacs.com" className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-[11px] gap-1.5">
+                      <Mail className="h-3 w-3 text-slate-400 group-hover:text-blue-500 transition-colors" />
+                      rajapaksha.l@slffacs.com
+                    </a>
+                  </div>
+                </div>
+
+                {/* Admin Manager Indika Fernando */}
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 py-3 border-b border-slate-100 dark:border-slate-800/50">
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-blue-50 dark:bg-slate-800 text-blue-600 dark:text-blue-400 rounded-lg p-2 shrink-0">
+                      <User className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <Editable id="coolrooms.contacts.admin.name" defaultContent="Mr. Indika Fernando">
+                        <h5 className="font-bold text-slate-900 dark:text-white text-xs leading-none mb-1">
+                          Mr. Indika Fernando
+                        </h5>
+                      </Editable>
+                      <Editable id="coolrooms.contacts.admin.role" defaultContent="Administration & HR Manager">
+                        <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none">
+                          Administration & HR Manager
+                        </p>
+                      </Editable>
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:items-end gap-1 shrink-0">
+                    <a href="tel:+94772449939" className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-xs gap-1.5">
+                      <Phone className="h-3 w-3" />
+                      +94 77 2449939
+                    </a>
+                    <a href="mailto:indika.f@slffacs.com" className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-[11px] gap-1.5">
+                      <Mail className="h-3 w-3 text-slate-400 group-hover:text-blue-500 transition-colors" />
+                      indika.f@slffacs.com
+                    </a>
+                  </div>
+                </div>
+
+                {/* Nishanthi Ranasinghe */}
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 py-3 border-b border-slate-100 dark:border-slate-800/50">
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-blue-50 dark:bg-slate-800 text-blue-600 dark:text-blue-400 rounded-lg p-2 shrink-0">
+                      <User className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <Editable id="coolrooms.contacts.person_1.name" defaultContent="Ms. Nishanthi Ranasinghe">
+                        <h5 className="font-bold text-slate-900 dark:text-white text-xs leading-none mb-1">
+                          Ms. Nishanthi Ranasinghe
+                        </h5>
+                      </Editable>
+                      <Editable id="coolrooms.contacts.person_1.role" defaultContent="Customer Service & Strategic Relations Manageress">
+                        <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none">
+                          Customer Service & Strategic Relations Manageress
+                        </p>
+                      </Editable>
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:items-end gap-1 shrink-0">
+                    <a href="tel:+94772193851" className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-xs gap-1.5">
+                      <Phone className="h-3 w-3" />
+                      +94 77 2193851
+                    </a>
+                    <a href="mailto:nishanthi.r@slffacs.com" className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-[11px] gap-1.5">
+                      <Mail className="h-3 w-3 text-slate-400 group-hover:text-blue-500 transition-colors" />
+                      nishanthi.r@slffacs.com
+                    </a>
+                  </div>
+                </div>
+
+                {/* Wasantha Lokubalasooriya */}
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 py-3 border-b border-slate-100 dark:border-slate-800/50">
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-blue-50 dark:bg-slate-800 text-blue-600 dark:text-blue-400 rounded-lg p-2 shrink-0">
+                      <User className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <Editable id="coolrooms.contacts.person_2.name" defaultContent="Mr. Wasantha Lokubalasooriya">
+                        <h5 className="font-bold text-slate-900 dark:text-white text-xs leading-none mb-1">
+                          Mr. Wasantha Lokubalasooriya
+                        </h5>
+                      </Editable>
+                      <Editable id="coolrooms.contacts.person_2.role" defaultContent="Operations Manager">
+                        <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none">
+                          Operations Manager
+                        </p>
+                      </Editable>
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:items-end gap-1 shrink-0">
+                    <a href="tel:+94774694089" className="group inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-colors font-bold text-xs gap-1.5">
+                      <Phone className="h-3 w-3" />
+                      +94 77 4694089
+                    </a>
+                    <a href="mailto:wasantha.l@slffacs.com" className="group inline-flex items-center text-slate-550 hover:text-blue-600 dark:text-blue-400 transition-colors text-[11px] gap-1.5">
+                      <Mail className="h-3 w-3 text-slate-400 group-hover:text-blue-500 transition-colors" />
+                      wasantha.l@slffacs.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka">
+                <div className="text-[10px] text-slate-450 pt-2 font-semibold text-center">
+                  SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka
+                </div>
+              </Editable>
+            </div>
           </motion.div>
         </div>
       </section>
