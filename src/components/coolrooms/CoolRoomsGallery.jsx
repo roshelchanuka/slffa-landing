@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -290,9 +290,9 @@ export default function CoolRoomsGallery() {
                 </div>
               </div>
 
-              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka">
+              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations Bandaranayake International Airport, Sri Lanka">
                 <div className="text-[11px] text-slate-450 pt-2 font-semibold">
-                  SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka
+                  SLFFA Cargo Terminal Operations Bandaranayake International Airport, Sri Lanka
                 </div>
               </Editable>
             </div>

@@ -261,7 +261,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="mt-16 max-w-3xl mx-auto bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800"
+            className="mt-16 max-w-3xl mx-auto"
           >
             <div className="w-full flex flex-col justify-center space-y-5">
               <div className="text-center mb-2">
@@ -403,9 +403,9 @@ const Contact = () => {
                 </div>
               </div>
 
-              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka">
+              <Editable id="coolrooms.contacts.note" defaultContent="SLFFA Cargo Terminal Operations Bandaranayake International Airport, Sri Lanka">
                 <div className="text-[10px] text-slate-450 pt-2 font-semibold text-center">
-                  SLFFA Cargo Terminal Operations BIA Airport • Katunayake, Sri Lanka
+                  SLFFA Cargo Terminal Operations Bandaranayake International Airport, Sri Lanka
                 </div>
               </Editable>
             </div>
