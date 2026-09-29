@@ -11,13 +11,13 @@ export default function CoolRoomsIntro() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
-          <div className="w-full lg:w-1/2">
+          <div className="w-full">
             <motion.div
               initial={{ opacity: 1, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="space-y-6"
+              className="space-y-6 max-w-4xl mx-auto"
             >
               <div className="inline-flex items-center space-x-2 bg-blue-50 dark:bg-blue-955/40 text-blue-700 dark:text-blue-400 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-2 border border-blue-200 dark:border-blue-900/30">
                 <ShieldCheck className="h-4 w-4 text-blue-600 dark:text-blue-455" /> Facility Upgraded & Expanded
@@ -42,25 +42,6 @@ export default function CoolRoomsIntro() {
                 </p>
               </Editable>
 
-            </motion.div>
-          </div>
- 
-          {/* Visual Column (Side Image Box) */}
-          <div className="w-full lg:w-1/2">
-            <motion.div 
-              initial={{ opacity: 1, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="aspect-[4/3] lg:h-[450px] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800 relative group bg-slate-100 dark:bg-slate-900"
-            >
-              <Editable id="coolrooms.thermal.image" type="image" defaultContent={imgAiCoolroom}>
-                <div 
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" 
-                  style={{ backgroundImage: `url('${imgAiCoolroom}')` }}
-                ></div>
-              </Editable>
-              <div className="absolute inset-0 bg-slate-955/15 dark:bg-slate-955/30 group-hover:bg-transparent transition-colors duration-300"></div>
             </motion.div>
           </div>
           
