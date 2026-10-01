@@ -171,12 +171,14 @@ const Contact = () => {
                     </div>
                     <div>
                       <span className="block font-semibold text-slate-900 dark:text-white">E-mail</span>
-                      <Editable id="contact.headoffice.email" defaultContent="headoffice@slffacs.com">
-                        <div className="flex flex-col mt-0.5">
+                      <div className="flex flex-col mt-0.5">
+                        <Editable id="contact.headoffice.email" defaultContent="headoffice@slffacs.com">
                           <a href="mailto:headoffice@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">headoffice@slffacs.com</a>
+                        </Editable>
+                        <Editable id="contact.headoffice.email2" defaultContent="admin@slffacs.com">
                           <a href="mailto:admin@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">admin@slffacs.com</a>
-                        </div>
-                      </Editable>
+                        </Editable>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -226,12 +228,14 @@ const Contact = () => {
                     </div>
                     <div>
                       <span className="block font-semibold text-slate-900 dark:text-white">E-mail</span>
-                      <Editable id="contact.operations.email" defaultContent="import@slffacs.com">
-                        <div className="flex flex-col mt-0.5">
+                      <div className="flex flex-col mt-0.5">
+                        <Editable id="contact.operations.email" defaultContent="import@slffacs.com">
                           <a href="mailto:import@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">import@slffacs.com</a>
+                        </Editable>
+                        <Editable id="contact.operations.email2" defaultContent="admin@slffacs.com">
                           <a href="mailto:admin@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">admin@slffacs.com</a>
-                        </div>
-                      </Editable>
+                        </Editable>
+                      </div>
                     </div>
                   </div>
                 </div>
