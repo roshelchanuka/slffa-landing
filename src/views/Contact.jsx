@@ -235,33 +235,13 @@ const Contact = () => {
             </motion.div>
           </motion.div>
 
-          {/* Map - Full Width at Bottom */}
-          <motion.div 
-            initial={{ opacity: 1, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 1.2, ease: "easeOut" }}
-            className="w-full h-[300px] md:h-[450px] bg-white dark:bg-slate-900 rounded-2xl shadow-md border border-slate-200 dark:border-slate-800 overflow-hidden"
-          >
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.183424151778!2d79.878761!3d7.1683277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2efcebecf8f03%3A0xcebe43e8be22a788!2sSlffa+Cargo+Services+Limited%2C+Terminal+02%2C+Air+Cargo+Village%2C%20B.I.A%2C+Katunayake!5e0!3m2!1sen!2slk" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen="" 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="SLFFA Cargo Services Location"
-            ></iframe>
-          </motion.div>
-
-          {/* Inquiry Contacts Below Map */}
+          {/* Inquiry Contacts */}
           <motion.div 
             initial={{ opacity: 1, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="mt-16 max-w-3xl mx-auto"
+            className="mb-16 max-w-3xl mx-auto"
           >
             <div className="w-full flex flex-col justify-center space-y-5">
               <div className="text-center mb-2">
@@ -409,6 +389,26 @@ const Contact = () => {
                 </div>
               </Editable>
             </div>
+          </motion.div>
+
+          {/* Map - Full Width at Bottom */}
+          <motion.div 
+            initial={{ opacity: 1, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1.2, ease: "easeOut" }}
+            className="w-full h-[300px] md:h-[450px] bg-white dark:bg-slate-900 rounded-2xl shadow-md border border-slate-200 dark:border-slate-800 overflow-hidden"
+          >
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.183424151778!2d79.878761!3d7.1683277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2efcebecf8f03%3A0xcebe43e8be22a788!2sSlffa+Cargo+Services+Limited%2C+Terminal+02%2C+Air+Cargo+Village%2C%20B.I.A%2C+Katunayake!5e0!3m2!1sen!2slk" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen="" 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="SLFFA Cargo Services Location"
+            ></iframe>
           </motion.div>
         </div>
       </section>
