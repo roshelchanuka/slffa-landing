@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -83,7 +83,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
         <div className="pl-8 mb-4 text-slate-700 dark:text-slate-300 leading-relaxed">{`D.	Without prior agreement in writing by an officer of the Company so authorized, the Company will not accept or deal with Goods that require special handling regarding carriage, handling, or security whether owing to their thief attractive nature or otherwise including, but not limited to bullion, coin, precious stones, jewelry, valuables, antiques, pictures, human remains, livestock, pets, plants. Should any Customer nevertheless deliver any such goods to the Company, or cause the Company to handle or deal with any such goods, otherwise than under such prior agreement, the Company shall have no liability whatsoever for or in connection with the goods howsoever arising.`}</div>
         <div className="pl-8 mb-4 text-slate-700 dark:text-slate-300 leading-relaxed">{`E.	It shall not be the duty of the Company to arrange for the Goods to be carried, stored or handled separately from the Goods of other customers.`}</div>
         <div className="mt-8 mb-4 text-slate-800 dark:text-slate-200 leading-relaxed font-medium">{`7.	The Customer undertakes not to tender for transportation any Goods that require temperature control without previously giving written notice of their nature and particular temperature range to be maintained.`}</div>
-        <div className="mt-8 mb-4 text-slate-800 dark:text-slate-200 leading-relaxed font-medium">{`8.	In the case of a temperature controlled container stuffed by or on behalf of the Customer by a third party, the Customer further undertakes that;`}</div>
+        <div className="mt-8 mb-4 text-slate-800 dark:text-slate-200 leading-relaxed font-medium">{`In the case of a temperature controlled container stuffed by or on behalf of the Customer by a third party, the Customer further undertakes that;`}</div>
         <div className="pl-8 mb-4 text-slate-700 dark:text-slate-300 leading-relaxed">{`A.	The container has been properly pre-cooled or preheated as appropriate, and`}</div>
         <div className="pl-8 mb-4 text-slate-700 dark:text-slate-300 leading-relaxed">{`B.	The Goods have been properly stuffed in the container; and`}</div>
         <div className="pl-8 mb-4 text-slate-700 dark:text-slate-300 leading-relaxed">{`C.	Its thermostatic controls have been properly set by the Customer or the third party.`}</div>
