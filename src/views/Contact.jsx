@@ -172,7 +172,10 @@ const Contact = () => {
                     <div>
                       <span className="block font-semibold text-slate-900 dark:text-white">E-mail</span>
                       <Editable id="contact.headoffice.email" defaultContent="headoffice@slffacs.com">
-                        <a href="mailto:headoffice@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline block mt-0.5">headoffice@slffacs.com</a>
+                        <div className="flex flex-col mt-0.5">
+                          <a href="mailto:headoffice@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">headoffice@slffacs.com</a>
+                          <a href="mailto:admin@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">admin@slffacs.com</a>
+                        </div>
                       </Editable>
                     </div>
                   </div>
@@ -226,6 +229,7 @@ const Contact = () => {
                       <Editable id="contact.operations.email" defaultContent="import@slffacs.com">
                         <div className="flex flex-col mt-0.5">
                           <a href="mailto:import@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">import@slffacs.com</a>
+                          <a href="mailto:admin@slffacs.com" className="text-blue-600 dark:text-blue-400 hover:underline">admin@slffacs.com</a>
                         </div>
                       </Editable>
                     </div>

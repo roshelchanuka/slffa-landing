@@ -1,4 +1,4 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
 import { Mail, Phone, MapPin, Globe, Link as LinkIcon, Share2 } from 'lucide-react';
 import Editable from './Editable';
 
@@ -63,7 +63,10 @@ export default function Footer() {
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-blue-400 flex-shrink-0" />
                 <Editable id="footer.contact.email" defaultContent="import@slffacs.com">
-                  <span>import@slffacs.com</span>
+                  <div className="flex flex-col">
+                    <span>import@slffacs.com</span>
+                    <span>admin@slffacs.com</span>
+                  </div>
                 </Editable>
               </li>
             </ul>
