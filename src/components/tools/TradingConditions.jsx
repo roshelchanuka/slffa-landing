@@ -28,10 +28,11 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
         </Editable>
       </motion.div>
 
-      <motion.div variants={itemVariants} className="text-slate-700 dark:text-slate-300 max-w-5xl mx-auto px-4 sm:px-8 whitespace-pre-wrap font-medium leading-relaxed">
-{`Part I: General Conditions
-Definitions
-1. In these Conditions
+      <motion.div variants={itemVariants} className="text-slate-700 dark:text-slate-300 max-w-5xl mx-auto px-4 sm:px-8 whitespace-pre-wrap font-medium leading-loose">
+<h3 className="text-xl md:text-2xl font-bold text-blue-600 dark:text-blue-400 mt-2 mb-6">Part I: General Conditions</h3>
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-6 mb-3">Definitions</h4>
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-6 mb-3">1. In these Conditions</h4>
+{`
 A. Authority: A duly constituted legal or administrative person, acting within its legal powers and exercising jurisdiction within any nation, state, municipality, port or airport. 
 B. Carriage : means the whole or any part of the operations and services of whatsoever nature undertaken by the Company in relation to the Goods including but not limited to the loading, unloading ,storage, warehousing and handling of the goods. 
 C. Company : means a SLFFA CARGO SERVICES LTD who undertakes to provide the services
@@ -67,7 +68,9 @@ III. The provisions of Part III shall only apply to the extent that the Company 
 
 C. If any legislation, to include regulations and directives, is compulsorily applicable to any business undertaken, these conditions shall, as regards such business, be read as subject to such legislation, and nothing in these conditions shall be construed as a surrender by the Company of any of its rights or immunities or as an increase of any of its responsibilities or liabilities under such legislation, and if any part of these conditions be repugnant to such legislation to any extent, such part shall as regards such business be overridden to that extent and no further. 
 
-3. All services and activities are provided by the Company as agents except in the following circumstances where the Company acts as principal 
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">3. All services and activities are provided by the Company as agents except in the following circumstances where the Company acts as principal</h4>
+{`
 
 
 A. where the Company performs any carriage, handling or storage of Goods but only to the extent that the carriage is performed by the Company itself or its servants and the Goods are in the actual custody and control of the Company or 
@@ -76,7 +79,9 @@ B. To the extent that the Company expressly agrees in wooding to act as a princi
 
 C. To the extent that the Company is held by a court of law to have acted as a principal. 
 
-4. Without prejudice to the generality of clause 3 
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">4. Without prejudice to the generality of clause 3</h4>
+{`
 
 
 A. The charging by the Company of a fixed price for a service or services of whatsoever nature shall not in itself determine or be evidence that the Company is acting as an agent or a principal in respect of such service or services, 
@@ -86,8 +91,10 @@ B. The supplying by the Company of their own or leased equipment shall not in it
 C. The Company acts as an agent where the Company procures a bill of lading or other document evidencing a contract of carriage between a person, other than the Company, and the Customer or Owner;
 D. The Company acts as an agent and never as a principal when providing services in respect of or relating to customs requirements, taxes, licenses consular documents, certificates of origin, inspection, certificates and other similar services;
 E. Quotations are given on the basis that immediate acceptance and are subject to the right of withdrawal or revision. If any changes occur in the rates of freight, insurance premiums or other charges applicable to the goods, quotations and charges shall be subject to revision accordingly with or without notice.
-Obligations of Customer
-5. The Customer warrants
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Obligations of Customer</h4>
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">5. The Customer warrants</h4>
+{`
 A. That he is either the owner or the authorized agent of the Owner of the Goods and that he is authorized to accept and is accepting these Conditions not only for himself but also as agent for and on behalf of the owner of the Goods
 B. I. That he has reasonable knowledge of matters affecting the conduct of his business, including but not limited to the terms of sale and purchase of the Goods and all other matters relating thereto.
 II. That the description and particulars of any Goods or information furnished, or services required, are complete and accurate and provided in full at the time of handing over the goods or requiring such services and in the event of any change of such instructions, information provided, that such change be made with adequate notice to enable the carrier to perform and discharge his duties,
@@ -113,9 +120,9 @@ D. Should the insurers dispute their liability for any reason the insured shall 
 B. The Company's liability resulting from such instructions relating to the delivery or release of the goods other than in wooding shall not exceed that provided for in respect of mis-delivery of Goods.
 
 11. Unless otherwise previously agreed in wooding that the Goods shall depart or arrive by a particular date, the Company accepts no responsibility for departure or arrival dates of Goods, whether or not any such delay is caused by the negligence of the Company and/or its servants or agents. 
-
-
-General Indemnities 
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">General Indemnities</h4>
+{`
 12. A. The Customer and Owner shall defend, indemnify and hold harmless the Company against all liability, loss, damage, costs and expenses arising: 
 I. From the nature of the goods unless caused by the Company's negligence 
 II. For any damage or injury caused by faulty or insufficient packing of the Goods or by faulty loading or packing when such packing has been performed by the Customer or on behalf of the Customer by a person other than the Company 
@@ -133,14 +140,18 @@ III. The Customer shall defend, indemnify and hold harmless the Company from and
 
 E. The Customer shall be liable for the loss, damage, contamination, soiling, detention or demurrage before, during and after the carriage of property (including, but not limited to, Containers) of the Company or any person or vessel referred to in (D) above caused by the Customer or Owner or any person acting on behalf of either of them or for which the Customer is otherwise responsible. 
 E. The Customer shall be liable for the loss, damage, contamination, soiling, detention or demurrage before, during and after the carriage of property (including, but not limited to, Containers) of the Company or any person or vessel referred to in (D) above caused by the Customer or Owner or any person acting on behalf of either of them or for which the Customer is otherwise responsible. 
-Charges etc. 
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Charges etc.</h4>
+{`
 13. A. The Customer shall pay to the Company in cash or as agreed all sums immediately when due without reduction or deferment on account of any claim, counterclaim or set-off. 
 B. Despite the acceptance by the Company of instructions from the Customer to collect freight, duties, charges, dues or other expenses from the Consignee, or any other person, on receipt of evidence of proper demand by the Company, and in the absence of evidence of payment (for whatever reason) by such Consignee, or other person, the Customer shall remain responsible for the payment of such freight, duties, charges, dues or other expenses within seven (7) days of time when such moneys should have been paid. 
 C. On all amounts overdue to the Company, the Company shall be entitled to legal interest, calculated at 24% per annum for the period that such amounts are overdue. 
 D. In the event the Customer fails to pay any amount due to the Company in accordance with these Conditions, the Customer is deemed to have consented to:
  I. The Company, at its discretion, without prior notice to the Customer, publishing details of the Customer's failure to pay to the SLFFA CARGO SERVICES LTD Database of defaults; and 
 II. In the event the Company acts in accordance with 13(D)(I) above, to the details of such failure remaining on the SLFFA CARGO SERVICES LTD Database for viewing by SLFFA CARGO SERVICES LTD Customers until the amount so due is paid. 
-Liberties and Rights of Company
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Liberties and Rights of Company</h4>
+{`
 14. The Company shall perform its duties with a reasonable degree of care, diligence, skill and judgement and in accordance with the code of ethics provided for in the schedule to these trading conditions. 
 15. Subject to clause 8, the Company shall advice its customers of the necessity of effecting insurances with regard to the various services to be performed. 
 16. The Company shall be entitled, except insofar as has been otherwise agreed in wooding, to enter into contracts, on any terms whatsoever, on behalf of itself or the Customer and without notice to the Customer: 
@@ -159,7 +170,9 @@ E. Disadvantage whatsoever
 and which cannot be avoided by reasonable endeavors by the Company or such other person, the Company may, on giving notice in wooding to the Customer or Owner or without notice where it is not reasonably possible to give such notice, treat the performance of its obligations as terminated and place the Goods or any part of them at the Customer or Owner's disposal at any place which the Company may deem safe and convenient, whereupon the responsibility of the Company in respect of the Goods shall cease. The Customer shall be responsible for all additional costs of carriage to, and delivery and storage at, such place and all other expenses incurred by the Company. 
 19. If the Customer or Owner does not take delivery of the Goods or any part thereof at the time and place when and where the Company , or any person whose services the Company makes use of, is entitled to call upon the Custom or Owner take delivery thereof , the Company or such other person shall be entitled, without further notice, to store the Goods or any part of the Goods in the open or under cover at the sole risk and expense of the Customer. Such storage shall constitute delivery of the Goods and the liability of the Company shall wholly cease. 
 20. Notwithstanding clauses 18 and 19, the Company shall be entitled, but under no obligation, at the expense of the Customer payable on demand and without any liability to the Customer and Owner, to sell or dispose of i. on giving 21-day notice in wooding to the Customer all Goods which in the opinion of the Company cannot be delivered as instructed, and ii. without notice Goods which have perished, deteriorated or altered, or are liable to do so, in a manner which has caused or may be reasonably expected to cause loss or damage to any person or property or to contravene applicable regulations or requirements. 
-Company Lien 
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Company Lien</h4>
+{`
 21. A. The Company shall have a particular and general lien on all Goods and /or documents relating to Goods in its possession for all sums of whatsoever kind and nature due at any time from the Customer or Owner including any previously unsatisfied freight charges due in respect of other goods from the Customer or Owner and on giving 28 day notice in wooding to the Customer, shall be entitled to sell or dispose of such Goods and/or documents at the expense of the Customer and without any liability to the Customer and Owner and apply the proceeds in or towards the payment of such sums. Upon accounting to the Customer for any balance remaining after payment of any sum due to the Company and the costs of sale or disposal the Company shall be discharged of any liability whatsoever in respect of the Goods and/or documents. If on the sale of the Goods the proceeds fail to realize the amount due, the Company shall be entitled to recover the difference from any of the parties included in the terms Customer or Owner.
 B.	In any event any lien shall:
 I.	Survive the delivery of the goods, and
@@ -167,7 +180,9 @@ II.	Extend to cover the cost of recovering any sums due and for that purpose the
 
 22.The Company shall be entitled to retain and be paid all brokerages, commissions, allowances and other remunerations customarily retained by or paid to freight forwarders including any and all costs and expenses relating to the research, designing and development of trade solutions related to the services provided either by the company itself or at the instance of the company if carried out for and behalf of the customer.
 23.The Company shall have the right to enforce against the Owner and the Customer jointly and severally any liability of the Customer under these Conditions or to recover from them any sums to be paid by the Customer, which upon demand have not been paid.
-Company Lien.
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Company Lien.</h4>
+{`
 24. A. If a Container has been packed or stuffed by or on behalf of the Customer, the Company shall not be liable for loss of or damage to the Goods if:
 I.	Caused by the manner in which the Container has been packed or stuffed,
 II.	Caused by the unsuitability of the contents for carriage in the Container actually used, unless the Company has approved the suitability.
@@ -210,19 +225,26 @@ B.
 I.	In the case of loss or damage to Goods, the date of delivery of the Goods,
 II.	In the case of delay or non delivery of the Goods, the date that the Goods should have been delivered,
 III.	In any other case, the event giving rise to the claim Otherwise any claim shall be deemed to be waived and absolutely barred.
-
-General Average
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">General Average</h4>
+{`
 29.	The Customer shall defend, indemnify and hold harmless the Company in respect of any claims for General Average contribution that may be made on the Company, irrespective of whether the carriage charges are pre-paid or not. The Customer shall promptly provide such security for General Average contributions as may be required by the Company or to any other party designated by the Company, in a form acceptable to the Company.
-Part II: Company as Agent
-Special Liability and Indemnity Conditions
+`}
+<h3 className="text-xl md:text-2xl font-bold text-blue-600 dark:text-blue-400 mt-10 mb-6">Part II: Company as Agent</h3>
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Special Liability and Indemnity Conditions</h4>
+{`
 30.	A.To the extent that the Company acts as an agent, the Company does not make or purport to make any contract with the Customer for the carriage, storage or handling of the Goods nor for any other physical service in relation to them and acts solely on behalf of the Customer in securing such services by establishing contracts with third parties so that direct contractual relationship are established between the Customer and such third parties.
 B.The Company shall not be liable for the acts and omissions of such third parties referred to in sub-clause (A) above.
 31.	A.The Company when acting as an agent has the authority of the Customer to enter into contracts on the customer’s behalf and to do such acts so as to bind the Customer by such contracts and acts in all respects notwithstanding any departure from the Customer’s instructions.
 B.Except to the extent caused by the Company’s negligence, the Customer shall defend, indemnify and hold harmless the Company in respect of all liability, loss, damage, costs or expenses arising out of any contracts made in the procurement of the Customer’s requirements in accordance with clause 48.
-Choice of Rates
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Choice of Rates</h4>
+{`
 32.	Where there is a choice of rates according to the extent or degree of liability assumed by persons carrying, storing, handling the Goods, no declaration of value where optional will be made unless otherwise agreed in wcoding.
-Part III: Company as Principal
-Special Liability Conditions
+`}
+<h3 className="text-xl md:text-2xl font-bold text-blue-600 dark:text-blue-400 mt-10 mb-6">Part III: Company as Principal</h3>
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Special Liability Conditions</h4>
+{`
 33.	To the extent that the Company contracts as principal for the performance of the Customer’s instructions, the Company undertakes to perform or in its own name to procure the performance of the Customer’s instructions and subject to the provisions of these conditions shall be liable for the loss of or damage to the Goods occurring from the time that the Goods are taken into its charge until the time of delivery.
 34.	Notwithstanding other provisions in these Conditions, if it can be proved where the loss of or damage to the Goods occurred, the Company’s liability shall be determined by the provisions contained in any international convention or national law, the provisions of which
 A.Cannot be departed from by private contract, to the detriment of the claimant and
@@ -235,7 +257,9 @@ I.	The value of, or
 II.	2 SDR per gross kilogram of, the lost, damaged, misdirected, mis-delivered or in respect of which a claim arises.
 B.The SDR shall be as defined by the International Monetary Fund and the value of a SDR shall be calculated at the date when settlement is agreed or judgement.
 C.	In respect of claims for delay where not excluded by the provisions of these Conditions, the amount of the Company’s charges in respect of the Goods delayed.
-Air Carriage
+`}
+<h4 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-3">Air Carriage</h4>
+{`
 38.	If the Company acts as a principal in respect of carriage of Goods by air, the following notice is hereby given: If the carriage involves an ultimate destination or stop in a country other than the country of departure, the Warsaw Convention or its amendments for the time being may be applicable and the Conventions governs and in most cases the limits the liability of carriers in respect of loss of or damage to cargo. Agreed stopping places are those places (other than the places of departure and destination) shown under requested routing and/or those places shown in carrier’s timetables as scheduled stopping places for the route. The address of the first carrier is the airport of departure.
 39.	The Company shall facilitate the provision of services by the Company to its customers through the use of EDI by electronically sending and receiving data agreed in substitution for conventional paper-based documents as validated by the Electronic Transactions Act No: 19 of 2006 and all messages between the Company and its customers using such EDI method would be subject to these Standard Trading Conditions.
 40.	The Company and the Customer agree that each of them shall
