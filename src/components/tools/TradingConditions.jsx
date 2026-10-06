@@ -27,7 +27,6 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
           </h1>
         </Editable>
       </motion.div>
-    </motion.div>
 
       <motion.div variants={itemVariants} className="text-slate-700 dark:text-slate-300 max-w-5xl mx-auto px-4 sm:px-8 whitespace-pre-wrap font-medium leading-relaxed">
 {`Part I: General Conditions
