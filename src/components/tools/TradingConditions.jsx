@@ -10,7 +10,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
       if (!line.trim()) return null;
       
       // Match number bullets like "1.", "12."
-      const match = line.match(/^(\s*)([0-9]{1,2}\.)\s(.*)/);
+      const match = line.match(/^(\s*)([0-9]{1,2}\.)\s?(.*)/);
       if (match) {
         const [, space, bullet, content] = match;
         // Make the main numbers larger and blue
