@@ -49,8 +49,8 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-gray-300">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-blue-400 flex-shrink-0" />
-                <Editable id="footer.contact.address" defaultContent="Terminal 02, air Cargo Village, Bandaranayake International Air port, Katunayake, sri lanka">
-                  <span>Terminal 02, air Cargo Village, Bandaranayake International Air port, Katunayake, sri lanka</span>
+                <Editable id="footer.contact.address" defaultContent="Terminal 02, air Cargo Village, Bandaranayake International Airport, Katunayake, sri lanka">
+                  <span>Terminal 02, air Cargo Village, Bandaranayake International Airport, Katunayake, sri lanka</span>
                 </Editable>
               </li>
               <li className="flex items-center">
