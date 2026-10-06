@@ -109,20 +109,7 @@ export default function CoolRoomsGallery() {
                 </Editable>
               </div>
 
-              {/* Security/Trust Logo seal */}
-              <div className="mt-8 pt-8 border-t border-slate-250 flex items-center space-x-4">
-                <div className="bg-blue-600 text-white rounded-2xl p-4 shadow-lg shadow-blue-500/20 shrink-0">
-                  <Shield className="h-8 w-8" />
-                </div>
-                <div>
-                  <Editable id="coolrooms.safety.title" defaultContent="SLFFA Safety Certified">
-                    <h4 className="font-bold text-slate-900 dark:text-white text-sm">SLFFA Safety Certified</h4>
-                  </Editable>
-                  <Editable id="coolrooms.safety.description" type="textarea" defaultContent="Solely owned and approved by the Freight Forwarding fraternity of Sri Lanka.">
-                    <p className="text-xs text-slate-500 dark:text-slate-400">Solely owned and approved by the Freight Forwarding fraternity of Sri Lanka.</p>
-                  </Editable>
-                </div>
-              </div>
+
             </div>
 
             {/* Right Side: Inquiry Contacts */}
