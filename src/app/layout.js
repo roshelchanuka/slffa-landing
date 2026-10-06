@@ -2,7 +2,6 @@ import '../index.css';
 import { ThemeProvider } from '../context/ThemeContext';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import CookieBanner from '../components/CookieBanner';
 
 export const metadata = {
   title: 'SLFFA Cargo',
@@ -27,7 +26,6 @@ export default function RootLayout({ children }) {
               {children}
             </main>
             <Footer />
-            <CookieBanner />
           </div>
         </ThemeProvider>
       </body>
