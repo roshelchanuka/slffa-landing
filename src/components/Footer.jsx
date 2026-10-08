@@ -55,8 +55,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-blue-400 flex-shrink-0" />
-                <Editable id="footer.contact.phone" defaultContent="+94 11 225 2533/6/4">
-                  <span>+94 11 225 2533/6/4</span>
+                <Editable id="footer.contact.phone" defaultContent="+94 11 225 2533/4/6">
+                  <span>+94 11 225 2533/4/6</span>
                 </Editable>
               </li>
               <li className="flex items-center">

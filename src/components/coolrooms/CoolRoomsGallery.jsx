@@ -88,9 +88,9 @@ export default function CoolRoomsGallery() {
               <div className="space-y-6">
                 <span className="text-blue-600 dark:text-blue-400 font-bold text-sm uppercase tracking-widest block">Commitment to Quality</span>
                 
-                <Editable id="coolrooms.experience.title" defaultContent="Over Thirty Years of Cargo Handling Excellence">
+                <Editable id="coolrooms.experience.title" defaultContent="Over Thirty Two Years of Cargo Handling Excellence">
                   <h3 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
-                    Over Thirty Years of Cargo Handling Excellence
+                    Over Thirty Two Years of Cargo Handling Excellence
                   </h3>
                 </Editable>
                 

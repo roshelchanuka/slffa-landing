@@ -216,8 +216,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <span className="block font-semibold text-slate-900 dark:text-white">Tel</span>
-                      <Editable id="contact.operations.tel" defaultContent="+94 11 225 2533/6/4">
-                        <span className="text-slate-600 dark:text-slate-300 block mt-0.5">+94 11 225 2533/6/4</span>
+                      <Editable id="contact.operations.tel" defaultContent="+94 11 225 2533/4/6">
+                        <span className="text-slate-600 dark:text-slate-300 block mt-0.5">+94 11 225 2533/4/6</span>
                       </Editable>
                     </div>
                   </div>
