@@ -25,7 +25,7 @@ export const statsData = [
     iconName: "Users",
     value: "75+ Agents",
     label: "Leading Forwarders",
-    description: "Trusting partner to the nation's premier cargo agents and logistics providers."
+    description: "Trusted partner to the nation's premier cargo agents and logistics providers."
   },
   {
     iconName: "Users",
