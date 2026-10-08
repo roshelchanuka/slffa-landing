@@ -47,9 +47,9 @@ export default function CcnContact() {
                 <h4 className="text-sm font-extrabold text-slffaBlue uppercase tracking-widest mb-3">Telephone</h4>
               </Editable>
               <div className="flex flex-col space-y-2 items-center">
-                <Editable id="ccnhub.contact.phone.value1" defaultContent="+94 77 844 5180">
+                <Editable id="ccnhub.contact.phone.value1" defaultContent="(+94 ) 77 844 5180">
                   <a href="tel:+94778445180" className="text-slate-900 dark:text-white font-bold hover:text-slffaBlue transition-colors block text-xl">
-                    +94 77 844 5180
+                    (+94 ) 77 844 5180
                   </a>
                 </Editable>
                 <Editable id="ccnhub.contact.phone.value2" defaultContent="+94 11 225 2533/6">
