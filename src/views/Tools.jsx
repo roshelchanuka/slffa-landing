@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -106,7 +106,7 @@ const Tools = () => {
 
       {/* Content Section */}
       <section className="py-20 relative z-30 bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-none mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Standard Trading Conditions Section */}
           <TradingConditions containerVariants={containerVariants} itemVariants={itemVariants} />
