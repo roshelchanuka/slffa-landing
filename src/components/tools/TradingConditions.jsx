@@ -212,7 +212,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
             <li>In the event the Customer fails to pay any amount due to the Company in accordance with these Conditions, the Customer is deemed to have consented to: </li>
             <ol type="I" className="sub-sub-list">
 <li>The Company, at its discretion, without prior notice to the Customer, publishing details of the Customer's failure to pay to the SLFFACS Database of defaults; and</li>
-<li>In the event the Company acts in accordance with 13(D)(I) above, to the details of such failure remaining on the SLFFACS Database for viewing by SLFFACS Members until the amount so due is paid. </li>
+<li>In the event the Company acts in accordance with 13(D)(I) above, to the details of such failure remaining on the SLFFACS Database for viewing by SLFFACS Customers until the amount so due is paid. </li>
 </ol>
 </ol>
           </li>
