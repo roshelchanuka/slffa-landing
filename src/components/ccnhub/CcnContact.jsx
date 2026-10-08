@@ -32,11 +32,9 @@ export default function CcnContact() {
               <Editable id="ccnhub.contact.address.label" defaultContent="Office Address">
                 <h4 className="text-sm font-extrabold text-slffaBlue uppercase tracking-widest mb-3">Office Address</h4>
               </Editable>
-              <Editable id="ccnhub.contact.address.value" type="textarea" defaultContent="Terminal 02, Air Cargo Village,\nBandaranayake International Airport,\nKatunayake, Sri Lanka.">
+              <Editable id="ccnhub.contact.address.value" type="textarea" defaultContent="Terminal 02, Air Cargo Village, Bandaranayake International Airport, Katunayake, Sri Lanka.">
                 <p className="text-slate-600 dark:text-slate-400 font-medium leading-relaxed">
-                  Terminal 02, Air Cargo Village,<br />
-                  Bandaranayake International Airport,<br />
-                  Katunayake, Sri Lanka.
+                  Terminal 02, Air Cargo Village, Bandaranayake International Airport, Katunayake, Sri Lanka.
                 </p>
               </Editable>
             </div>
