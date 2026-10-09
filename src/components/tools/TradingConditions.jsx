@@ -59,7 +59,7 @@ export default function TradingConditions({ containerVariants, itemVariants }) {
             <ol type="A" className="sub-list">
               <li>Authority: A duly constituted legal or administrative person, acting within its legal powers and exercising jurisdiction within any nation, state, municipality, port or airport.</li>
               <li>Carriage : means the whole or any part of the operations and services of whatsoever nature undertaken by the Company in relation to the Goods including but not limited to the loading, unloading ,storage, warehousing and handling of the goods.</li>
-              <li>Company : means a member of SLFFA Cargo Services Ltd who undertakes to provide the services</li>
+              <li>Company : means a customer of SLFFA Cargo Services Ltd who undertakes to provide the services</li>
               <li>Consignee : means the person to whom the goods are consigned</li>
               <li>Container : includes , unless otherwise indicated, any vehicle, container, flat pallet, trailer, transportable tank and similar items used for the consolidation of goods as well as mobile plant and timber packages.</li>
               <li>Customer : means any person, whether themselves an agent or a principal. At whose request or on whose behalf the Company undertakes any business or provides advice, information or services</li>
