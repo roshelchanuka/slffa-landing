@@ -15,9 +15,9 @@ export default function Footer() {
             <div className="flex items-center mb-6">
               <img src="https://i.ibb.co/Vcc7G072/SLFFA-720-720.png" alt="SLFFA Logo" className="h-32 w-auto mr-4 object-contain" />
             </div>
-            <Editable id="footer.about.description" type="textarea" defaultContent="SLFFA Cargo Services Ltd is a public unquoted company with limited liability, solely owned by the Freight Forwarding fraternity of Sri Lanka. We provide speedy, safe and efficient services including specialized Cool Room facilities.">
+            <Editable id="footer.about.description" type="textarea" defaultContent="SLFFA Cargo Services Ltd is a public unquoted company with limited liability. We provide speedy, safe and efficient services including specialized Cool Room facilities.">
               <p className="text-gray-300 text-sm leading-relaxed mb-6 max-w-md">
-                SLFFA Cargo Services Ltd is a public unquoted company with limited liability, solely owned by the Freight Forwarding fraternity of Sri Lanka. We provide speedy, safe and efficient services including specialized Cool Room facilities.
+                SLFFA Cargo Services Ltd is a public unquoted company with limited liability. We provide speedy, safe and efficient services including specialized Cool Room facilities.
               </p>
             </Editable>
             <div className="flex space-x-4">
