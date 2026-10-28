@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
@@ -7,8 +7,11 @@ import { ccnFeaturesData } from '../../data/ccnHubData';
 import Editable from '../Editable';
 
 export default function CcnKeyFeatures() {
-  const renderIcon = (iconName) => {
-    const IconComponent = LucideIcons[iconName];
+  const renderIcon = (feature) => {
+    if (feature.iconClass) {
+      return <i className={`${feature.iconClass} text-3xl transition-colors duration-300`} />;
+    }
+    const IconComponent = LucideIcons[feature.iconName];
     return IconComponent ? <IconComponent className="w-8 h-8 transition-colors duration-300" /> : null;
   };
 
@@ -40,7 +43,7 @@ export default function CcnKeyFeatures() {
             >
               <div className="absolute top-0 left-0 w-full h-1 bg-slffaBlue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
               <div className="mb-6 bg-sky-50 w-16 h-16 rounded-xl flex items-center justify-center text-slffaBlue group-hover:scale-110 group-hover:bg-slffaBlue group-hover:text-white transition-all duration-500 shadow-sm border border-sky-100">
-                {renderIcon(feature.iconName)}
+                {renderIcon(feature)}
               </div>
               <Editable id={`ccnhub.features.${index}.title`} defaultContent={feature.title}>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4">{feature.title}</h3>

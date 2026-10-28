@@ -35,6 +35,19 @@
   }
 }
 
+/* Ensure Font Awesome icons retain their icon font family */
+[class*="fa-"], .fa, .fas, .far, .fab, .fa-solid, .fa-regular {
+  font-family: "Font Awesome 6 Free" !important;
+  font-style: normal !important;
+  display: inline-block;
+  line-height: 1;
+}
+
+.fa-earth-americas {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+}
+
 /* Custom Blinking Animation for Cool Rooms Hyperlink on Hover */
 @keyframes hoverBlinkBlue {
   0%, 100% {

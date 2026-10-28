@@ -11,6 +11,7 @@ export { bgImage, eventImg1, eventImg2, eventImg3 };
 export const ccnFeaturesData = [
   {
     title: 'E-bookings',
+    iconClass: 'fa-regular fa-earth-americas',
     iconName: 'Earth',
     items: ['Ad hoc/Single', 'Multiple'],
   },
