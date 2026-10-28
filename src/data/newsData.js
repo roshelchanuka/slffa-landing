@@ -90,7 +90,6 @@ const getTogether2024Images = [
   'https://i.ibb.co/kVPZHqvk/BJTZ5190.jpg',
   'https://i.ibb.co/FMmqYqT/CMFO5137.jpg',
   'https://i.ibb.co/k2YZjmD9/DEGI7828.jpg',
-  'https://i.ibb.co/q3vwwQnc/EDHE3666.jpg',
   'https://i.ibb.co/nsh0JttB/FDMZ1430.jpg',
   'https://i.ibb.co/m5MN7DM6/GCVA1166.png',
   'https://i.ibb.co/Rpqf1gyb/IMG-0847.png',
