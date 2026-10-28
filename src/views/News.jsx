@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
@@ -8,8 +8,8 @@ import Editable from '../components/Editable';
 // Import shared news items
 import { newsItems } from '../data/newsData';
 
-// Replaced hero image to use Google Drive proxy
-const newsHeroBg = 'https://i.ibb.co/ZZGXL64/Chat-GPT-Image-Jun-17-2026-at-02-42-56-PM.png';
+// Hero image from https://ibb.co/4QKtmZv
+const newsHeroBg = 'https://i.ibb.co/dhjMW0C/Chat-GPT-Image-Jun-17-2026-at-02-42-56-PM.png';
 
 const slideVariants = {
   enter: (direction) => ({
