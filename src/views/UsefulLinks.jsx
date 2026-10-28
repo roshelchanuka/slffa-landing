@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
@@ -18,7 +18,7 @@ import {
   Ship, 
   Compass, 
   Users, 
-  Clock, 
+  
   ArrowUpRight, 
   X, 
   HelpCircle
@@ -41,7 +41,7 @@ const logoCcc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/
 const logoSlpa = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401029/Srilanka-ports-authority_z6jdbq.jpg';
 const logoCustoms = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401029/srilanka_customs_azxy8p.jpg';
 const logoSlsc = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401030/ssc_faxsgh.jpg';
-const logoWorldTime = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785401263/mainlogo6a_q7qbat.png';
+
 
 // Secure Lucide icon lookup dictionary
 const iconMap = {
@@ -56,8 +56,7 @@ const iconMap = {
   Briefcase,
   Ship,
   Compass,
-  Users,
-  Clock
+  Users
 };
 
 const DynamicIcon = ({ name, className }) => {
@@ -151,7 +150,7 @@ const usefulLinksData = [
     name: "Sri Lanka Ports Authority (SLPA)",
     acronym: "SLPA",
     url: "https://www.slpa.lk/",
-    category: "logistics",
+    category: "government",
     description: "The state agency managing all commercial maritime ports in Sri Lanka, including the Port of Colombo, facilitating global shipping routes and break-bulk logistics.",
     iconName: "Ship",
     logo: logoSlpa
@@ -173,15 +172,6 @@ const usefulLinksData = [
     description: "The peak advisory council representing the interests of local importers, exporters, and shippers in negotiations with government bodies, shipping lines, and logistics operators.",
     iconName: "Users",
     logo: logoSlsc
-  },
-  {
-    name: "World Time",
-    acronym: "World Time",
-    url: "https://www.timeanddate.com/worldclock/",
-    category: "tools",
-    description: "A vital synchronization resource tracking global time zones, city times, and regional calendar standards for international flight scheduling and global supply chain tracking.",
-    iconName: "Clock",
-    logo: logoWorldTime
   }
 ];
 
@@ -191,7 +181,7 @@ const categories = [
   { id: 'logistics', name: 'Logistics & Shipping' },
   { id: 'government', name: 'Government & Customs' },
   { id: 'trade', name: 'Chambers of Commerce' },
-  { id: 'tools', name: 'Utility Tools' }
+
 ];
 
 // Robust dynamic fallback logo component

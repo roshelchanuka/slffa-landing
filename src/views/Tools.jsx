@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Editable from '../components/Editable';
 import AwbGuide from '../components/tools/AwbGuide';
 import TradingConditions from '../components/tools/TradingConditions';
+import WorldTime from '../components/tools/WorldTime';
 
 // Import image from the root images folder
 const chatgptImgJun9 = 'https://res.cloudinary.com/n1jpvnbo/image/upload/f_auto,q_auto/v1785385778/ChatGPT_Image_Jun_9_2026_at_03_30_36_PM_ptp0ok.png';
@@ -110,6 +111,9 @@ const Tools = () => {
           
           {/* Standard Trading Conditions Section */}
           <TradingConditions containerVariants={containerVariants} itemVariants={itemVariants} />
+
+          {/* World Time Section */}
+          <WorldTime containerVariants={containerVariants} itemVariants={itemVariants} />
 
           {/* Air WayBill Guide Section */}
           <AwbGuide containerVariants={containerVariants} itemVariants={itemVariants} />
