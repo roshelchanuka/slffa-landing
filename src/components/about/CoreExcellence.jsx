@@ -31,9 +31,9 @@ export default function CoreExcellence() {
                 </Editable>
                 <div className="w-20 h-1.5 bg-blue-600 rounded-full mt-4 mx-auto"></div>
 
-                <Editable id="about.icao.desc_1" type="textarea" defaultContent="Our main operational activity continues to be facilitating the smooth and uninterrupted Ground of air-freighted import cargo in Sri Lanka. Speed of release is vital to businesses.">
+                <Editable id="about.icao.desc_1" type="textarea" defaultContent="Our main operational activity continues to be facilitating the smooth and uninterrupted flow of air-freighted import cargo in Sri Lanka. Speed of release is vital to businesses.">
                   <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-                    Our main operational activity continues to be facilitating the smooth and uninterrupted Ground of air-freighted import cargo in Sri Lanka.
+                    Our main operational activity continues to be facilitating the smooth and uninterrupted flow of air-freighted import cargo in Sri Lanka.
                     Speed of release is vital to businesses.
                   </p>
                 </Editable>
@@ -93,10 +93,10 @@ export default function CoreExcellence() {
                 </h2>
               </Editable>
               
-              <Editable id="about.callout.description" type="textarea" defaultContent="We are uniquely positioned to offer unmatched convenience and value-added operations directly at the airside. Whether you are a large textile manufacturer, a high-value consumer goods importer, or a freight agent, we have the facility and custom capability to serve you.">
+              <Editable id="about.callout.description" type="textarea" defaultContent="We are uniquely positioned to offer unmatched convenience and value-added operations directly at the airside. Whether you are a large textile manufacturer, a high-value consumer goods importer, or a freight agent, we have the facility and customized capability to serve you.">
                 <p className="text-lg text-sky-50 font-light leading-relaxed max-w-2xl drop-shadow-sm">
                   We are uniquely positioned to offer unmatched convenience and value-added operations directly at the airside.
-                  Whether you are a large textile manufacturer, a high-value consumer goods importer, or a freight agent, we have the facility and custom capability to serve you.
+                  Whether you are a large textile manufacturer, a high-value consumer goods importer, or a freight agent, we have the facility and customized capability to serve you.
                 </p>
               </Editable>
 
