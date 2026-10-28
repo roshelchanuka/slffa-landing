@@ -11,7 +11,7 @@ export { bgImage, eventImg1, eventImg2, eventImg3 };
 export const ccnFeaturesData = [
   {
     title: 'E-bookings',
-    iconName: 'Globe2',
+    iconName: 'Earth',
     items: ['Ad hoc/Single', 'Multiple'],
   },
   {
@@ -37,10 +37,10 @@ export const ccnFeaturesData = [
   {
     title: 'Allotment Management',
     iconName: 'Plane',
-    items: ['Manage airline allotments efficiently'],
+    items: ['Manage airline space efficiently'],
   },
   {
-    title: 'Custom Connectivity',
+    title: 'Customized Connectivity',
     iconName: 'Settings',
     items: ['In-house system integration (FTP gateway)'],
   },
