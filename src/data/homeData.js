@@ -18,7 +18,7 @@ export const heroSlidesData = [
     defaultImage: 'https://i.ibb.co/27mzBrHR/Chat-GPT-Image-Aug-12-2026-at-12-00-56-PM.png',
     title: "Sri Lanka's Premier Cargo Terminal",
     subtitle: "",
-    description: "SLFFA Cargo Services (SLFFA CS) is Sri Lanka's leading air cargo handling facility, dedicated to providing secure, seamless, and highly efficient logistics solutions at the Bandaranaike International Airport."
+    description: "SLFFA Cargo Services LTD (SLFFA CS LTD) is Sri Lanka's leading air cargo handling facility, dedicated to providing secure, seamless, and highly efficient logistics solutions at the Bandaranaike International Airport."
   },
   {
     id: 2,
