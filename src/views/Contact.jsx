@@ -106,7 +106,7 @@ const Contact = () => {
               transition={{ duration: 0.8, delay: 1.3, ease: "easeOut" }}
               className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed font-light drop-shadow-md"
             >
-              Get in touch with SLFFA Cargo Services for all your air cargo handling and logistics needs.
+              Get in touch with SLFFA Cargo Services LTD for all your air cargo handling and logistics needs.
             </motion.p>
           </Editable>
         </div>
