@@ -204,7 +204,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <span className="block font-semibold text-slate-900 dark:text-white">Address</span>
-                      <Editable id="contact.operations.address" defaultContent="Terminal 02, Air Cargo Village, Bandaranayake International Airport, Katunayake, sri lanka">
+                      <Editable id="contact.operations.address" defaultContent="Terminal 02, Air Cargo Village, Bandaranayake International Airport, Katunayake, Sri Lanka">
                         <span className="text-slate-600 dark:text-slate-300 block mt-0.5">Terminal 02, Air Cargo Village, Bandaranayake International Airport, Katunayake, Sri Lanka</span>
                       </Editable>
                     </div>
