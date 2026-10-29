@@ -106,7 +106,7 @@ export default function CcnTechIntegration() {
                     className="inline-flex items-center text-blue-600 dark:text-blue-400 font-bold hover:text-blue-800 dark:hover:text-blue-300 transition-colors group underline underline-offset-4 decoration-2 decoration-blue-600/30 hover:decoration-blue-600"
                   >
                     <Editable id="home.ccn.link" defaultContent="Explore More About CCN HUB">
-                      <span>Explore More About CCN HUB</span>
+                      <span>Explore More About CCNhub</span>
                     </Editable>
                     <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
                   </Link>
