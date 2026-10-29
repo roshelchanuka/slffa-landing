@@ -12,7 +12,7 @@ export default function UsefulLinksPromo() {
           <div className="max-w-3xl space-y-6">
             <Editable id="services.promo.badge" defaultContent="Industry Portals & Tools">
               <span className="text-xs font-black tracking-widest text-blue-600 dark:text-blue-400 uppercase bg-blue-50 dark:bg-blue-955/40 px-3.5 py-1.5 rounded-full inline-block">
-                Industry Portals & Tools
+                Industry Portals 
               </span>
             </Editable>
             <Editable id="services.promo.title" defaultContent="Access All Essential Trade & Logistics Portals In One Place">
