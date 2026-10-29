@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -47,7 +47,7 @@ export default function Navbar() {
                   <Link
                     key={link.name}
                     href={link.path}
-                    className={`transition-all duration-300 px-1 py-1 uppercase tracking-wider inline-block
+                    className={`transition-all duration-300 px-1 py-1 ${link.name === 'CCNhub' ? 'normal-case' : 'uppercase'} tracking-wider inline-block
                       ${isActive 
                         ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-600 dark:border-blue-400 text-[12px] xl:text-[13px] font-black scale-105' 
                         : 'text-slate-900 dark:text-slate-100 hover:text-blue-600 dark:hover:text-blue-400 border-b-2 border-transparent text-[11px] xl:text-xs font-bold hover:scale-105'}`}
@@ -217,7 +217,7 @@ export default function Navbar() {
                   >
                     <Link
                       href={link.path}
-                      className={`group relative flex items-center gap-4 px-5 py-3.5 rounded-2xl text-[14px] font-bold uppercase tracking-wider transition-all overflow-hidden ${
+                      className={`group relative flex items-center gap-4 px-5 py-3.5 rounded-2xl text-[14px] font-bold ${link.name === 'CCNhub' ? 'normal-case' : 'uppercase'} tracking-wider transition-all overflow-hidden ${
                         isActive 
                           ? 'text-blue-600 dark:text-blue-400 bg-white dark:bg-slate-950/70 dark:bg-white dark:bg-slate-950/10 shadow-sm dark:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)] border border-blue-100 dark:border-white/15' 
                           : 'text-slate-800 dark:text-slate-200 hover:text-blue-600 dark:hover:text-white hover:bg-black/5 dark:hover:bg-white dark:bg-slate-950/5 border border-transparent'

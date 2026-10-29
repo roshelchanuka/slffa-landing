@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -57,9 +57,7 @@ export default function CcnHub() {
           >
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
-            
-            <span>/</span>
-            <span className="text-white">CCNNhub</span>
+            <span className="text-white normal-case">CCNhub</span>
           </motion.div>
 
           <Editable id="ccnhub.hero.title" defaultContent="CARGO COMMUNITY NETWORK (CCN)">

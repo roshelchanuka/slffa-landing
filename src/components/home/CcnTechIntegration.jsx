@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -105,7 +105,7 @@ export default function CcnTechIntegration() {
                     href="/ccn-hub"
                     className="inline-flex items-center text-blue-600 dark:text-blue-400 font-bold hover:text-blue-800 dark:hover:text-blue-300 transition-colors group underline underline-offset-4 decoration-2 decoration-blue-600/30 hover:decoration-blue-600"
                   >
-                    <Editable id="home.ccn.link" defaultContent="Explore More About CCN HUB">
+                    <Editable id="home.ccn.link" defaultContent="Explore More About CCNhub">
                       <span>Explore More About CCNhub</span>
                     </Editable>
                     <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
