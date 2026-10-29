@@ -57,9 +57,9 @@ export default function CcnHub() {
           >
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
+            
             <span>/</span>
-            <span className="text-white">CCN HUB</span>
+            <span className="text-white">CCNNhub</span>
           </motion.div>
 
           <Editable id="ccnhub.hero.title" defaultContent="CARGO COMMUNITY NETWORK (CCN)">
