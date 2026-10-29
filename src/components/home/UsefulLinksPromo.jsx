@@ -10,7 +10,7 @@ export default function UsefulLinksPromo() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col">
           <div className="max-w-3xl space-y-6">
-            <Editable id="services.promo.badge" defaultContent="Industry Portals & Tools">
+            <Editable id="services.promo.badge" defaultContent="Industry Portals">
               <span className="text-xs font-black tracking-widest text-blue-600 dark:text-blue-400 uppercase bg-blue-50 dark:bg-blue-955/40 px-3.5 py-1.5 rounded-full inline-block">
                 Industry Portals 
               </span>
